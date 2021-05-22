@@ -1,0 +1,16 @@
+- time: 2:00 PM - 3:00 PM
+  info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
+
+- time: 3:00 PM - 4:00 PM
+  info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
+
+- time: 4:00 PM - 5:00 PM
+  info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
+
+- time: 5:00 PM - 6:00 PM
+  title: Round table
+  speaker:
+      name: Laurent Brisse
+      position: Architect Manomano
+  topic: Exchange with all speakers
+

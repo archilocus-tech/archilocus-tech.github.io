@@ -1,0 +1,31 @@
+---
+layout: 2021_default
+permalink: /2021/agenda
+title: Agenda
+---
+
+<div class="event black-frame">
+  <h1>{{ page.title }}</h1>
+
+  <h2>June 17<sup>th</sup></h2>
+  <table class="agenda">
+    <thead>
+      <tr>
+        <th class="row-1 agenda-time"><center>Time</center></th>
+        <th class="row-2 agenda-activity"><center>Activity</center></th>
+      </tr>
+    </thead>
+
+    {% for agenda in site.data.twenty_21.agendas_1 %}
+    <tr>
+      <td>{{ agenda.time }}</td>
+      <td><u>{{ agenda.title }}</u><br />
+          <b>{{ agenda.speaker.name }}</b><br />
+          <i>{{ agenda.speaker.position }}</i><br /><br />
+          {{ agenda.topic }}
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+
+</div>

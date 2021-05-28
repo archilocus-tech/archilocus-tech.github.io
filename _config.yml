@@ -2,7 +2,7 @@ title: Archilocus
 description: > # this means to ignore newlines until "baseurl:"
   La place des architectes IT
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "Your-Link.github.io" # the base hostname & protocol for your site
+url: "www.archilocu.tech" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
@@ -10,10 +10,6 @@ facebook:
   app_id:
 
 logo: "../css/2021_style/img/icon-large.png"
-
-social:
-  name: Your Facebook Page
-  link: "https://www.facebook.com/"
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 

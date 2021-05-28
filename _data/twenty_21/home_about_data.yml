@@ -1,29 +1,26 @@
-- inverted: 
+- inverted:
   img: icon-about.jpeg
+  fa: info
   name: Theme, Vision, Mission
   info: Read more about our Theme, Vision, and Mission
-  link: "/2016/about"
+  link: "/2021/about"
 
 - inverted: timeline-inverted
   img: icon-agenda.jpeg
+  fa: calendar
   name: Agenda
   info: Check out the agenda
-  link: /2016/agenda
+  link: /2021/agenda
 
-- inverted: 
+- inverted:
   img: icon-team.jpeg
+  fa: users
   name: Team
   info: Find out the team members
-  link: /2016/team
+  link: /2021/team
 
 - inverted: timeline-inverted
   img: icon-venue.jpeg
+  fa: map-marker
   name: Venue
-  info: Learn more about our location
-  link: /2016/venue
-
-- inverted: 
-  img: icon-faq.jpeg
-  name: FAQs
-  info: Have a Question? Many answers can be found right here in our FAQs
-  link: /2016/faqs
+  info: Online

@@ -1,0 +1,27 @@
+- name: Aurélien LAJOIE
+  position: Head of Core Engineering and Infrastructure
+  company_logo: manomano.png
+  img: lajoie.png
+  message: "C lover, OSS contributor, Hands on Tech Manager with experience in Europe, China & Australia"
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/aurelienlajoie/
+    - title: twitter
+      url: "https://twitter.com/urelien_Lajoie"
+    - title: github
+      url: https://github.com/utix/
+
+- name: Laurent Brisse
+  position: Position
+  img: TBD.jpg
+  email: hello.world@gmail.com
+
+- name: Antoine Craske
+  position: Position
+  img: TBD.jpg
+  email: hello.world@gmail.com
+
+- name: Nicolas Le Goff
+  position: Position
+  img: TBD.jpg
+  email: hello.world@gmail.com

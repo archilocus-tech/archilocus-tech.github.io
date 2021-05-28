@@ -5,16 +5,16 @@
  */
 
 html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
 }
 
 *, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
@@ -29,15 +29,15 @@ body {
 }
 
 @media screen and (max-width : 1200px){
-  body {
-      padding-bottom: 100px;
-  }
+    body {
+        padding-bottom: 100px;
+    }
 }
 
 @media screen and (max-width : 768px){
-  body {
-      padding-bottom: 150px;
-  }
+    body {
+        padding-bottom: 150px;
+    }
 }
 
 .text-muted {
@@ -50,7 +50,7 @@ body {
 
 p {
     line-height: 1.75;
-	font-size: 110%;
+    font-size: 110%;
 }
 
 p.large {
@@ -88,7 +88,7 @@ h6 {
 }
 
 h4 {
-	font-size: 120%;
+    font-size: 120%;
 }
 
 .img-centered {
@@ -106,7 +106,7 @@ aside.clients,
 }
 
 .bg-darkest-gray {
-    background-color: #222;
+    background-color:#{{ site.data.template.color.secondary-dark }}
 }
 
 .btn-primary {
@@ -123,7 +123,7 @@ aside.clients,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #{{ site.data.template.color.secondary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
@@ -188,7 +188,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #{{ site.data.template.color.secondary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
@@ -243,12 +243,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color:#{{ site.data.template.color.secondary-dark }}
 }
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
+    padding: 0;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -328,7 +329,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color:#{{ site.data.template.color.secondary-dark }}
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -447,7 +448,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: #3cb371;
+    background: #{{ site.data.template.color.primary }};
 }
 
 #speakers .speakers-item .speakers-link .speakers-hover:hover {
@@ -491,12 +492,12 @@ section h3.section-subheading {
 
 /*
 #speakers .speakers-item .speakers-caption p {
-    margin: 0;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 100%;
-    font-style: italic;
+margin: 0;
+font-family: {{ site.data.template.font.secondary }};
+font-size: 100%;
+font-style: italic;
 }
-*/
+ */
 
 #speakers * {
     z-index: 2;
@@ -712,7 +713,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color:#{{ site.data.template.color.secondary-dark }}
     background-image: url('{{ site.baseurl }}/css/2021_style/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -886,7 +887,7 @@ ul.social-buttons li a:active {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color:#{{ site.data.template.color.secondary-dark }}
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -896,7 +897,7 @@ ul.social-buttons li a:active {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color:#{{ site.data.template.color.secondary-dark }}
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

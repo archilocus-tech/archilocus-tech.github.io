@@ -3,36 +3,44 @@ layout: 2021_default
 permalink: /2021/team
 title: Team Member
 ---
-  <!--background color-->
-  <script type="text/javascript">
-      document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
-  </script>
-
-  <!-- this section wraps the team members as a container-->
-  <section class="cf team-container team-container-top black-frame">
-    <h1 class="team-h1">List 1</h1>
-
-    {% for team in site.data.twenty_16.teams_1 %}
-    <div class="team-member">
-      <img class="team-photo" src="../css/2021_style/img/team/{{ team.img }}">
-      <!-- https://s.gravatar.com/avatar/0000000000000000?s=160 for Gravatar-->
-      <h3>{{ team.name }}</h3>
-      <span>{{ team.position }}</span>
-       <a class="email" href="mailto:{{ team.email }}"><span >E-Mail</span></a>
+<!-- this section wraps the team members as a container-->
+<section class="">
+  <div class="container team">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">L'équipe</h2>
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
     </div>
-    {% endfor %}
-  </section>
-
-  <section class="cf team-container black-frame">
-    <h1 class="team-h1">List 2</h1>
-
-    {% for team in site.data.twenty_16.teams_2 %}
-    <div class="team-member">
-      <img class="team-photo" src="../css/2021_style/img/team/{{ team.img }}">
-      <!-- https://s.gravatar.com/avatar/0000000000000000?s=160 for Gravatar-->
-      <h3>{{ team.name }}</h3>
-      <span>{{ team.position }}</span>
-       <a class="email" href="mailto:{{ team.email }}"><span >E-Mail</span></a>
+    <div class="row">
+      {% for member in site.data.twenty_21.team %}
+      <div class="col-md-3 col-sm-6 center-block text-center">
+        <div class="row member justify-content-center">
+          <img class="member-photo" src="../css/2021_style/img/team/{{ member.img }}">
+          <!-- https://s.gravatar.com/avatar/0000000000000000?s=160 for Gravatar-->
+        </div>
+        <div class="row">
+          <h3>{{ member.name }}</h3>
+        </div>
+        <div class="row">
+          <span>{{ member.position }}</span>
+        </div>
+        <div class="row">
+          <p>{{ member.message }}</p>
+        </div>
+        <div class="row">
+          <ul class="social-network social-circle">
+            {% for network in member.social %}
+            <li><a class="ico{{ network.title|capitalize }}" href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% if member.email %}
+        <a class="email" href="mailto:{{ member.email }}">{{ member.email }}</a>
+        {% endif %}
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
- </section>
+  </div>
+</section>
+

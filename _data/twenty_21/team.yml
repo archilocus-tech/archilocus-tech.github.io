@@ -17,9 +17,9 @@
   email: hello.world@gmail.com
 
 - name: Antoine Craske
-  position: Position
-  img: TBD.jpg
-  email: hello.world@gmail.com
+  position:  "Head of Architecture & Technology"
+  img: craske.png
+  email: acraske@redoute.pt
 
 - name: Nicolas Le Goff
   position: Position

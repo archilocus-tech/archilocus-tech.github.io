@@ -1,3 +1,75 @@
+#speakers .speakers-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#speakers .speakers-item .speakers-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#speakers .speakers-item .speakers-link .speakers-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    background: $primary-color;
+}
+
+#speakers .speakers-item .speakers-link .speakers-hover:hover {
+    opacity: 1;
+}
+
+#speakers .speakers-item .speakers-link .speakers-hover .speakers-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 120%;
+    color: #fff;
+}
+
+#speakers .speakers-item .speakers-link .speakers-hover .speakers-hover-content i {
+    margin-top: -12px;
+}
+
+#speakers .speakers-item .speakers-link .speakers-hover .speakers-hover-content h3,
+#speakers .speakers-item .speakers-link .speakers-hover .speakers-hover-content h4 {
+    margin: 0;
+}
+
+#speakers .speakers-item .speakers-caption {
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    max-width: 400px;
+    min-height: 100px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#speakers .speakers-item .speakers-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+
+#speakers * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #speakers .speakers-item {
+        margin: 0 0 30px;
+    }
+}
 .speakers {
     padding: 5%;
     margin: 100px 15vw 60px 15vw;
@@ -47,41 +119,3 @@
     }
 }
 
-@media screen and (max-width : 1200px){
-  .speakers {
-      margin: 100px 15vw 60px 15vw;
-  }
-}
-
-@media screen and (max-width:760px){
-    .speakers {
-        margin: 50px 10px 10px 10px;
-        h1 {
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        .speaker-profile {
-            img {
-                display: block;
-                margin: auto;
-                float: none;
-            }
-            ul {
-                padding-left: 20px;
-            }
-        }
-        .title {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-    }
-    h1 {
-        font-size: 130%;
-    }
-    h2 {
-        font-size: 120%;
-    }
-    p, ol, li {
-        font-size: 100%;
-    }
-}

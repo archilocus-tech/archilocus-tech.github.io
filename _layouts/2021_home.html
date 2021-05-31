@@ -22,10 +22,13 @@
     </header>
 
     {% include 2021_home/intro.html %}
-    {% include 2021_home/speakers.html %}
     {% include 2021_home/about.html %}
+    {% include 2021_home/speakers.html %}
     {% include /footer.html %}
     {% include 2021_home/js.html %}
+    <script src="{{ "../css/2021_style/js/agency.js" | prepend: site.baseurl }}"></script>
+    {% include /ga.html %}
+    {% include /cookie-consent.html %}
 
     </body>
 </html>

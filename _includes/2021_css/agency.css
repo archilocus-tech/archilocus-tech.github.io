@@ -574,6 +574,8 @@ font-style: italic;
     border-radius: 100%;
     text-align: center;
     color: #fff;
+    font-size:100px;
+    line-height:160px;
     background-color: #{{ site.data.template.color.primary }};
 }
 

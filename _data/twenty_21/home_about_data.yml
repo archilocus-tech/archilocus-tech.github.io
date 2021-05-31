@@ -1,26 +1,22 @@
 - inverted:
-  img: icon-about.jpeg
   fa: info
   name: Theme, Vision, Mission
   info: Read more about our Theme, Vision, and Mission
   link: "/2021/about"
 
 - inverted: timeline-inverted
-  img: icon-agenda.jpeg
   fa: calendar
   name: Agenda
   info: Check out the agenda
   link: /2021/agenda
 
 - inverted:
-  img: icon-team.jpeg
   fa: users
   name: Team
   info: Find out the team members
   link: /2021/team
 
 - inverted: timeline-inverted
-  img: icon-venue.jpeg
   fa: map-marker
   name: Venue
   info: Online

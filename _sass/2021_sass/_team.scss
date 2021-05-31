@@ -1,7 +1,15 @@
 
 .team .member h3 {
-  color: SlateGray ;
+  color: #1D3A85 ;
   margin: 5px 0px 0px 0px;
+}
+.team .member h4 {
+  color: #7B64CE ;
+}
+.team .member .message {
+    margin-bottom:1em;
+    font-style: italic;
+
 }
 
 .email {
@@ -13,7 +21,7 @@
   border-radius: 50%;
   text-align: center;
   margin: auto;
-  max-width: 80%;
+  width: 60%;
   height: auto;
   transition: 0.1s transform ease-in-out;
 }
@@ -22,4 +30,18 @@
   transform: scale(0.9);
   cursor: pointer;
 }
+img.company {
+  width: 60%;
+}
 
+/*======== NOW LETS ADD FLEXBOX ========*/
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  margin-bottom:3em;
+  padding: 1em;
+}

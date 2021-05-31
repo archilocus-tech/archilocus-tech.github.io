@@ -10,14 +10,19 @@
     <div class="row">
       {% for speaker in site.data.twenty_21.speakers %}
       <div class="col-md-4 col-sm-6 speakers-item">
-        <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
+        <div href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
           <div class="speakers-hover">
             <div class="speakers-hover-content">
-              <i class="fa fa-plus fa-3x"></i>
+        <div class="row">
+          <h4>{{ speaker.position }}</h4>
+        </div>
+        <div class="row">
+          <img class="company img-responsive center-block" src="../css/2021_style/img/logos/{{ speaker.company_logo }}" alt="{{ member.company_logo }}"/>
+        </div>
             </div>
           </div>
         <img src="../css/2021_style/img/speaker/{{ speaker.img }}" class="member-photo img-responsive img-centered" alt="{{ speaker.name }}">
-        </a>
+        </div>
         <div class="speakers-caption">
           <h4>{{ speaker.name }}</h4>
           <p class="text-muted">{{ speaker.title }}</p>

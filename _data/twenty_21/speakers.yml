@@ -7,6 +7,13 @@
   topic: Topic
   description: More Info
 
+- name: Cosme Charlier
+  position: Directeur Architecture
+  company_logo: cdiscount.png
+  img: charlier.jpeg
+  title: Transformation en mode produit
+  email: hello.world@gmail.com
+
 - title: Name
   name: Name-2
   subtitle: Position

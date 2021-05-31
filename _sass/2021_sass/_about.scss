@@ -7,7 +7,7 @@
     }
     h1 {
         text-shadow: 2px 2px black;
-        background-color: #ff805b;
+        background-color: $secondary-color;
         color: white;
         padding: 5px 5px 5px 10px;
         -webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
@@ -16,17 +16,19 @@
     }
     h2 {
         text-shadow: 2px 2px black;
-        background-color: #ff805b;
+        background-color: $primary-color;
         color: white;
         padding: 5px 5px 5px 10px;
         -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
     }
     h2.first {
-         width: 190px;
+         width: 40%;
+         min-width: 190px;
     }
     h2.second {
-         width: 170px;
+         width: 35%;
+         min-width: 190px;
     }
     h2.third {
          width: 150px;
@@ -139,8 +141,18 @@
     color: #fff;
     background-color: #01E3C6;
 }
-.timeline>li.timeline-inverted .timeline-image {
-    background-color: #7B64CE;
+.timeline>li.timeline-inverted {
+    .timeline-image {
+        background-color: $secondary-color;
+    }
+    .btn-sm {
+        background-color: $secondary-color;
+        border-color: $secondary-color;
+    }
+    .btn-sm:hover {
+        background-color: $primary-color;
+        border-color: $primary-color;
+    }
 }
 
 .timeline>li .timeline-image h4 {

@@ -21,7 +21,7 @@
     font-size: 120%;
   }
   th {
-    background: #00283c;
+    background: $secondary-dark-color;
     color: white;
     letter-spacing: 1px;
   }
@@ -29,11 +29,14 @@
     text-align: center;
     font-size: 110%;
     a {
-        color: #ff6738;
+        color: $secondary-color;
         text-decoration: none;
     }
     b {
-        color: #ff6738;
+        color: $secondary-color;
+    }
+    u {
+        color: $primary-color;
     }
   }
   td + td {

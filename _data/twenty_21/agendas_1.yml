@@ -1,13 +1,13 @@
-- time: 2:00 PM - 3:00 PM
+- time: 14:00  - 15:00
   info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
 
-- time: 3:00 PM - 4:00 PM
+- time: 15:00  - 16:00
   info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
 
-- time: 4:00 PM - 5:00 PM
+- time: 16:00  - 17:00
   info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
 
-- time: 5:00 PM - 6:00 PM
+- time: 17:00  - 18:00
   title: Round table
   speaker:
       name: Laurent Brisse

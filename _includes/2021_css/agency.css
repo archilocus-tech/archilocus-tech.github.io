@@ -790,7 +790,6 @@ footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
 }
 
 footer ul.quicklinks {

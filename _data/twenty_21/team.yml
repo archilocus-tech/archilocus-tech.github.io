@@ -1,7 +1,7 @@
 - name: Aurélien LAJOIE
   position: Head of Core Engineering and Infrastructure
   company_logo: manomano.png
-  img: lajoie.png
+  img: lajoie.jpeg
   message: "C lover, OSS contributor, Hands on Tech Manager with experience in Europe, China & Australia"
   social:
     - title: linkedin
@@ -15,26 +15,39 @@
   position: Solution Architect Lead
   company_logo: manomano.png
   img: brisse.jpeg
-  email: hello.world@gmail.com
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/laurent-brisse-a8577b5/
 
 - name: Antoine Craske
   position:  "Head of Architecture & Technology"
   company_logo: laredoute.png
   img: craske.png
   email: acraske@redoute.pt
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/acraske/
 
 - name: Nicolas Le Goff
   position: Engineering Manager
   company_logo: BlaBlaCar_logo.svg
   img: legoff.jpeg
-  email: hello.world@gmail.com
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/legoffn/
 
 - name: Cosme Charlier
   position: Directeur Architecture
   company_logo: cdiscount.png
   img: charlier.jpeg
-  email: hello.world@gmail.com
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/cosmecharlier/
+
 - name: Cedric Bonnet
   position: Responsable pédagogique
-  img: TBD.jpg
-  email: hello.world@gmail.com
+  company_logo: epitech.png
+  img: bonnet.jpeg
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/cebonnet/

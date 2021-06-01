@@ -23,15 +23,20 @@
         clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
     }
     h2.first {
-         width: 40%;
+         width: 75%;
          min-width: 190px;
     }
     h2.second {
-         width: 35%;
+         width: 60%;
          min-width: 190px;
     }
     h2.third {
-         width: 150px;
+         width: 50%;
+         min-width: 150px;
+    }
+    h2.fourth {
+         width: 45%;
+         min-width: 150px;
     }
 }
 

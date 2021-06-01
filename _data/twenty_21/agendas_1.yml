@@ -30,7 +30,7 @@
   title: Mini-salles des pas perdus
   speaker:
       name: tous
-  topic: histoire de <i>networker</i>...
+  topic: Histoire de <i>networker</i>...
   
 - time: 16:30 - 17:10
   title: Quatrième session
@@ -43,11 +43,11 @@
   title: Table ronde
   speaker:
       name: Antoine, Aurélien, Cosme, Laurent, Nicolas
-      position: architectes
+      position: Architectes
   topic: Echanges avec tous les intervenants
   
 - time: 17:50 - 18:00
-  title: conclusion
+  title: Conclusion
   speaker:
       name: Aurélien & Laurent
       position: ManoMano

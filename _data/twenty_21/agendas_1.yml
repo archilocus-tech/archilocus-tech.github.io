@@ -1,16 +1,55 @@
-- time: 14:00  - 15:00
-  info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
-
-- time: 15:00  - 16:00
-  info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
-
-- time: 16:00  - 17:00
-  info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
-
-- time: 17:00  - 18:00
-  title: Round table
+- time: 14:00 - 14:10
+  title: Accueil
   speaker:
-      name: Laurent Brisse
-      position: Architect Manomano
-  topic: Exchange with all speakers
+      name: Aurélien & Laurent
+      position: ManoMano
+  topic: Introduction et lancement du MVP !
+
+- time: 14:10 - 14:50
+  title: Première session
+  speaker:
+      name: xxx
+      position: xxx
+  topic: xxx
+  
+- time: 14:50 - 15:30
+  title: Deuxième session
+  speaker:
+      name: xxx
+      position: xxx
+  topic: xxx
+  
+- time: 15:30 - 16:10
+  title: Troisième session
+  speaker:
+      name: xxx
+      position: xxx
+  topic: xxx
+  
+- time: 16:10 - 16:30
+  title: Mini-salles des pas perdus
+  speaker:
+      name: Tous
+  topic: Histoire de <i>networker</i>...
+  
+- time: 16:30 - 17:10
+  title: Quatrième session
+  speaker:
+      name: xxx
+      position: xxx
+  topic: xxx
+
+- time: 17:10 - 17:50
+  title: Table ronde
+  speaker:
+      name: Antoine, Aurélien, Cosme, Laurent, Nicolas
+      position: Architectes
+  topic: Echanges avec tous les intervenants
+  
+- time: 17:50 - 18:00
+  title: Conclusion
+  speaker:
+      name: Aurélien & Laurent
+      position: ManoMano
+  topic: Conclusion et validation du MVP !
 

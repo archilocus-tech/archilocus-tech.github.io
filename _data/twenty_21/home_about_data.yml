@@ -1,22 +1,22 @@
 - inverted:
   fa: info
-  name: Theme, Vision, Mission
+  name: Thème, Vision
   info: Lire notre pourquoi
-  link: "/2021/about"
+  link: /2021/about
 
 - inverted: timeline-inverted
   fa: calendar
-  name: Agenda
-  info: Le programme
+  name: Sessions
+  info: Consulter le programme
   link: /2021/agenda
 
 - inverted:
   fa: users
   name: L'équipe
-  info: Qui sommes nous?
+  info: Qui sommes-nous ?
   link: /2021/team
 
 - inverted: timeline-inverted
   fa: map-marker
-  name: Participer
-  info: S'inscrire
+  name: Inscription
+  info: Participer

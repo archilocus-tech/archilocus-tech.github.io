@@ -1,0 +1,42 @@
+---
+layout: 2021_default
+permalink: /404.html
+---
+<section class="">
+    <div class="row">
+<div class="col-xs-12 col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-4">
+        <h1>Vie privée</h1>
+        Nous avons un seul tracker sur notre site, Google Analytics.
+        Vous pouvez le désactiver quand vous le souhaiter:
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Tracker status</div>
+
+                <!-- List group -->
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        Google Analytics
+                        <div class="material-switch pull-right">
+                            <input id="gaSwitch" name="someSwitchOption001" type="checkbox"/>
+                            <label for="gaSwitch" class="label-info"></label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+      </div>
+    </div>
+</section>
+<script>
+    if(readCookie('cookie-notice-dismissed')=='true') {
+      document.getElementById('gaSwitch').checked = 'checked';
+    }
+    document.getElementById('gaSwitch').addEventListener("click",function() {
+      if (document.getElementById('gaSwitch').checked) {
+        createCookie('cookie-notice-dismissed', 'true', 31);
+      } else {
+        createCookie('cookie-notice-dismissed', 'false', 31);
+      }
+    });
+</script>

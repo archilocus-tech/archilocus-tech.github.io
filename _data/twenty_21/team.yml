@@ -39,13 +39,17 @@
       url: https://www.linkedin.com/in/legoffn/
 
 - name: Cosme Charlier
-  position: Directeur Architecture
+  position: Head of Architecture
   company_logo: cdiscount.png
   img: charlier.jpeg
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/cosmecharlier/
-
+    - title: github
+      url: https://github.com/sharkoz/
+    - title: stack-overflow
+      url: https://stackoverflow.com/users/2335212/cch?tab=profile
+      
 - name: Cedric Bonnet
   position: Responsable pédagogique
   company_logo: epitech.png

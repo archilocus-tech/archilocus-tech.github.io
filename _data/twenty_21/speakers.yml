@@ -14,14 +14,11 @@
   title: Transformation en mode produit
   email: hello.world@gmail.com
 
-- title: Name
-  name: Name-2
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- name: Antoine Craske
+  position: Head of Architecture & Technology
+  company_logo: laredoute.png
+  img: craske.png
+  title: Architecture, Technology, Transformation
 
 - title: Name
   name: Name-3

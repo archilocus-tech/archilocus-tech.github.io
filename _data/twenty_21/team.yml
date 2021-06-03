@@ -25,11 +25,14 @@
   position:  "Head of Architecture & Technology"
   company_logo: laredoute.png
   img: craske.png
-  email: acraske@redoute.pt
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/acraske/
-
+    - title: twitter
+      url: "https://twitter.com/acraske_"
+    - title: github
+      url: https://github.com/acraske/
+      
 - name: Nicolas Le Goff
   position: Engineering Manager
   company_logo: BlaBlaCar_logo.svg

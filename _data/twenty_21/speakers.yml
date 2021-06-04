@@ -11,8 +11,8 @@
   img: craske.png
   title: Architecture, Technology, Transformation
 
-- name: Bastien Lacombe, Aurélien Lajoie
-  position: Core Lead, Head of Core Engineering and Infrastructure
+- name: Bastien Lacombe
+  position: Core Lead
   company_logo: manomano.png
   img: lacombe.jpg
   title: From Naive Microservices to Full API Gateway Adoption in a Hybrid Mesh Ecosystem in the Cloud

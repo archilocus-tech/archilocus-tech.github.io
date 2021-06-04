@@ -18,7 +18,7 @@ title: Programme
 
     {% for agenda in site.data.twenty_21.agendas_1 %}
     <tr>
-      <td>{{ agenda.time }}</td>
+      <td>{{ agenda.begin }} - {{ agenda.end }}</td>
       <td><u>{{ agenda.title }}</u><br />
           <b>{{ agenda.speaker.name }}</b><br />
           <i>{{ agenda.speaker.position }}</i><br /><br />

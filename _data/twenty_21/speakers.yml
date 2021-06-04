@@ -16,3 +16,14 @@
   company_logo: manomano.png
   img: lacombe.jpg
   title: From Naive Microservices to Full API Gateway Adoption in a Hybrid Mesh Ecosystem in the Cloud
+
+- name: Aurélien LAJOIE
+  position: Head of Core Engineering and Infrastructure
+  company_logo: manomano.png
+  img: lajoie.jpeg
+  title: From Naive Microservices to Full API Gateway Adoption in a Hybrid Mesh Ecosystem in the Cloud
+
+- name: Laurent Brisse
+  position: Solution Architect Lead
+  company_logo: manomano.png
+  img: brisse.jpeg

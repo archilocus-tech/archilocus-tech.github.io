@@ -1,12 +1,3 @@
-- title: Name
-  name: Name-1
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
-
 - name: Cosme Charlier
   position: Directeur Architecture
   company_logo: cdiscount.png
@@ -20,11 +11,8 @@
   img: craske.png
   title: Architecture, Technology, Transformation
 
-- title: Name
-  name: Name-3
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- name: Bastien Lacombe
+  position: Core Lead
+  company_logo: manomano.png
+  img: lacombe.jpg
+  title: From Naive Microservices to Full API Gateway Adoption in a Hybrid Mesh Ecosystem in the Cloud

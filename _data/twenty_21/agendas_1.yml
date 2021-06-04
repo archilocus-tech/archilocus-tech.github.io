@@ -22,9 +22,9 @@
 - time: 15:30 - 16:10
   title: Troisième session
   speaker:
-      name: xxx
-      position: xxx
-  topic: xxx
+      name: Bastien Lacombe
+      position: Core Lead
+  topic: From Naive Microservices to Full API Gateway Adoption in a Hybrid Mesh Ecosystem in the Cloud
   
 - time: 16:10 - 16:30
   title: Mini-salles des pas perdus

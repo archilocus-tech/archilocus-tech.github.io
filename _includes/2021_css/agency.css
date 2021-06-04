@@ -387,8 +387,13 @@ header {
 }
 
 header .intro-text {
+    text-shadow: 0 0 0.5em #{{ site.data.template.color.secondary-dark }}, 0 0 0.5em #87F, 0 0 0.5em #{{ site.data.template.color.secondary-dark }}
+;
     padding-top: 25vh;
     padding-bottom: 50px;
+}
+header a.btn {
+    text-shadow: none;
 }
 
 header .intro-text .intro-lead-in {

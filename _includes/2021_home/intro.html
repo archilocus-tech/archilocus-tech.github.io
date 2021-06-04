@@ -1,32 +1,28 @@
 <!-- Services Section -->
-    <section id="intro">
-        <div class="container">
-            <div class="row container">
-                <style>
-                    .video {
-                        position:relative;
-                        padding-bottom: 56.25%;
-                        height:0;
-                        overflow:hidden;
-                        align: middle;
-                    }
-                    .video iframe, .video object, .video embed {
-                        position: absolute;
-                        margin: auto;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        width: 100%;
-                        height: 100%;
-                    }
-                </style>
+<section id="intro" class="bg-light-gray">
+  <div class="container">
+    <div class="row container">
 
-                <div class="video">
-                  <iframe width="420" height="315" frameborder="0" allowTransparency="true" allowFullScreen="true"
-                          src="https://youtube.com/embed/P06_sZVGkXY?rel=0&showinfo=0">
-                  </iframe>
+      <div class="video">
+        <iframe width="420" height="315" frameborder="0" allowTransparency="true" allowFullScreen="true"
+                                                                                  src="https://youtube.com/embed/P06_sZVGkXY?rel=0&showinfo=0">
+        </iframe>
 
-                <center><a href="#" class="page-scroll btn btn-xl">Registration Closed</a></center>
-            </div>
+      </div>
+      <div class="row about">
+        {% for about_data in site.data.twenty_21.home_about_data %}
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <a href="{{ about_data.link }}" class="btn btn-sm"
+            {% if about_data.out == "yes" %}target="_blank"{% endif %} >
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-{{ about_data.fa}}  fa-stack-1x" alt="{{ about_data.name }}"></i>
+            </span>
+            {{ about_data.info }}</a>
         </div>
-    </section>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>

@@ -15,11 +15,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="/#about">Notre pourquoi</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/#speakers">Les intervenants</a>
+                    <li {% if page.url == "/2021/about" %}
+                          class="active"
+                        {% endif %} >
+                        <a class="page-scroll" href="/2021/about">Notre pourquoi</a>
                     </li>
                     <li {% if page.url == "/2021/agenda" %}
                           class="active"
@@ -28,7 +27,10 @@
                       <a class="page-scroll" href="/#agenda">Demandez le programme !</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/#subscription">Inscription</a>
+                        <a class="page-scroll" href="/#speakers">Les intervenants</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" target="_blank" href="https://www.meetup.com/archilocus/events/278556971/">Inscription</a>
                     </li>
                 </ul>
             </div>

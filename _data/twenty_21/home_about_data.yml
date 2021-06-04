@@ -1,22 +1,15 @@
-- inverted:
-  fa: info
+- fa: info
   name: Thème, Vision
   info: Lire notre pourquoi
   link: /2021/about
 
-- inverted: timeline-inverted
-  fa: calendar
-  name: Sessions
-  info: Consulter le programme
-  link: /2021/agenda
-
-- inverted:
-  fa: users
+- fa: users
   name: L'équipe
   info: Qui sommes-nous ?
   link: /2021/team
 
-- inverted: timeline-inverted
-  fa: map-marker
-  name: Inscription
-  info: Participer
+- fa: hand-o-right
+  name: S'inscrire
+  info: S'inscrire
+  link: "https://www.meetup.com/archilocus/events/278556971/"
+  out: yes

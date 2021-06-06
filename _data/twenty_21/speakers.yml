@@ -11,6 +11,24 @@
   img: craske.png
   title: Architecture, Technology, Transformation
 
+- name: Maxime Drouet
+  position: Cloud Center Manager
+  img: drouet.jpeg
+  company_logo: laredoute.png
+  title: Architecture et migration des sites marchands France et International laredoute.xx 100% Cloud
+
+- name: Quentin Tsaimanga
+  img: TBD.jpg
+  position: Web Architect
+  company_logo: laredoute.png
+  title: Architecture et migration des sites marchands France et International laredoute.xx 100% Cloud
+
+- name: Bruno Gachie
+  position:  Infrastructures Project Manager
+  company_logo: laredoute.png
+  img: gachie.jpeg
+  title: Architecture et migration des sites marchands France et International laredoute.xx 100% Cloud
+
 - name: Bastien Lacombe
   position: Core Lead
   company_logo: manomano.png
@@ -27,3 +45,4 @@
   position: Solution Architect Lead
   company_logo: manomano.png
   img: brisse.jpeg
+

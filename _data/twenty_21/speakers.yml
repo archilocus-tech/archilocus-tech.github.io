@@ -46,3 +46,8 @@
   company_logo: manomano.png
   img: brisse.jpeg
 
+- name: Maxime Fouilleul
+  position: Engineering Manager
+  company_logo: BlaBlaCar_logo.svg
+  title: Organize the Migration of a Hundred Database Clusters to the Cloud
+  img: fouilleul.jpeg

@@ -8,11 +8,11 @@
 
 - begin: "14:10"
   end: "14:50"
-  title: Première session
+  title: Organize the Migration of a Hundred Database Clusters to the Cloud
   speaker:
-      name: xxx
-      position: xxx
-  topic: xxx
+      name: Maxime Fouilleul
+      position: Engineering Manager
+  topic: Building the team, finding the right focus, choosing tradeoffs, making or buying systems, changing our communication, proposing migration paths… With the Engineer Manager's hat, I will share with you what ingredients we had to look for to turn this massive project into a success story.
 
 - begin: "14:50"
   end: "15:30"

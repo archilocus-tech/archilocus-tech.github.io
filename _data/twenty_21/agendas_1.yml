@@ -1,6 +1,7 @@
 - begin: "14:00"
   end: "14:10"
   title: Accueil
+  company_logo: manomano.png
   speaker:
       name: Aurélien & Laurent
       position: ManoMano
@@ -12,11 +13,13 @@
   speaker:
       name: Maxime Fouilleul
       position: Engineering Manager
+  company_logo: BlaBlaCar_logo.svg
   topic: Building the team, finding the right focus, choosing tradeoffs, making or buying systems, changing our communication, proposing migration paths… With the Engineer Manager's hat, I will share with you what ingredients we had to look for to turn this massive project into a success story.
 
 - begin: "14:50"
   end: "15:30"
   title: Transformation en mode produit
+  company_logo: cdiscount.png
   speaker:
       name: Cosme Charlier
       position: Directeur Architecture
@@ -24,6 +27,7 @@
 - begin: "15:30"
   end: "16:10"
   title: From Naive Microservices to Full API Gateway Adoption in a Hybrid Mesh Ecosystem in the Cloud
+  company_logo: manomano.png
   speaker:
       name: Bastien Lacombe, Aurélien Lajoie
       position: Core Lead, Head of Core Engineering and Infrastructure
@@ -40,6 +44,7 @@
 - begin: "16:30"
   end: "17:10"
   title: Architecture et migration des sites marchands France et International laredoute.xx 100% Cloud
+  company_logo: laredoute.png
   speaker:
       name: Maxime Drouet, Quentin Tsaimanga, Bruno Gachie
       position: Cloud Center Manager, Web Architect, Infrastructures Project Manager
@@ -57,6 +62,7 @@
 - begin: "17:50"
   end: "18:00"
   title: Conclusion
+  company_logo: manomano.png
   speaker:
       name: Aurélien & Laurent
       position: ManoMano

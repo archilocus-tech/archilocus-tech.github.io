@@ -9,12 +9,12 @@
 
 - begin: "14:10"
   end: "14:50"
-  title: Organize the Migration of a Hundred Database Clusters to the Cloud
+  title: Organiser la migration d’une centaine de bases de données vers le Cloud
   speaker:
       name: Maxime Fouilleul
       position: Engineering Manager
   company_logo: BlaBlaCar_logo.svg
-  topic: Building the team, finding the right focus, choosing tradeoffs, making or buying systems, changing our communication, proposing migration paths… With the Engineer Manager's hat, I will share with you what ingredients we had to look for to turn this massive project into a success story.
+  topic: "Construire son équipe, trouver le bon focus, choisir ses compromis, internaliser le développement ou acheter des solutions, adapter sa communication, proposer une stratégie de migration pour chaque stakeholder.<br />Je partage les ingrédients qui nous ont permis de faire de ce projet un succès."
 
 - begin: "14:50"
   end: "15:30"

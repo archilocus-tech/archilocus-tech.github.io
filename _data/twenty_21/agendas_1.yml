@@ -18,11 +18,12 @@
 
 - begin: "14:50"
   end: "15:30"
-  title: Transformation en mode produit
+  title: "Go2Product : L'architecture en mode produit"
   company_logo: cdiscount.png
   speaker:
       name: Cosme Charlier
       position: Directeur Architecture
+  topic: "Une introduction au mode produit tel qu'on l'implémente chez CDiscount, et aux impacts sur la manière de faire de l'architecture"
 
 - begin: "15:30"
   end: "16:10"

@@ -1,0 +1,53 @@
+- name: Cosme Charlier
+  position: Directeur Architecture
+  company_logo: cdiscount.png
+  img: charlier.jpeg
+  title: "Go2Product : L'architecture en mode produit"
+  email: hello.world@gmail.com
+
+- name: Antoine Craske
+  position: Head of Architecture & Technology
+  company_logo: laredoute.png
+  img: craske.png
+  title: Architecture, Technology, Transformation
+
+- name: Maxime Drouet
+  position: Cloud Center Manager
+  img: drouet.jpeg
+  company_logo: laredoute.png
+  title: Architecture et migration des sites marchands France et International laredoute.xx 100% Cloud
+
+- name: Quentin Tsaimanga
+  img: tshaimanga.jpg
+  position: Web Architect
+  company_logo: laredoute.png
+  title: Architecture et migration des sites marchands France et International laredoute.xx 100% Cloud
+
+- name: Bruno Gachie
+  position:  Infrastructures Project Manager
+  company_logo: laredoute.png
+  img: gachie.jpeg
+  title: Architecture et migration des sites marchands France et International laredoute.xx 100% Cloud
+
+- name: Bastien Lacombe
+  position: Core Lead
+  company_logo: manomano.png
+  img: lacombe.jpg
+  title: From Naive Microservices to Full API Gateway Adoption in a Hybrid Mesh Ecosystem in the Cloud
+
+- name: Aurélien LAJOIE
+  position: Head of Core Engineering and Infrastructure
+  company_logo: manomano.png
+  img: lajoie.jpeg
+  title: From Naive Microservices to Full API Gateway Adoption in a Hybrid Mesh Ecosystem in the Cloud
+
+- name: Laurent Brisse
+  position: Solution Architect Lead
+  company_logo: manomano.png
+  img: brisse.jpeg
+
+- name: Maxime Fouilleul
+  position: Engineering Manager
+  company_logo: BlaBlaCar_logo.svg
+  title: Organize the Migration of a Hundred Database Clusters to the Cloud
+  img: fouilleul.jpeg

@@ -9,14 +9,14 @@
     {% seo %}
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="/css/2021_style/style.css" >
+    <link rel="stylesheet" href="/css/style.css" >
 
 
     <!--Remove image dragging -->
     <BODY ondragstart="return false;" ondrop="return false;">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="{{ "../css/2021_style/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -24,14 +24,14 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- WEBSITE ICON IN BROWSER -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/css/2021_style/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/css/2021_style/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/css/2021_style/img/favicon-16x16.png">
-    <link rel="manifest" href="/css/2021_style/img/site.webmanifest">
-    <link rel="mask-icon" href="/css/2021_style/img/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/css/2021_style/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/css/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/css/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/css/img/favicon-16x16.png">
+    <link rel="manifest" href="/css/img/site.webmanifest">
+    <link rel="mask-icon" href="/css/img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/css/img/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/css/2021_style/img/browserconfig.xml">
+    <meta name="msapplication-config" content="/css/img/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -43,9 +43,9 @@
   <style type="text/css">
     /*INCLUDE MAIN CSS FILE*/
     {% capture criticalcss %}
-      {% include /2021_css/critical.scss %}
+      {% include /css/critical.scss %}
     {% endcapture %}
     {{ criticalcss | scssify }}
   </style>
-  <script src="/css/2021_style/js/cookies.js"></script>
+  <script src="/css/js/cookies.js"></script>
 </head>

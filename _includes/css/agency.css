@@ -377,7 +377,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/css/2021_style/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/css/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -469,7 +469,7 @@ aside.clients img {
 
 section#contact {
     background-color:#{{ site.data.template.color.secondary-dark }}
-    background-image: url('{{ site.baseurl }}/css/2021_style/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/css/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }

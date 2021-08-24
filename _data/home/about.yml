@@ -1,15 +1,15 @@
 - fa: info
   name: Thème, Vision
   info: Lire notre pourquoi
-  link: /2021/about
+  link: /about
 
 - fa: users
   name: L'équipe
   info: Qui sommes-nous ?
-  link: /2021/team
+  link: /team
 
 - fa: hand-o-right
   name: S'inscrire
   info: S'inscrire
-  link: "https://www.meetup.com/archilocus/events/278556971/"
+  link: "https://www.meetup.com/archilocus/events/279048057/"
   out: yes

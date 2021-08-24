@@ -1,0 +1,15 @@
+---
+layout: default
+permalink: /2021/precedent
+title: Précédent
+---
+
+<div>
+  <h1>{{ page.title }}</h1>
+  {% for session in site.data.session %}
+  {{ session.date }}
+  {{ session.title }}
+  {{ session.url }}
+  {% endfor %}
+</div>
+

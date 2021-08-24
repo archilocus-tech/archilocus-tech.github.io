@@ -9,11 +9,9 @@ markdown: kramdown
 facebook:
   app_id:
 
-logo: "../css/2021_style/img/icon-large.png"
-
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
-include: ['_2021_pages', '_2017_pages']
+include: ['_2021_pages', '_2021_06_pages']
 
 plugins:
   - jekyll-sitemap

@@ -5,12 +5,12 @@
 
       <div class="video">
         <iframe width="420" height="315" frameborder="0" allowTransparency="true" allowFullScreen="true"
-                                                                                  src="https://youtube.com/embed/P06_sZVGkXY?rel=0&showinfo=0">
+                src="{{ site.data.home.video.url }}">
         </iframe>
 
       </div>
       <div class="row about">
-        {% for about_data in site.data.twenty_21.home_about_data %}
+        {% for about_data in site.data.home.about %}
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <a href="{{ about_data.link }}" class="btn btn-sm"
             {% if about_data.out == "yes" %}target="_blank"{% endif %} >

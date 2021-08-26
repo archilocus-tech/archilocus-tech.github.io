@@ -26,8 +26,11 @@
                       >
                       <a class="page-scroll" href="/#agenda">Demandez le programme !</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="/#speakers">Les intervenants</a>
+                    <li  {% if page.url == "/precedent" %}
+                          class="active"
+                        {% endif %}
+                      >
+                      <a class="page-scroll" href="/precedent">Les replays</a>
                     </li>
                     <li>
                         <a class="page-scroll" target="_blank"

@@ -1,53 +1,17 @@
-- name: Cosme Charlier
-  position: Directeur Architecture
-  company_logo: cdiscount.png
-  img: charlier.jpeg
-  title: "Go2Product : L'architecture en mode produit"
-  email: hello.world@gmail.com
+- name: Dereck Melancon
+  position: Information Technology Developer
+  company_logo: ubisoft.png
+  img: melancon.jpeg
+  title: "Création d'audience/segmentation combinant des données temps réel et précalculées"
 
-- name: Antoine Craske
-  position: Head of Architecture & Technology
-  company_logo: laredoute.png
-  img: craske.png
-  title: Architecture, Technology, Transformation
+- name: Jean-Rémy Révy
+  position: Manager Senior & Lead Architect
+  company_logo: ippon.svg
+  img: revy.jpeg
+  title: "Transfo DevOps: un peu de Lean Management et d'Accelerate basé sur un ReX Cdiscount / Octopia"
 
-- name: Maxime Drouet
-  position: Cloud Center Manager
-  img: drouet.jpeg
-  company_logo: laredoute.png
-  title: Architecture et migration des sites marchands France et International laredoute.xx 100% Cloud
-
-- name: Quentin Tsaimanga
-  img: tshaimanga.jpg
-  position: Web Architect
-  company_logo: laredoute.png
-  title: Architecture et migration des sites marchands France et International laredoute.xx 100% Cloud
-
-- name: Bruno Gachie
-  position:  Infrastructures Project Manager
-  company_logo: laredoute.png
-  img: gachie.jpeg
-  title: Architecture et migration des sites marchands France et International laredoute.xx 100% Cloud
-
-- name: Bastien Lacombe
-  position: Core Lead
-  company_logo: manomano.png
-  img: lacombe.jpg
-  title: From Naive Microservices to Full API Gateway Adoption in a Hybrid Mesh Ecosystem in the Cloud
-
-- name: Aurélien LAJOIE
-  position: Head of Core Engineering and Infrastructure
-  company_logo: manomano.png
-  img: lajoie.jpeg
-  title: From Naive Microservices to Full API Gateway Adoption in a Hybrid Mesh Ecosystem in the Cloud
-
-- name: Laurent Brisse
-  position: Solution Architect Lead
-  company_logo: manomano.png
-  img: brisse.jpeg
-
-- name: Maxime Fouilleul
-  position: Engineering Manager
-  company_logo: BlaBlaCar_logo.svg
-  title: Organize the Migration of a Hundred Database Clusters to the Cloud
-  img: fouilleul.jpeg
+- name:  Christophe Camicas
+  position: CTO
+  img: camicas.jpeg
+  company_logo: wiidii.png
+  title: "Sécurité des moyens de paiement, retour sur notre parcours pour obtenir la certification PCI-DSS"

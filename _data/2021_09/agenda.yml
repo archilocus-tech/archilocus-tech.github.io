@@ -1,0 +1,66 @@
+- begin: "16:00"
+  end: "16:10"
+  title: Accueil
+  company_logo: manomano.png
+  speaker:
+      name: Aurélien & Laurent
+      position: ManoMano
+  topic: Introduction et lancement de la session.
+
+- begin: "16:10"
+  end: "16:50"
+  title: "Transfo DevOps : un peu de Lean Management et d'Accelerate"
+  speaker:
+    name: Jean-Rémy Révy
+    position: Manager Senior & Lead Architect
+  company_logo: ippon.svg
+  topic: "Comment fait-on pour changer de culture ?
+
+    Un retour d'expérience de la transformation dans une banque et dans l'eCommerce.
+    Comment les outils du Lean Management peuvent être mis en musique dans une démarche DevOps quel que soit le niveau de maturité des équipes."
+- begin: "16:50"
+  end: "17:30"
+  title: "Sécurité des moyens de paiement, notre parcours pour obtenir la certification PCI-DSS"
+  company_logo: wiidii.png
+  speaker:
+    name:  Christophe Camicas
+    position: CTO
+  topic: "Présentation de la norme PCI-DSS et les difficultés que nous avons rencontrées pour l'implémenter.
+
+    Quelles ont été les contraintes sur l'architecture, sur l'infra, sur l'utilisation de la solution en général ?
+    Et surtout, quelle a été notre stratégie gagnante pour la mettre en place rapidement ?"
+
+- begin: "17:30"
+  end: "17:40"
+  title: Pause
+  speaker:
+      name: Tous
+  topic: Histoire de <i>networker</i>...
+
+- begin: "17:40"
+  end: "18:20"
+  title: "Création d'audience/segmentation combinant des données temps réel et précalculées"
+  company_logo: ubisoft.png
+  speaker:
+    name: Dereck Melancon
+    position: Information Technology Developer
+  topic: "Afin d'offrir aux utilisateurs une expérience sur mesure agréable, il est nécessaire d'identifier et grouper nos joueurs correctement.
+
+  Présentation des outils libre-service qui permettent à nos opérateurs de créer des segments. Ces segments évaluent des conditions sur différentes mesures: précalculées pour une meilleur précision et temps réel pour les données à évolution rapide."
+
+
+- begin: "18:20"
+  end: "18:50"
+  title: Table ronde
+  speaker:
+      name: Tous
+  topic: "SLO / SLA /SLI sont dans un bateau..."
+
+- begin: "18:50"
+  end: "19:00"
+  title: Conclusion
+  company_logo: manomano.png
+  speaker:
+      name: Aurélien & Laurent
+      position: ManoMano
+

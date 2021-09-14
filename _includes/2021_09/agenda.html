@@ -8,7 +8,7 @@
     </div>
     <div class="col-md-8 col-md-offset-2">
 
-      {% for agenda in site.data.twenty_21.agendas_1 %}
+      {% for agenda in site.data.2021_09.agenda %}
       <div class="row slot">
         <div class="col-xs-4 col-sm-2 hidden-xs">{{ agenda.begin }}</div>
         <div class="col-sm-10 col-xs-12" >
@@ -25,11 +25,11 @@
                 {% endif %}
               </div>
               <div class="col-xs-6">
-                <img class="company img-responsive col-sm-2" src="../css/2021_style/img/logos/{{ agenda.company_logo }}" alt="{{ agenda.company_logo }}"/>
+                <img class="company img-responsive col-sm-2" src="/css/2021_09/img/logos/{{ agenda.company_logo }}" alt="{{ agenda.company_logo }}"/>
               </div>
             </div>
             <div class="row">
-              <span class="topic">{{ agenda.topic }}</span>
+              <span class="topic">{{ agenda.topic | newline_to_br}}</span>
             </div>
           </div>
         </div>

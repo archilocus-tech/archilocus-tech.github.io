@@ -15,3 +15,10 @@
   img: camicas.jpeg
   company_logo: wiidii.png
   title: "Sécurité des moyens de paiement, retour sur notre parcours pour obtenir la certification PCI-DSS"
+
+- name: Frederic Gaudet
+  position: Senior SRE
+  img: gaudet.jpeg
+  company_logo: BlaBlaCar_logo.svg
+  title: "Table ronde"
+

@@ -10,6 +10,12 @@
   img: revy.jpeg
   title: "Transfo DevOps: un peu de Lean Management et d'Accelerate basé sur un ReX Cdiscount / Octopia"
 
+- name: Cosme Charlier
+  position: Directeur Architecture
+  company_logo: cdiscount.png
+  img: charlier.jpeg
+  title: "Transfo DevOps: un peu de Lean Management et d'Accelerate basé sur un ReX Cdiscount / Octopia"
+
 - name:  Christophe Camicas
   position: CTO
   img: camicas.jpeg
@@ -22,3 +28,15 @@
   company_logo: BlaBlaCar_logo.svg
   title: "Table ronde"
 
+- name: Lionel Piat
+  position: Directeur infrastructure et production
+  img: piat.jpeg
+  company_logo: cdiscount.png
+  title: "Table ronde"
+
+
+- name: Shailendra Narayen
+  position: Lead SRE
+  img: narayen.jpeg
+  company_logo: manomano.png
+  title: "Table ronde"

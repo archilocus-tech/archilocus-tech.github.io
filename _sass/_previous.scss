@@ -1,3 +1,9 @@
-h2 {
-    margin-top: 0px;
+.previous {
+    h2 {
+        margin-top: 0px;
+    }
+
+    li:nth-child(odd) {
+        background: #ddd;
+    }
 }

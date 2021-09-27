@@ -1,0 +1,166 @@
+backend:
+  name: git-gateway
+  branch: master
+  commit_messages:
+    create: "Create {{collection}} “{{slug}}”"
+    update: "Update {{collection}} “{{slug}}”"
+    delete: "Delete {{collection}} “{{slug}}”"
+    uploadMedia: "[skip ci] Upload “{{path}}”"
+    deleteMedia: "[skip ci] Delete “{{path}}”"
+
+local_backend: true
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "events"
+    label: "Event"
+    folder: content/events
+    create: true
+    slug: "{{slug}}"
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "event",
+        }
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Path", name: "path", widget: "string", required: true }
+      - {
+          label: "Event Date",
+          name: "date",
+          widget: "datetime",
+          required: true,
+        }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "text",
+          required: true,
+        }
+      - {
+          label: "Agenda",
+          name: "agenda",
+          widget: "list",
+          default: [],
+          fields:
+            [
+              {
+                label: "Begin hour",
+                name: "begin",
+                widget: "datetime",
+                required: true,
+              },
+              {
+                label: "End hour",
+                name: "end",
+                widget: "datetime",
+                required: true,
+              },
+              { label: "Title", name: "title", widget: "text", required: true },
+              { label: "Image", name: "image", widget: "image" },
+              {
+                label: "Speakers",
+                name: "speakers",
+                widget: "relation",
+                multiple: true,
+                required: true,
+                searchFields: ["speakers.name"],
+                valueField: "speakers.name",
+                displayFields: ["speakers.name"],
+              },
+              {
+                label: "Replay Video URL",
+                name: "replayVideo",
+                widget: "text",
+              },
+            ],
+        }
+      - { label: "Video Playlist", name: "videoPlaylist", widget: "text" }
+      - {
+          label: "Speakers",
+          name: "speakers",
+          widget: "list",
+          multiple: true,
+          required: true,
+          fields:
+            [
+              { label: "Name", name: "name", widget: "text", required: true },
+              { label: "Position", name: "position", widget: "text" },
+              { label: "Image", name: "image", widget: "image" },
+              {
+                label: "Company",
+                name: "company",
+                widget: "relation",
+                collection: "companies",
+                searchFields: ["name"],
+                valueField: "name",
+                displayFields: ["name"],
+              },
+            ],
+        }
+
+  - name: "companies"
+    label: "Company"
+    folder: content/companies
+    create: true
+    slug: "{{slug}}"
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "company",
+        }
+      - { label: "Name", name: "name", widget: "text", required: true }
+      - { label: "Logo", name: "logo", widget: "image", required: true }
+
+  - name: "team"
+    label: "Team"
+    folder: content/team
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "team",
+        }
+      - {
+          label: "Members",
+          name: "members",
+          widget: "list",
+          multiple: true,
+          required: true,
+          fields:
+            [
+              { label: "Name", name: "name", widget: "text", required: true },
+              { label: "Description", name: "description", widget: "text" },
+              { label: "Position", name: "position", widget: "text" },
+              { label: "Image", name: "image", widget: "image" },
+              {
+                label: "Company",
+                name: "company",
+                widget: "relation",
+                collection: "companies",
+                searchFields: ["name"],
+                valueField: "name",
+                displayFields: ["name"],
+              },
+              { label: "Linkedin URL", name: "linkedin", widget: "text" },
+              { label: "Twitter URL", name: "twitter", widget: "text" },
+              { label: "Github URL", name: "github", widget: "text" },
+              {
+                label: "StackOverflow URL",
+                name: "stackoverflow",
+                widget: "text",
+              },
+            ],
+        }

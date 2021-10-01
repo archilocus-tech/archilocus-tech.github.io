@@ -16,7 +16,13 @@
                 <div class="intro-lead-in">&laquo; La place des architectes IT &raquo;<br></div>
                 <div class="intro-lead-in">{{ site.data.home.next.date }}</div>
                 <div class="intro-lead-in">{{ site.data.home.next.place }}</div>
+                {% if site.data.home.next.call %}
+                <a href="{{ site.data.home.next.call }}" class="btn btn-xl" target="_blank" >
+                  Call for paper
+                </a>
+                {% else %}
                 <a href="#intro" class="page-scroll btn btn-xl">Entrez dans la place...</a>
+                {% endif %}
             </div>
         </div>
     </header>

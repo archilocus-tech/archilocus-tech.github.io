@@ -5,6 +5,7 @@
   title: "Notre hôte"
 
 - name: Vincent Van Steenbergen
+  position: Co-Founder & CEO
   company_logo: thinkdeep.jpeg
   img: vansteenbergen.jpeg
   title: "Mise en place d'une archi réactive sur K8S"
@@ -13,5 +14,10 @@
   position: Solution Architect Lead
   company_logo: manomano.png
   img: brisse.jpeg
-  title: "Le SaaS sur la grille... Comment nous sélectionnons techniquement nos solutions SaaS ?"
+  title: "Le SaaS sur la grille..."
 
+- name: Arthur BERTHIAUX
+  position: Architecte Solution
+  company_logo: ippon.svg
+  img: berthiaux.jpeg
+  title: "Le SaaS sur la grille..."

@@ -1,14 +1,14 @@
 - begin: "17:00"
-  end: "17:10"
+  end: "17:30"
   title: Accueil
   company_logo: ippon.svg
   speaker:
     name: Jean-Rémy Révy
     position: Manager Senior & Lead Architect
-  topic: Introduction et lancement de la session.
+  topic:  café / croissants / fruits
 
-- begin: "17:10"
-  end: "18:00"
+- begin: "17:30"
+  end: "18:20"
   title: "Mise en place d'une archi réactive sur K8S"
   speaker:
     name: Vincent Van Steenbergen
@@ -16,8 +16,8 @@
   company_logo: thinkdeep.jpeg
   topic: ""
 
-- begin: "18:00"
-  end: "18:50"
+- begin: "18:20"
+  end: "19:10"
   title: "Le SaaS sur la grille... Comment nous sélectionnons techniquement nos solutions SaaS ?"
   company_logo: manomano.png
   speaker:
@@ -29,8 +29,8 @@ Focus sur les capacités d'intégration avec votre SI
 A vous de jouer avec la grille de Mano-critères"
 
 
-- begin: "18:50"
-  end: "19:00"
+- begin: "19:10"
+  end: "19:20"
   title: Conclusion
   company_logo: ippon.svg
   speaker:

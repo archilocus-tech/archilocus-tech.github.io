@@ -1,6 +1,6 @@
 - name: Jean-Rémy Révy
   position: Manager Senior & Lead Architect
-  company_logo: ippon.svg
+  company_logo: ippon.png
   img: revy.jpeg
   title: "Notre hôte"
 
@@ -18,6 +18,6 @@
 
 - name: Arthur BERTHIAUX
   position: Architecte Solution
-  company_logo: ippon.svg
+  company_logo: ippon.png
   img: berthiaux.jpeg
   title: "Le SaaS sur la grille..."

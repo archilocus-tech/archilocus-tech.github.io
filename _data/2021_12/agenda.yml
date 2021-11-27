@@ -14,7 +14,7 @@
     name: Vincent Van Steenbergen
     position: Co-Founder & CEO
   company_logo: thinkdeep.png
-  topic: ""
+  topic: "K8s est devenu en quelques années le standard de déploiement d'architectures distribuées. Vincent presentera un exemple d'architecture réactive, combinant micro services, workers, message queues (Kafka) et jobs (Flink/Spark) streaming et batch et serveur d'inférence GPU. Le but étant d'ouvrir la discussion et d'aborder ensemble ces concepts."
 
 - begin: "18:20"
   end: "19:10"

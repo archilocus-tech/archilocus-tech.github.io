@@ -32,10 +32,12 @@
                       >
                       <a class="page-scroll" href="/precedent">Les replays</a>
                     </li>
+                    {% if site.data.home.next.link %}
                     <li>
                         <a class="page-scroll" target="_blank"
-                          href="https://www.meetup.com/archilocus/events/280992564/">Inscription</a>
+                        href="{{ site.data.home.next.link }}">Inscription</a>
                     </li>
+                    {% endif %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

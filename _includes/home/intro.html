@@ -21,6 +21,24 @@
             {{ about_data.info }}</a>
         </div>
         {% endfor %}
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+        {% if site.data.home.next.link %}
+          <a href="{{  site.data.home.next.link }}" class="btn btn-sm"
+            target="_blank" >
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-hand-o-right  fa-stack-1x" alt="S'inscrire"></i>
+            </span>
+            S'inscrire</a>
+        {% else %}
+            <a href="/precedent" class="btn btn-sm">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-youtube-play fa-stack-1x" alt="Vidéo"></i>
+            </span>
+              Les replays</a>
+        {% endif %}
+        </div>
       </div>
     </div>
   </div>

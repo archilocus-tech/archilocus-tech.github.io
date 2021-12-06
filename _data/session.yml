@@ -1,11 +1,17 @@
-- date: 2021-06-24
-  url: 2021/06
-  title: MVP
-  description: "Blablacar, Cdiscount, Manomano et La Redoute ont participé à ce MVP."
-  playlist: "https://www.youtube.com/watch?v=onwQ-HOdlTw&list=PLVjWHoBiuUCVr0LfmRvSdNygmas-UWP-_"
+- date: 2021-12-02
+  url: 2021/12
+  title: Sur site
+  description: "Session en physique dans les bureaux de IPPON, 2 présentations de ThinkDeep et de Manomano."
+
 
 - date: 2021-09-23
   url: 2021/09
   title: 2ème session
   description: "3 présentations d'IPPON, Wiidii et Ubisoft. Table ronde avec Blablacar et Manomano."
   playlist: "https://www.youtube.com/watch?v=Tx0AAalBrh0&list=PLVjWHoBiuUCVDEHCcJVpymN7bgJjE1EcN"
+
+- date: 2021-06-24
+  url: 2021/06
+  title: MVP
+  description: "Blablacar, Cdiscount, Manomano et La Redoute ont participé à ce MVP."
+  playlist: "https://www.youtube.com/watch?v=onwQ-HOdlTw&list=PLVjWHoBiuUCVr0LfmRvSdNygmas-UWP-_"

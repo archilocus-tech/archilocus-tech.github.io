@@ -1,0 +1,137 @@
+- year: 2003
+  url: https://www.goodreads.com/book/show/70156.Patterns_of_Enterprise_Application_Architecture
+  title: "Patterns of Enterprise Application Architecture"
+  author: "Fowler, Martin"
+  tags: "Generalist"
+
+- year: 1995
+  url: https://www.goodreads.com/book/show/85009.Design_Patterns
+  title: "Design Patterns: Elements of Reusable Object-Oriented Software"
+  author: "Gamma, Erich"
+  tags: "Generalist"
+
+- year: 2020
+  url: https://www.goodreads.com/book/show/53547752-the-software-architect-elevator
+  title: "The Software Architect Elevator: Redefining the Architect’s Role in the Digital Enterprise"
+  author: "Hohpe, Gregor"
+  tags: "Generalist"
+
+- year: 1995
+  url: https://www.goodreads.com/book/show/23215733-the-software-craftsman
+  title: "The Software Craftsman: Professionalism, Pragmatism, Pride"
+  author: "Gamma, Erich"
+  tags: "Generalist"
+
+- year: 2018
+  url: https://www.goodreads.com/book/show/36239393-clean-architecture
+  title: "Clean Architecture: A Craftsman’s Guide to Software Structure and Design"
+  author: "Martin, Robert C."
+  tags: "Generalist"
+
+- year: 2020
+  url: https://www.goodreads.com/book/show/53600892-solutions-architect-s-handbook
+  title: "Solutions Architect’s Handbook: Kick-Start Your Solutions Architect Career by Learning Architecture Design Principles and Strategies"
+  author: "Shrivastava, Saurabh, and Neelanjali Srivastav"
+  tags: "Generalist"
+
+- year: 2003
+  url: https://www.goodreads.com/book/show/387190.Test_Driven_Development
+  title: "Test-Driven Development: By Example"
+  author: "Beck, Kent"
+  tags: "Software Architecture"
+
+- year: 2009
+  url: https://www.goodreads.com/book/show/3735293-clean-code
+  title: "Clean Code: A Handbook of Agile Software Craftsmanship"
+  author: "Martin, Robert C."
+  tags: "Software Architecture"
+
+- year: 2011
+  url: https://www.goodreads.com/book/show/10284614-the-clean-coder
+  title: "The Clean Coder: A Code of Conduct for Professional Programmers"
+  author: "Martin, Robert C."
+  tags: "Software Architecture"
+
+- year: 2018
+  url: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design
+  title: "A Philosophy of Software Design"
+  author: "Ousterhout, John K."
+  tags: "Software Architecture"
+
+- year: 2019
+  url: https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer
+  title: "The Pragmatic Programmer"
+  author: "Thomas, David, and Andy Hunt"
+  tags: "Software Architecture"
+
+- year: 2004
+  url: https://www.goodreads.com/book/show/179133.Domain_Driven_Design
+  title: "Domain-Driven Design: Tackling Complexity in the Heart of Software"
+  author: "Evans, Eric"
+  tags: "Domain Driven Design"
+
+- year: 2013
+  url: https://www.goodreads.com/book/show/15756865-implementing-domain-driven-design
+  title: "Implementing Domain-Driven Design"
+  author: "Vernon, Vaughn"
+  tags: "Domain Driven Design"
+
+- year: 2015
+  url: https://www.goodreads.com/book/show/22512931-building-microservices
+  title: "Building Microservices: Designing Fine-Grained Systems"
+  author: "Newman, Sam"
+  tags: "Microservices"
+
+- year: 2019
+  url: https://www.goodreads.com/book/show/48928235-monolith-to-microservices
+  title: "Monolith to Microservices: Evolutionary Patterns to Transform Your Monolith"
+  author: "Newman, Sam"
+  tags: "Microservices"
+
+- year: 2019
+  url: https://www.goodreads.com/book/show/55612970-microservices-patterns
+  title: "Microservices Patterns: With Examples in Java"
+  author: "Richardson, Chris"
+  tags: "Microservices"
+
+- year: 2019
+  url: https://www.goodreads.com/book/show/44936.Refactoring
+  title: "Refactoring: Improving the Design of Existing Code"
+  author: "Fowler, Martin"
+  tags: "Legacy"
+
+- year: 2009
+  url: https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code
+  title: "Working Effectively with Legacy Code"
+  author: "Feathers, Michael C., and Robert C. Martin"
+  tags: "Legacy"
+
+- year: 2008
+  url: https://www.goodreads.com/book/show/40313863-accelerate
+  title: "Accelerate: The Science behind DevOps: Building and Scaling High Performing Technology Organizations"
+  author: "Forsgren, Nicole, et al."
+  tags: "Performance"  
+
+- year: 2018
+  url: https://www.goodreads.com/book/show/39322175-finish-what-you-start
+  title: "Finish What You Start: The Art of Following through, Taking Action, Executing, & Self-Discipline"
+  author: "Hollins, Peter."
+  tags: "Others"
+
+- year: 2018
+  url: https://www.goodreads.com/book/show/17255186-the-phoenix-project
+  title: "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win"
+  author: "Kim, Gene, et al."
+  tags: "Others"
+
+- year: 2019
+  url: https://www.goodreads.com/book/show/45168713-the-unicorn-project
+  title: "The Unicorn Project: A Novel about Digital Disruption, Developers, and Overthrowing the Ancient Powerful Order"
+  author: "Kim, Gene"
+  tags: "Others"
+
+- year: 2006
+  url: https://www.goodreads.com/book/show/18274319-une-politique-pour-le-syst-me-d-information
+  title: "Une politique pour le système d'information"
+  author: "Pierre Pezziardi, Laurent Brisse, Gilles Laborderie, Christophe Thibaut, Julien Cabot"
+  tags: "Others"

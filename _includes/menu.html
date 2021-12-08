@@ -32,6 +32,12 @@
                       >
                       <a class="page-scroll" href="/precedent">Les replays</a>
                     </li>
+                    <li  {% if page.url == "/books" %}
+                          class="active"
+                        {% endif %}
+                      >
+                      <a class="page-scroll" href="/books">Livres</a>
+                    </li>
                     {% if site.data.home.next.link %}
                     <li>
                         <a class="page-scroll" target="_blank"

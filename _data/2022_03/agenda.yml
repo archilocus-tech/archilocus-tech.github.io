@@ -1,0 +1,23 @@
+- begin: "16:30"
+  end: "16:45"
+  title: Accueil
+  speaker:
+
+- begin: "16:45"
+  end: "17:30"
+  title: "Premier talk"
+  speaker:
+    name:
+    position:
+
+- begin: "17:30"
+  end: "18:15"
+  title: "Deuxième talk"
+
+- begin: "18:15"
+  end: "19:00"
+  title: Troisième talk
+
+- begin: "19:00"
+  end: "19:10"
+  title: Conclusion

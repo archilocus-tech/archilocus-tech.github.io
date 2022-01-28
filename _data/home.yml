@@ -3,6 +3,7 @@ video:
 next:
   date: "10 Mars 2022"
   place: "Live sur Twitch"
+  call: https://conference-hall.io/public/event/u1lNdgZFvvk749E1D91z
 about:
   - fa: info
     name: Thème, Vision

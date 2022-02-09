@@ -15,14 +15,14 @@ title: Team Member
       {% for member in site.data.team %}
       <div class="member col-md-4 col-sm-6 center-block text-center">
         <div class="row justify-content-center">
-          <img class="member-photo" src="../css/2021_06/img/team/{{ member.img }}" alt="{{ member.name }}">
+          <img class="member-photo" src="../css/team/{{ member.img }}" alt="{{ member.name }}">
           <!-- https://s.gravatar.com/avatar/0000000000000000?s=160 for Gravatar-->
         </div>
         <div class="row">
           <h3>{{ member.name }}</h3>
         </div>
         <div class="row">
-          <img class="company img-responsive center-block" src="../css/2021_06/img/logos/{{ member.company_logo }}" alt="{{ member.company_logo }}"/>
+          <img class="company img-responsive center-block" src="../css/team/{{ member.company_logo }}" alt="{{ member.company_logo }}"/>
         </div>
         <div class="row">
           <h4>{{ member.position }}</h4>

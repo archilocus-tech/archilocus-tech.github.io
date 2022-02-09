@@ -34,6 +34,37 @@
     - title: github
       url: https://github.com/acraske/
 
+- name: Jean-Rémy Révy
+  position: Manager Senior & Lead Architect
+  company_logo: ippon.png
+  img: revy.jpeg
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/jeanremyrevy/
+    - title: twitter
+      url: https://www.twitter.com/JeanRemyRevy
+
+- name:  Christophe Camicas
+  position: CTO
+  img: camicas.jpeg
+  company_logo: wiidii.png
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/christophecamicas/
+    - title: github
+      url: https://github.com/chriscamicas
+    - title: twitter
+      url: https://twitter.com/chriscamicas
+
+
+- name: Cedric Bonnet
+  position: Responsable pédagogique
+  company_logo: epitech.png
+  img: bonnet.jpeg
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/cebonnet/
+
 - name: Nicolas Le Goff
   position: Engineering Manager
   company_logo: BlaBlaCar_logo.svg
@@ -54,10 +85,3 @@
     - title: stack-overflow
       url: https://stackoverflow.com/users/2335212/cch?tab=profile
 
-- name: Cedric Bonnet
-  position: Responsable pédagogique
-  company_logo: epitech.png
-  img: bonnet.jpeg
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/cebonnet/

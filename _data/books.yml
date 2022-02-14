@@ -110,7 +110,7 @@
   url: https://www.goodreads.com/book/show/40313863-accelerate
   title: "Accelerate: The Science behind DevOps: Building and Scaling High Performing Technology Organizations"
   author: "Forsgren, Nicole, et al."
-  tags: "Performance"  
+  tags: "Performance"
 
 - year: 2018
   url: https://www.goodreads.com/book/show/39322175-finish-what-you-start
@@ -135,3 +135,21 @@
   title: "Une politique pour le système d'information"
   author: "Pierre Pezziardi, Laurent Brisse, Gilles Laborderie, Christophe Thibaut, Julien Cabot"
   tags: "Others"
+
+- year: 2004
+  url: https://www.goodreads.com/book/show/17061898-head-first-design-patterns
+  title: "Head First Design Patterns: A Brain-Friendly Guide"
+  author: "Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra"
+  tags: "Software Architecture"
+
+- year: 2014
+  url: https://www.goodreads.com/book/show/23627482-your-code-as-a-crime-scene
+  title: "Your Code As a Crime Scene: Use Forensic Techniques to Arrest Defects, Bottlenecks, and Bad Design in Your Programs"
+  author: "Adam Tornhill"
+  tags: "Generalist"
+
+- year: 2021
+  url: https://www.goodreads.com/book/show/57196550-the-programmer-s-brain
+  title: "The Programmer's Brain"
+  author: "Felienne Hermans"
+  tags: "Generalist, Psychology"

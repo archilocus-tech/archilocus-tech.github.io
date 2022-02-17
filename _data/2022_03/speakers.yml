@@ -1,0 +1,18 @@
+- name: Abdelkrim Hadjidj
+  position: Solutions Engineering Manager
+  company_logo: grafana.png
+  img: hadjidj.jpeg
+  title: ""
+
+- name: Vivien Maleze
+  position: Solution Architect
+  company_logo: ippon.png
+  img: maleze.jpeg
+  title: "Abstraire mon architecture distribuée? Pourquoi et Comment?"
+
+
+- name: Sylvain COMBRAQUE
+  position: Freelance
+  img: combraque.jpg
+  title: "Du cache pour vos applications : oui et sans Varnish
+"

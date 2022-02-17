@@ -27,10 +27,8 @@
 
 #speakers .speakers-item .speakers-link .speakers-hover .speakers-hover-content {
     position: absolute;
-    top: 30%;
     width: 100%;
-    height: 20px;
-    margin-top: -12px;
+    height: 100%;
     text-align: center;
     font-size: 120%;
     color: #fff;
@@ -40,10 +38,6 @@
     margin-top: -12px;
 }
 
-#speakers .speakers-item .speakers-link .speakers-hover .speakers-hover-content h3,
-#speakers .speakers-item .speakers-link .speakers-hover .speakers-hover-content h4 {
-    margin: 0;
-}
 
 #speakers .speakers-item .speakers-caption {
     margin: 0 auto;

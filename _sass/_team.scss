@@ -31,7 +31,8 @@
   cursor: pointer;
 }
 img.company {
-  width: 60%;
+  max-width: 60%;
+  max-height: 100%;
 }
 
 /*======== NOW LETS ADD FLEXBOX ========*/

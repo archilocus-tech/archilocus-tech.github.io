@@ -11,12 +11,12 @@
       {% for speaker in site.data.2022_03.speakers %}
       <div class="col-md-4 col-sm-6 speakers-item">
         <div href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
-          <div class="speakers-hover">
+          <div class="speakers-hover hidden-sm hidden-xs">
             <div class="speakers-hover-content">
-              <div class="row">
+              <div class="row" style="height:50%">
                 <h4>{{ speaker.position }}</h4>
               </div>
-              <div class="row">
+              <div class="row" style="height:50%; padding-bottom:5px">
                 <img class="company img-responsive center-block" src="/css/2022_03/img/logos/{{ speaker.company_logo }}" alt="{{ member.company_logo }}"/>
               </div>
             </div>

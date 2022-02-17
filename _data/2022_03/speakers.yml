@@ -2,7 +2,7 @@
   position: Solutions Engineering Manager
   company_logo: grafana.png
   img: hadjidj.jpeg
-  title: ""
+  title: "Introduction au tracing distribué avec Grafana Tempo"
 
 - name: Vivien Maleze
   position: Solution Architect
@@ -14,5 +14,4 @@
 - name: Sylvain COMBRAQUE
   position: Freelance
   img: combraque.jpg
-  title: "Du cache pour vos applications : oui et sans Varnish
-"
+  title: "Du cache pour vos applications : oui et sans Varnish"

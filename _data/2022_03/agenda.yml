@@ -5,18 +5,35 @@
 
 - begin: "16:45"
   end: "17:30"
-  title: "Premier talk"
+  title: "Introduction au tracing distribué avec Grafana Tempo"
+  topic: "Grafana Tempo est une plateforme de tracing distribué avec comme seul dépendance l'accès à un stockage objets compatible S3. Contrairement à d'autres solutions de traçage open source, Tempo ne nécessite pas de cluster Elasticsearch ou Cassandra et peut gérer des volumétries massives sans échantillonnage. Dans cette présentation, on parlera des principes d'architecture de Tempo et comment on exploite les traces sans indexation. On expliquera également le lien entre Tempo et les autres solutions de l'écosystème (Open Telemetry, Jaeger ou Zipkin, Prometheus et Loki)"
   speaker:
-    name:
-    position:
+    name: "Abdelkrim HADJIDJ"
+    position: "Solutions Engineering Manager"
 
 - begin: "17:30"
   end: "18:15"
-  title: "Deuxième talk"
+  title: "Abstraire mon architecture distribuée? Pourquoi et Comment?"
+  topic: "Si je vous parle architecture distribuée, beaucoup d'entre vous me diront que c'est le top. Les plus pragmatiques viendront pourtant dire que, attention, sur le papier, c'est joli, mais dans la vraie vie, c'est pas si simple.
+Il faut gérer les logs, la résilience des services, la connexion aux différentes couches du parc applicatif (Message brokers, BDD, Service REST, ...).
+Et quand on va encore plus loin, il faut aussi savoir manager l'observabilité, la sécurité, le discovery. Sans parler des différents langages de programmation et leur intégration avec notre applicatif. Bref, on se retrouve toujours avec quelque chose de très complexe là ou on souhaiterait avoir un service simple qui répond à un besoin simple.
+
+Et si je vous disais qu'on avait enfin une solution pour diminuer la charge cognitive des développeurs afin qu'il puisse se recentrer sur le développement de feature ?!
+
+C'est là qu'entre en jeu Dapr. Un outil qu'on introduira à travers du live coding durant cette session."
+  speaker:
+    name: "Vivien MALEZE"
+    position: "Solution Architect"
 
 - begin: "18:15"
   end: "19:00"
-  title: Troisième talk
+  title: "Du cache pour vos applications : oui et sans Varnish"
+  topic: "Nous faisons tous aujourd’hui des services exposés - sur le web ou en interne - pour des clients. Pour la plupart il s’agit d’APIs, des interfaces pour récupérer ou gérer des données via des requêtes HTTP. Dans la majorité des cas nous servons le même contenu à maintes reprises et exécutons le code autant de fois que nécessaire. Avec l’arrivée des APIs et du stateless (avec Nodejs, PHP par exemple) cette exécution serait inévitable du fait que comme l’indique le principe il n’y a pas d’état sauvegardé entre les requêtes. Pour palier à cela nous pouvons implémenter du cache à plusieurs niveaux. Du cache applicatif, du cache HTTP devant notre service, et aussi du cache directement au niveau du reverse-proxy pour de meilleures performances.
+Quand nous parlons de cache, nous pensons directement à Varnish, avec le fameux VCL que cela implique. Mais il existe d’autres solutions pour ne pas passer plusieurs jours à apprendre ce langage, qui sont plus facilement configurables et tout aussi performants.
+Voyons ensemble comment mettre en place ces solutions avec leurs avantages et leurs inconvénients lors de cette conférence"
+  speaker:
+    name: Sylvain COMBRAQUE
+    position: Freelance
 
 - begin: "19:00"
   end: "19:10"

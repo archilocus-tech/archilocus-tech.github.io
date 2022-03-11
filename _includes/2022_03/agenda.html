@@ -29,7 +29,19 @@
               </div>
             </div>
             <div class="row">
-              <span class="topic">{{ agenda.topic | newline_to_br}}</span>
+              <div class="col-xs-6">
+                <span class="topic">{{ agenda.topic | newline_to_br}}</span>
+              </div>
+              {% if agenda.video_url %}
+              <div class="col-xs-6">
+                <div class="embed-responsive  embed-responsive-4by3">
+                  <iframe class="embed-responsive-item"  allowFullScreen="true"
+                                                         src="{{ agenda.video_url }}">
+                  </iframe>
+
+                </div>
+              </div>
+              {% endif %}
             </div>
           </div>
         </div>

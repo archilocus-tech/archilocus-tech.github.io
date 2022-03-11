@@ -1,9 +1,7 @@
-video:
-  url: "https://youtube.com/embed/JOx2hkJwKuw?rel=0&showinfo=0"
 next:
-  date: "10 Mars 2022"
-  place: "Live sur Twitch"
-  link: https://www.meetup.com/archilocus/events/283686786/
+  date: "Prochaine session fin Mai 2022"
+  place: "Lieu à définir"
+  call: https://conference-hall.io/public/event/fmeozXWRm0GRLBO7ruFv
 about:
   - fa: info
     name: Thème, Vision

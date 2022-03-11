@@ -11,7 +11,7 @@ facebook:
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
-include: ['_2021_pages', '_2021_06_pages']
+include: ['_2022_pages', '_2021_pages', '_2021_06_pages']
 
 plugins:
   - jekyll-sitemap

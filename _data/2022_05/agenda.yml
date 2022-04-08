@@ -1,0 +1,32 @@
+- begin: "17:00"
+  end: "17:15"
+  title: Accueil
+  speaker:
+
+- begin: "17:15"
+  end: "18:00"
+  title: "Première présentation"
+  topic: ""
+  speaker:
+    name: ""
+    position: ""
+
+- begin: "18:30"
+  end: "18:45"
+  title: "Deuxième présentation"
+  topic: ""
+  speaker:
+    name: ""
+    position: ""
+
+- begin: "18:45"
+  end: "19:15"
+  title: "Table ronde"
+  topic: ""
+  speaker:
+    name:
+    position:
+
+- begin: "19:15"
+  end: "19:20"
+  title: Conclusion

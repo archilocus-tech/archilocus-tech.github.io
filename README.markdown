@@ -1,4 +1,20 @@
-# Event Jekyll Theme
+# Archilocus website
+
+You can find the website [archilocus.tech](https://www.archilocus.tech)
+
+## Installation
+1. For first time user, you have to install Ruby and NodeJS.
+You may follow my installation guide in my [Jekyll tutorial](https://melvinchng.github.io/jekyll/installation.html#ruby-and-nodejs-installation) or [Ruby on Rails Tutorial](https://melvinchng.github.io/rails/RubyOnRailsInstallation.html) for Windows, Linux, and MacOS (installation videos are included).
+2. Install Jekyll by using the command `gem install jekyll`.
+3. If you get an error `cannot load such file -- webrick (LoadError)` just install `gem install webrick`.
+4. Then, install Jekyll Sitemap and Jekyll SEO gems by using the command `gem install jekyll-sitemap` and `gem install jekyll-seo-tag`.
+5. Start your localhost server by using the command `jekyll serve`. Make sure that you are at the root directory of your folder before using this command.
+6. Your site should be accessible at `localhost:4000`.
+7. For additional information about Jekyll, refer to the [official website](http://jekyllrb.com/).
+
+## Theme source
+
+The website is based on Event Jekyll Theme.
 Event Jekyll Theme is a theme that is designed to be used for conference and event purposes. The index page is a modification and built on top of [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme). Unlike most Jekyll Themes, Event Jekyll Theme is not meant to be a single page theme. This theme is a package that you can use for your organization's event as it come with almost everything you need. I reorganized all the files to make sure that you can easily reuse the same template each year (or each month, depending on how you organize the path), assuming that you event is once a year.
 
 Big thanks to the creator of Agency as this theme would not be possible without their hard work! You are always welcome to contribute to this repository to make it better!
@@ -39,16 +55,6 @@ Two different design:
 - Header with icon logo defined, but removed from source code.
 - Website logo in SVG defined, but removed from source code.
 - Display PDF from Google Drive
-
-## Installation
-1. For first time user, you have to install Ruby and NodeJS. You may follow my installation guide in my [Jekyll tutorial](http://melvinchng.github.io/jekyll/installation.html#ruby-and-nodejs-installation) or [Ruby on Rails Tutorial](http://melvinchng.github.io/jekyll/RubyOnRailsInstallation.html) for Windows, Linux, and MacOS (installation videos are included).
-2. Install Jekyll by using the command `gem install jekyll`.
-3. Then, install Jekyll Sitemap and Jekyll SEO gems by using the command `gem install jekyll-sitemap` and `gem install jekyll-seo-tag`.
-4. Start your localhost server by using the command `jekyll serve`. Make sure that you are at the root directory of your folder before using this command.
-5. Your site should be accessible at `localhost:4000`.
-6. For additional information about Jekyll, refer to the [official website](http://jekyllrb.com/).
-
-_Note: If you forked it and edited `_config.yml` via the online editor on Github, the Github pages may not work. In that case, you will make any changes (add a new line, etc) and push the changes from your local machine via CLI or GUI git._
 
 ## Files Structure
 - The main stylesheet is stored `/css/2016_style`. Both `2016` and `2017` are sharing the same stylesheet.

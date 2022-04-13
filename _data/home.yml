@@ -1,7 +1,9 @@
 next:
   date: "Prochaine session 19 Mai 2022"
   place: "Online"
-  call: https://conference-hall.io/public/event/fmeozXWRm0GRLBO7ruFv
+  link: https://www.meetup.com/archilocus/events/285247943/
+video:
+  url: https://www.youtube.com/embed/amDP7uN46Bw
 about:
   - fa: info
     name: Thème, Vision

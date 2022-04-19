@@ -1,0 +1,17 @@
+- name: Gilles DI GUGLIELMO
+  position: Staff Software Engineer
+  company_logo: decat.webp
+  img: diguglielmo.jpeg
+  title: "Contract first API"
+
+- name: Christian NADER
+  position: Information Systems Engineer
+  company_logo: decat.webp
+  img: nader.jpeg
+  title: "Contract first API"
+
+- name: Pierre MARCENAC
+  position: Principal Engineer
+  company_logo: kili.jpeg
+  img: marcenac.jpeg
+  title: "Secure GraphQL APIs with TypeScript"

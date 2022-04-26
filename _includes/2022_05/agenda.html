@@ -18,21 +18,25 @@
               <p class="title">{{ agenda.title }}</p>
             </div>
             <div class="row">
-              <div class="col-xs-6">
-                <p class="name">{{ agenda.speaker.name }}</p>
-                {% if agenda.speaker.position %}
-                <i>{{ agenda.speaker.position }}</i>
-                {% endif %}
-              </div>
+              {% for speaker in agenda.speakers %}
+                <div class="col-xs-6">
+                  <p class="name">{{ speaker.name }}</p>
+                  {% if speaker.position %}
+                  <i>{{ speaker.position }}</i>
+                  {% endif %}
+                </div>
+              {% endfor %}
               <div class="col-xs-6">
                 <img class="company img-responsive col-sm-2" src="/css/2022_05/img/logos/{{ agenda.company_logo }}" alt="{{ agenda.company_logo }}"/>
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-6">
-                <span class="topic">{{ agenda.topic | newline_to_br}}</span>
-              </div>
               {% if agenda.video_url %}
+              <div class="col-xs-6">
+              {% endif %}
+                <span class="topic">{{ agenda.topic | newline_to_br}}</span>
+              {% if agenda.video_url %}
+              </div>
               <div class="col-xs-6">
                 <div class="embed-responsive  embed-responsive-4by3">
                   <iframe class="embed-responsive-item"  allowFullScreen="true"

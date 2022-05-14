@@ -2,7 +2,7 @@
   position: Staff Software Engineer
   company_logo: decat.webp
   img: diguglielmo.jpeg
-  title: "Contract first API"
+  title: "Contract first API & Table ronde"
 
 - name: Christian NADER
   position: Information Systems Engineer
@@ -15,3 +15,15 @@
   company_logo: kili.jpeg
   img: marcenac.jpeg
   title: "Secure GraphQL APIs with TypeScript"
+
+- name: Quentin TSAIMANGA
+  img: tshaimanga.jpg
+  position: Web Architect
+  company_logo: laredoute.png
+  title: "Table ronde"
+
+- name: "Clément RICATEAU"
+  img: ricateau.jpeg
+  position: Architecte
+  company_logo: payfit.png
+  title: "Table ronde"

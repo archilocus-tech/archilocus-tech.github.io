@@ -29,8 +29,12 @@ Dans cette présentation, nous passerons en revue les avantages et les inconvén
   title: "Table ronde"
   topic: "'AAAAA' (Autour de l'Architecture & de l'Agilité Avant l'Apéro)"
   speakers:
-  - name:
-    position:
+  - name: "Clément RICATEAU"
+    position: Architecte
+  - name: "Gilles DI GUGLIELMO"
+    position: "Staff Software Engineer"
+  - name: "Quentin TSHAIMANGA"
+    position: "Web Architect"
 
 - begin: "19:15"
   end: "19:20"

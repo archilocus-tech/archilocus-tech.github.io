@@ -7,6 +7,7 @@
   end: "18:00"
   title: "Secure GraphQL APIs with TypeScript"
   topic: "Notorious platforms like <a href='https://zerforschung.org/posts/flink/' >Flink</a> and <a href='https://zerforschung.org/posts/gorillas-en/'>Gorillas</a> recently leaked customer data. All of that happened because of unprotected GraphQL interfaces. Behind the promise of an open API hide some security flaws. Kili’s technical team successfully addressed some of these challenges. Pierre Marcenac, lead developer at Kili, will share some of the key learnings that make Kili secure."
+  video_url: "https://www.youtube.com/embed/mr2ULVRPGhw"
   speakers:
   - name: "Pierre MARCENAC"
     position: "Principal Engineer"
@@ -18,6 +19,7 @@
 Contract Last, ou parfois appelé, Code First, est l’approche très usuelle qui consiste à développer le code métier d’un micro service (interfaces, contrôleurs, modèles, etc.) et ensuite générer automatiquement le contrat du service web (swagger) en fonction des entitées manipulées par le code applicatif.
 Contract First consiste à concevoir le contrat de l’API grâce à son descripteur swagger et de générer tout le squelette du micro service à partir de ce descripteur. Le code applicatif est ensuite intégré au squelette grâce à des patterns de délégation ou d’injection.
 Dans cette présentation, nous passerons en revue les avantages et les inconvénients d'une approche Contract First et montrerons comment cette dernière permet de gagner en vélocité et en robustesse en intégrant la génération de code de OpenApi Generator au niveau du cycle de vie d'une API. Nous verrons également comment générer les tests de conformité avec Schemathesis."
+  video_url: "https://www.youtube.com/embed/UHZkkm_ltFk"
   speakers:
   - name: "Gilles DI GUGLIELMO"
     position: "Staff Software Engineer"
@@ -28,6 +30,7 @@ Dans cette présentation, nous passerons en revue les avantages et les inconvén
   end: "19:15"
   title: "Table ronde"
   topic: "'AAAAA' (Autour de l'Architecture & de l'Agilité Avant l'Apéro)"
+  video_url: "https://www.youtube.com/embed/I09JEe3JK0w"
   speakers:
   - name: "Clément RICATEAU"
     position: Architecte

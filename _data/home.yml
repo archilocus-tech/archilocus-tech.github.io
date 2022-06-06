@@ -1,9 +1,9 @@
 next:
   date: "Networking 23 Juin 2022"
   place: "Bordeaux"
-  #  link: https://www.meetup.com/archilocus/events/285247943/
+  link: https://www.meetup.com/archilocus/events/286388725/
 video:
-  url: https://www.youtube.com/embed/amDP7uN46Bw
+  url: "https://www.youtube.com/embed/7HpukveMju8"
 about:
   - fa: info
     name: Thème, Vision

@@ -19,10 +19,12 @@ plugins:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: facebook
-    url: https://www.facebook.com
-  - title: twitter
-    url: https://twitter.com
+    links:
+        - https://twitter.com/rchilocus
+        - https://www.meetup.com/archilocus/
+twitter:
+    username: rchilocus
+    card: summary
 
 # Build settings
 markdown: kramdown

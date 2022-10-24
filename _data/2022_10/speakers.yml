@@ -1,0 +1,12 @@
+- name: Meidi Airouche
+  position: "Leader, Software &
+  Solution Architect"
+  company_logo: payfit.png
+  img: airouche.jpeg
+  title: "Gouvernance des données dans un écosystème de micro-services"
+
+- name: Arthur BERTHIAUX
+  img: berthiaux.jpeg
+  position: Architecte Solution
+  company_logo: ippon.png
+  title: "Quality Storming : ils sont pas fonctionnels mes besoins ?!"

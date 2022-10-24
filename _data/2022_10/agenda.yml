@@ -1,0 +1,25 @@
+- begin: "17:30"
+  end: "17:40"
+  title: Accueil
+  speaker:
+
+- begin: "17:40"
+  end: "18:30"
+  title: "Gouvernance des données dans un écosystème de micro-services"
+  topic: "En tant que développeurs, nous passons la majeure partie de notre temps à construire des logiciels permettant de stocker, transformer, afficher des données selon des règles du jeu préétablies. Avec l'avènement du Cloud et des architectures logicielles distribuées, la gestion du cycle de vie des données est devenu un sujet qui peut s'avérer complexe. Ce talk a pour but de mettre en avant les différents challenges afférents à ces architectures et de proposer des solutions (patterns, pratiques, technologies) permettant d'y faire face."
+  speakers:
+  - name: "Meidi Airouche"
+    position: "Staff Software Engineer, Architecte & formateur."
+
+- begin: "18:30"
+  end: "19:15"
+  title: "Quality Storming : ils sont pas fonctionnels mes besoins ?!"
+  topic: "Avec le Quality Storming, je vous propose de découvrir un atelier \"fun et dynamique\" [sic] qui implique tous les profils de l'entreprise (métier, UX/UI, développeurs, etc) afin de remettre la qualité au cœur de la conception d'un produit.
+Les besoins non fonctionnels sont morts, vivent les besoins non fonctionnels !"
+  speakers:
+  - name: "Arthur BERTHIAUX"
+    position: "Architecte solutions"
+
+- begin: "19:15"
+  end: "19:20"
+  title: Conclusion

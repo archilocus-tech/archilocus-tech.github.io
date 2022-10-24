@@ -1,7 +1,8 @@
 next:
   date: "27 Octobre 2022"
   place: "Online"
-  call: https://conference-hall.io/public/event/PaaCmysedYcDBc3UDzYp
+  #  call: https://conference-hall.io/public/event/PaaCmysedYcDBc3UDzYp
+  link: https://www.meetup.com/archilocus/events/288769670/
 video:
   url: "https://www.youtube.com/embed/2X-_ig_Gi7Q"
 about:

@@ -2,7 +2,7 @@ title: Archilocus
 description: > # this means to ignore newlines until "baseurl:"
   La place des architectes IT
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.archilocu.tech" # the base hostname & protocol for your site
+url: "www.archilocus.tech" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 

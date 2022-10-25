@@ -1,5 +1,5 @@
 - name: Aurélien LAJOIE
-  position: CTO
+  position: VP of Engineering
   company_logo: 
   img: lajoie.jpeg
   message: "C lover, OSS contributor, Hands on Tech Manager with experience in Europe, China & Australia"
@@ -32,7 +32,7 @@
       url: https://www.twitter.com/JeanRemyRevy
 
 - name:  Christophe Camicas
-  position: 
+  position: Engineering Director
   img: camicas.jpeg
   company_logo: payfit.png
   social:
@@ -79,6 +79,3 @@
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/legoffn/
-    
-
-

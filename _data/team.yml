@@ -21,19 +21,6 @@
     - title: linkedin
       url: https://www.linkedin.com/in/laurent-brisse-a8577b5/
 
-- name: Antoine Craske
-  position:  "Head of Architecture & Technology"
-  company_logo: laredoute.png
-  img: craske.png
-  message: "Passionate about architecture, technology and transformation. Convinced that we learn faster by sharing."
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/acraske/
-    - title: twitter
-      url: https://twitter.com/acraske_
-    - title: github
-      url: https://github.com/acraske/
-
 - name: Jean-Rémy Révy
   position: Manager Senior & Lead Architect
   company_logo: ippon.png
@@ -55,6 +42,14 @@
       url: https://github.com/chriscamicas
     - title: twitter
       url: https://twitter.com/chriscamicas
+      
+- name: Cyril Beslay
+  position: Solution Architect
+  company_logo: manomano.png
+  img:
+  social:
+    - title: linkedin
+      url: https://fr.linkedin.com/in/cyrilbeslay/
 
 - name: Cedric Bonnet
   position: Responsable pédagogique
@@ -64,6 +59,19 @@
     - title: linkedin
       url: https://www.linkedin.com/in/cebonnet/
 
+- name: Antoine Craske
+  position:  "Head of Architecture & Technology"
+  company_logo: laredoute.png
+  img: craske.png
+  message: "Passionate about architecture, technology and transformation. Convinced that we learn faster by sharing."
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/acraske/
+    - title: twitter
+      url: https://twitter.com/acraske_
+    - title: github
+      url: https://github.com/acraske/
+
 - name: Nicolas Le Goff
   position: Engineering Manager
   company_logo: BlaBlaCar_logo.svg
@@ -71,13 +79,6 @@
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/legoffn/
-      
-- name: Cyril Beslay
-  position: Solution Architect
-  company_logo: manomano.png
-  img:
-  social:
-    - title: linkedin
-      url: https://fr.linkedin.com/in/cyrilbeslay/
+    
 
 

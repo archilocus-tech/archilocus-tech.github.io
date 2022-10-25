@@ -1,6 +1,6 @@
 - name: Aurélien LAJOIE
   position: VP of Engineering
-  company_logo: 
+  company_logo: kili.png
   img: lajoie.jpeg
   message: "C lover, OSS contributor, Hands on Tech Manager with experience in Europe, China & Australia"
   social:
@@ -42,11 +42,11 @@
       url: https://github.com/chriscamicas
     - title: twitter
       url: https://twitter.com/chriscamicas
-      
+
 - name: Cyril Beslay
   position: Solution Architect
   company_logo: manomano.png
-  img:
+  img: beslay.jpeg
   social:
     - title: linkedin
       url: https://fr.linkedin.com/in/cyrilbeslay/

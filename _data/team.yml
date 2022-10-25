@@ -1,6 +1,6 @@
 - name: Aurélien LAJOIE
-  position: Head of Core Engineering and Infrastructure
-  company_logo: manomano.png
+  position: CTO
+  company_logo: 
   img: lajoie.jpeg
   message: "C lover, OSS contributor, Hands on Tech Manager with experience in Europe, China & Australia"
   social:
@@ -14,8 +14,8 @@
       url: https://stackoverflow.com/users/4605105/%c3%94rel
 
 - name: Laurent Brisse
-  position: Solution Architect Lead
-  company_logo: manomano.png
+  position: Enterprise Architect Leader
+  company_logo: leroy_merlin_logo.png
   img: brisse.jpeg
   social:
     - title: linkedin
@@ -56,7 +56,6 @@
     - title: twitter
       url: https://twitter.com/chriscamicas
 
-
 - name: Cedric Bonnet
   position: Responsable pédagogique
   company_logo: epitech.png
@@ -72,16 +71,13 @@
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/legoffn/
-
-- name: Cosme Charlier
-  position: Head of Architecture
-  company_logo: cdiscount.png
-  img: charlier.jpeg
+      
+- name: Cyril Beslay
+  position: Solution Architect
+  company_logo: manomano.png
+  img:
   social:
     - title: linkedin
-      url: https://www.linkedin.com/in/cosmecharlier/
-    - title: github
-      url: https://github.com/sharkoz/
-    - title: stack-overflow
-      url: https://stackoverflow.com/users/2335212/cch?tab=profile
+      url: https://fr.linkedin.com/in/cyrilbeslay/
+
 

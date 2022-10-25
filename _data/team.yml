@@ -15,7 +15,7 @@
 
 - name: Laurent Brisse
   position: Enterprise Architect Leader
-  company_logo: leroy_merlin_logo.png
+  company_logo: Leroy_merlin_logo.png
   img: brisse.jpeg
   social:
     - title: linkedin
@@ -45,9 +45,9 @@
       url: https://www.twitter.com/JeanRemyRevy
 
 - name:  Christophe Camicas
-  position: CTO
+  position: 
   img: camicas.jpeg
-  company_logo: wiidii.png
+  company_logo: payfit.png
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/christophecamicas/

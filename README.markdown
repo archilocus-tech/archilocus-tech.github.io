@@ -2,6 +2,18 @@
 
 You can find the website [archilocus.tech](https://www.archilocus.tech)
 
+
+## Dev
+
+To launch locally the website your can use jekyll image
+
+```bash
+docker run --rm -p 4000:4000 --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:4.2.0 sh -c "chown -R jekyll /usr/gem/  && jekyll serve"
+```
+
+PS: the 4.2.0 is for webrick [more details](https://github.com/jekyll/jekyll/issues/9066#issuecomment-1222476610)
+
+
 ## Installation
 1. For first time user, you have to install Ruby and NodeJS.
 You may follow my installation guide in my [Jekyll tutorial](https://melvinchng.github.io/jekyll/installation.html#ruby-and-nodejs-installation) or [Ruby on Rails Tutorial](https://melvinchng.github.io/rails/RubyOnRailsInstallation.html) for Windows, Linux, and MacOS (installation videos are included).

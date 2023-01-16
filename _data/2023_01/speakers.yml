@@ -1,0 +1,35 @@
+- name: Jean-Rémy Révy
+  position: Manager Senior & Lead Architect
+  company_logo: ippon.png
+  img: revy.jpeg
+  title: "Table ronde"
+
+- name: Laurent Brisse
+  position: Enterprise Architect Leader
+  company_logo: laredoute.png
+  img: brisse.jpeg
+  title: "Table ronde"
+
+- name: Frédéric Faure
+  position: Javagiliste
+  company_logo: zenika.png
+  img: faure.jpeg
+  title: "Table ronde"
+
+- name: Romain Deborde
+  company_logo: lbp.png
+  img: deborde.png
+  position: Coach devops
+  title: "Table ronde"
+
+- name: Christophe Bornet
+  position: "Senior Software Engineer"
+  company_logo: datastax.png
+  img: bornet.jpeg
+  title: "7 raisons de considérer Apache Pulsar comme plate-forme de messaging et de streaming"
+
+- name: Julien Jakubowksi
+  img: jakubowski.jpeg
+  position: Developer Relations Manager
+  company_logo: StreamNative.png
+  title: "7 raisons de considérer Apache Pulsar comme plate-forme de messaging et de streaming"

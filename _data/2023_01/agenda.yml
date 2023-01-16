@@ -1,0 +1,33 @@
+- begin: "17:45"
+  end: "18:00"
+  title: Accueil et Introduction
+  speaker:
+
+    - begin: "18:00"
+  end: "18:45"
+  topic: "7 raisons de considérer Apache Pulsar comme plate-forme de messaging et de streaming"
+  title: "Apache Pulsar"
+  speakers:
+  - name: "Christophe Bornet"
+    position: "Senior Software Engineer"
+  - name: Julien Jakubowksi
+    position: Developer Relations Manager
+
+- begin: "18:45"
+  end: "19:30"
+  title: "Accelerate or not : that's the \"table ronde\""
+  speakers:
+  - name: Jean-Rémy Révy
+    position: Manager Senior & Lead Architect
+
+  - name: Laurent Brisse
+    position: Enterprise Architect Leader
+
+  - name: Frédéric Faure
+    position: Javagiliste
+  - name: Romain Deborde
+    position: Coach devops
+
+- begin: "19:30"
+  end: "19:35"
+  title: Conclusion

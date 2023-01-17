@@ -3,7 +3,7 @@
   title: Accueil et Introduction
   speaker:
 
-    - begin: "18:00"
+- begin: "18:00"
   end: "18:45"
   topic: "7 raisons de considérer Apache Pulsar comme plate-forme de messaging et de streaming"
   title: "Apache Pulsar"

@@ -7,6 +7,7 @@
   end: "18:45"
   topic: "7 raisons de considérer Apache Pulsar comme plate-forme de messaging et de streaming"
   title: "Apache Pulsar"
+  video_url: "https://www.youtube.com/embed/IKAJxMxkyvY"
   speakers:
   - name: "Christophe Bornet"
     position: "Senior Software Engineer"
@@ -16,6 +17,7 @@
 - begin: "18:45"
   end: "19:30"
   title: "Accelerate or not : that's the \"table ronde\""
+  video_url: "https://www.youtube.com/embed/SCxVX-gRcLI"
   speakers:
   - name: Jean-Rémy Révy
     position: Manager Senior & Lead Architect

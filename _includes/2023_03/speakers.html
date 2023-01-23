@@ -1,0 +1,40 @@
+<!-- Portfolio Grid Section -->
+<section id="speakers" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Les Intervenants</h2>
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
+    </div>
+    <div class="row">
+      {% for speaker in site.data.2023_03.speakers %}
+      <div class="col-md-4 col-sm-6 speakers-item">
+        <div href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
+          <div class="speakers-hover hidden-sm hidden-xs">
+            <div class="speakers-hover-content">
+              <div class="row" style="height:40%">
+                <h4>{{ speaker.position }}</h4>
+              </div>
+              <div class="row" style="height:50%; padding-bottom:5px">
+                <img class="company img-responsive center-block" src="/css/2023_03/img/logos/{{ speaker.company_logo }}" alt="{{ member.company_logo }}"/>
+              </div>
+            </div>
+          </div>
+        <img src="/css/2023_03/img/speaker/{{ speaker.img }}" class="member-photo img-responsive img-centered" alt="{{ speaker.name }}">
+        </div>
+        <div class="speakers-caption">
+          <h4>{{ speaker.name }}</h4>
+          <div class="visible-sm visible-xs">
+            <h4>{{ speaker.position }}</h4>
+          </div>
+          <div class="row visible-sm visible-xs">
+            <img class="company img-responsive center-block" src="/css/2023_03/img/logos/{{ speaker.company_logo }}" alt="{{ member.company_logo }}"/>
+          </div>
+          <p class="text-muted">{{ speaker.title }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

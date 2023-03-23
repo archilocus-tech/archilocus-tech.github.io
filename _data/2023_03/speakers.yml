@@ -1,0 +1,27 @@
+- name: "Christophe Breheret-Girardin"
+  position: "Coach craft & Formateur"
+  company_logo: octo.webp
+  img: camicas.jpeg
+
+- name: "Mustapha Benosmane"
+  position: Architecte
+  company_logo: adeo.jpeg
+  img: benosmane.jpeg
+
+- name: Christophe Camicas
+  position: Engineering Director
+  title: "Table ronde"
+  company_logo: payfit.png
+  img: camicas.jpeg
+
+- name: Dorine Periolat
+  position: Architecte SI
+  title: "Table ronde"
+  company_logo: bdx_metro.png
+  img: periolat.jpeg
+
+- name: Simon Bachelet
+  position: Leader Success of Stores Digitalization
+  title: "Table ronde"
+  company_logo: merlin.png
+  img: bachelet.jpeg

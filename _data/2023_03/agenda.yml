@@ -1,0 +1,41 @@
+- begin: "17:00"
+  end: "17:10"
+  title: Accueil et Introduction
+  speaker:
+
+- begin: "17:10"
+  end: "17:50"
+  topic: "Afin de pallier les problèmes des architectures n-tiers, plusieurs architectures ont émergé après les années 2000, dont l’Architecture Hexagonale et la Clean Architecture.
+Sont-elles bien comprises ? N’aurait-on pas tendance à baser notre compréhension de ces architectures sur des croyances plutôt que sur les publications d'origine ?
+Qu'apportent-elles ? Quels sont leurs périmètres d'application ? Sont-elles la réponse unique à tous les problèmes ?
+Cette présentation introduit ces deux types d’architecture de manière comparée, afin de répondre à la question qu’on peut légitimement se poser : sont-elles semblables ou réellement divergentes ?"
+  title: "La Clean Archigonale"
+  speakers:
+  - name: "Christophe Breheret-Girardin"
+    position: "Coach craft & Formateur"
+
+- begin: "17:50"
+  end: "18:30"
+  title: "Développez des APIs que les développeurs adoreront utiliser, grâce au design thinking"
+  topic: "Les APIs sont devenues très populaires. Elles sont les fondements de notre monde interconnecté. Vous êtes-vous déjà demandé pourquoi personne n'utilise votre API ? Pourquoi construire une API si personne ne sait comment l'utiliser ? Dans cette présentation, nous partageons nos conseils sur la conception d'API - inspirés par les méthodes du Design Thinking. Pour rendre votre API plus exploitable et la faire adopter massivement."
+  speakers:
+  - name: "Mustapha Benosmane"
+    position: Architecte
+
+
+- begin: "18:30"
+  end: "19:10"
+  title: "Table ronde"
+  topic: "Décodons le Low/No Code !"
+  speakers:
+  - name: Christophe Camicas
+    position: Engineering Director
+  - name: Dorine Periolat
+    position: Architecte SI
+  - name: Simon Bachelet
+    position: Leader Success of Stores Digitalization
+
+
+- begin: "19:10"
+  end: "19:15"
+  title: Conclusion

@@ -1,0 +1,43 @@
+- name: François SIZAIRE
+  position: Architecte d'entreprise
+  company_logo: projexion.png
+  img: sizaire.jpeg
+  title: "Table ronde"
+
+- name: Manon CORNET
+  position: Entreprise Architect
+  company_logo: ippon.png
+  img: cornet.jpeg
+  title: "Table ronde"
+
+- name: Laurent Brisse
+  position: Enterprise Architect Leader
+  company_logo: merlin.png
+  img: brisse.jpeg
+  title: "Table ronde"
+
+
+- name: "Nicola Sannelli"
+  position: "Architecte d'entreprise"
+  title: "Gestion de la dette"
+  company_logo: auchan.png
+  img: sannelli.jpeg
+
+
+- name: "Vincent Rabah"
+  position: "Architecte d'Entreprise"
+  title: "L'éco-conception"
+  company_logo: emploi.jpeg
+  img: rabah.jpeg
+
+- name: Dorine Periolat
+  position: Architecte SI
+  title: "Table ronde"
+  company_logo: bdx_metro.png
+  img: periolat.jpeg
+
+- name: "Olivier Fouquet"
+  img: fouquet.jpeg
+  position: "Responsable du Service Urbanisation, Architecture et Sécurité du SI"
+  company_logo: bdx_metro.png
+  title: "Table ronde"

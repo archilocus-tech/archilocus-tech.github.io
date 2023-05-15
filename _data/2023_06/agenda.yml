@@ -27,7 +27,8 @@ Les premiers indicateurs de pilotage mis en œuvre"
 - begin: "19:25"
   end: "20:00"
   title: "Table ronde"
-  topic: "Comment se transformer en entreprise plateforme, du point de vue de l'Architecte d'Entreprise"
+  topic: "Une entreprise plateforme tire sa valeur dans la mise en relation entre fournisseurs et consommateurs en orchestrant les interactions entre ces deux parties. Si les modèles récents comme Uber & Air B&B ne possèdent initialement aucun bien, les entreprises plus historique peuvent elles aussi devenir des plateformes, à l'instar des Marketplace dans le Retail, ou des banques dont c'est une modalité assez fréquente.
+Sous quelle condition ?  Avec quel impact ? C'est ce que nous aborderons lors dans notre table ronde"
   speakers:
   - name: Dorine Periolat
     position: Architecte SI

@@ -36,8 +36,14 @@
   company_logo: bdx_metro.png
   img: periolat.jpeg
 
-- name: "Olivier Fouquet"
-  img: fouquet.jpeg
-  position: "Responsable du Service Urbanisation, Architecture et Sécurité du SI"
-  company_logo: bdx_metro.png
+- name: Long NGUYEN
+  position: Responsable de l'Architecture d'Entreprise
   title: "Table ronde"
+  company_logo: merlin.png
+  img: long.jpeg
+
+- name: Sylvain Mongy
+  position: Architecte d'Entreprise
+  title: "Table ronde"
+  company_logo: merlin.png
+  img: mongy.jpeg

@@ -153,3 +153,9 @@
   title: "The Programmer's Brain"
   author: "Felienne Hermans"
   tags: "Generalist, Psychology"
+
+- year: 2018
+  url: https://www.goodreads.com/book/show/40735348-the-practice-of-enterprise-architecture
+  title: "The Practice of Enterprise Architecture: A Modern Approach to Business and IT Alignment"
+  author: "Svyatoslav Kotusev"
+  tags: "Architecture"

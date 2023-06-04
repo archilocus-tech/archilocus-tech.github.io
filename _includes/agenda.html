@@ -3,12 +3,12 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Le programme</h2>
-        <h3>Jeudi 10 Mars</h3>
+        <h3>{{ include.date }}</h3>
       </div>
     </div>
     <div class="col-md-8 col-md-offset-2">
 
-      {% for agenda in site.data.2022_03.agenda %}
+      {% for agenda in site.data.[include.directory].agenda %}
       <div class="row slot">
         <div class="col-xs-4 col-sm-2 hidden-xs">{{ agenda.begin }}</div>
         <div class="col-sm-10 col-xs-12" >
@@ -18,21 +18,25 @@
               <p class="title">{{ agenda.title }}</p>
             </div>
             <div class="row">
+              {% for speaker in agenda.speakers %}
+                <div class="col-xs-6">
+                  <p class="name">{{ speaker.name }}</p>
+                  {% if speaker.position %}
+                  <i>{{ speaker.position }}</i>
+                  {% endif %}
+                </div>
+              {% endfor %}
               <div class="col-xs-6">
-                <p class="name">{{ agenda.speaker.name }}</p>
-                {% if agenda.speaker.position %}
-                <i>{{ agenda.speaker.position }}</i>
-                {% endif %}
-              </div>
-              <div class="col-xs-6">
-                <img class="company img-responsive col-sm-2" src="/css/2022_03/img/logos/{{ agenda.company_logo }}" alt="{{ agenda.company_logo }}"/>
+                <img class="company img-responsive col-sm-2" src="/css/{{ include.directory }}/img/logos/{{ agenda.company_logo }}" alt="{{ agenda.company_logo }}"/>
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-6">
-                <span class="topic">{{ agenda.topic | newline_to_br}}</span>
-              </div>
               {% if agenda.video_url %}
+              <div class="col-xs-6">
+              {% endif %}
+                <span class="topic">{{ agenda.topic | newline_to_br}}</span>
+              {% if agenda.video_url %}
+              </div>
               <div class="col-xs-6">
                 <div class="embed-responsive  embed-responsive-4by3">
                   <iframe class="embed-responsive-item"  allowFullScreen="true"

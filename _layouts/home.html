@@ -28,8 +28,8 @@
     </header>
 
     {% include home/intro.html %}
-    {% include 2023_06/agenda.html %}
-    {% include 2023_06/speakers.html %}
+    {% include agenda.html directory="2023_06" %}
+    {% include speakers.html directory="2023_06" %}
     {% include /footer.html %}
     {% include home/js.html %}
     <script src="{{ "/css/js/agency.js" | prepend: site.baseurl }}"></script>

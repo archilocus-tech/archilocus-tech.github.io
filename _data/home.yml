@@ -1,10 +1,11 @@
 next:
-  date: "Jeudi 1 Juin 2023"
-  place: "Lille & Bordeaux - 18h"
-  #call: https://conference-hall.io/public/event/RDgIWt2Qy01elL0Skezw
-  link: https://www.meetup.com/archilocus/events/293545147/
+  date: "Jeudi 12 Octobre 2023"
+  place: "Remote - 18h"
+  #link: https://www.meetup.com/archilocus/events/293545147/
+  call: https://conference-hall.io/public/event/0DCK6T3otH36TuNl0hME
+  dir: "2023_10"
 video:
-  url: "https://www.youtube.com/embed/7TrWMqw0VO8"
+  url: "https://www.youtube.com/embed/cmTTNvEhxis"
 about:
   - fa: info
     name: Thème, Vision

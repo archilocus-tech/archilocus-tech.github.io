@@ -1,0 +1,11 @@
+- name: Philippe Bousquet
+  position: Architecte - Directeur Technique Java
+  company_logo: sqli.png
+  img: bousquet.jpeg
+  title: "Design First : Boostez le Développement, la Qualité et la Sécurité de vos APIs"
+
+- name: Marc Gavanier
+  position: Software Craftsman
+  company_logo: marc.jpeg
+  img: gavanier.jpeg
+  title: "Comment on n'a (toujours) pas codé de back-end après 1 an et demi en production"

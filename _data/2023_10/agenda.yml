@@ -1,3 +1,19 @@
 - begin: "18:00"
   end: "18:05"
   title: Accueil sur twitch
+- begin: "18:05"
+  end: "18:45"
+  title: "Design First : Boostez le Développement, la Qualité et la Sécurité de vos APIs"
+  topic: "Aujourd'hui les APIs sont partout, et lors de ce talk je vais tenter de démontrer l'intérêt de de Designer son API REST au travers d'OpenAPI et ce que cela apporte en terme de développement, documentation, et sécurité"
+  speakers:
+  - name: "Philippe Bousquet"
+    position: "Architecte - Directeur Technique Java"
+
+- begin: "18:45"
+  end: "19:25"
+  title: "Comment on n'a (toujours) pas codé de back-end après 1 an et demi en production"
+  topic: "Lors de ce retour d'expérience, vous verrez comment notre petite équipe de développement a réussi à maximiser la valeur produite en ne codant pas.
+Vous découvrirez au travers d'exemples concrets pourquoi cela nous a permis de gagner un temps très précieux en période de lancement, ainsi que les nombreux effets positifs auxquels nous ne nous attendions vraiment pas en faisant ce choix !"
+  speakers:
+  - name: Marc Gavanier
+    position: Software Craftsman

@@ -21,3 +21,12 @@ Vous découvrirez au travers d'exemples concrets pourquoi cela nous a permis de 
   end: "20:15"
   title: "Table ronde"
   topic: "Qu'est-ce qu'il RESTe à apprendre sur les API ?"
+  speakers:
+  - name: "Philippe Bousquet"
+    position: "Architecte - Directeur Technique Java"
+  - name: Aurélien Lajoie
+    position: VP Enginerring
+  - name: Laurent Brisse
+    position: Enterprise Architect Leader
+  - name: Philippe Kernevez
+    position: Co-Founder & Senior Architect

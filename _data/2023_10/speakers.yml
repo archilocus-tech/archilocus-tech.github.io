@@ -1,8 +1,23 @@
+- name: Philippe Kernevez
+  position: Co-Founder & Senior Architect
+  img: kernevez.jpeg
+  company_logo: kleis.jpeg
+  title: "Table ronde"
+- name: Laurent Brisse
+  position: Enterprise Architect Leader
+  company_logo: merlin.png
+  img: brisse.jpeg
+  title: "Table ronde"
+- name: Aurélien Lajoie
+  position: VP Enginerring
+  company_logo: kili.jpeg
+  img: lajoie.jpeg
+  title: "Table ronde"
 - name: Philippe Bousquet
   position: Architecte - Directeur Technique Java
   company_logo: sqli.png
   img: bousquet.jpeg
-  title: "Design First : Boostez le Développement, la Qualité et la Sécurité de vos APIs"
+  title: "Design First : Boostez le Développement, la Qualité et la Sécurité de vos APIs.<br /> Table ronde"
 
 - name: Marc Gavanier
   position: Software Craftsman
@@ -10,8 +25,3 @@
   img: gavanier.jpeg
   title: "Comment on n'a (toujours) pas codé de back-end après 1 an et demi en production"
 
-- name: Philippe Kernevez
-  position: Co-Founder & Senior Architect
-  img: kernevez.jpeg
-  company_logo: kleis.jpeg
-  title: "Table ronde"

@@ -13,6 +13,12 @@
   company_logo: kili.jpeg
   img: lajoie.jpeg
   title: "Table ronde"
+
+- name: Gregory Tall
+  position: Product Manager API & SDK
+  company_logo: dedge.jpeg
+  img: tall.jpeg
+  title: "Table ronde"
 - name: Philippe Bousquet
   position: Architecte - Directeur Technique Java
   company_logo: sqli.png

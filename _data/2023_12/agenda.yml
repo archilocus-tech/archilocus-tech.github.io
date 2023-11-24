@@ -13,6 +13,9 @@ Au programme : découpage, organisation, architecture pragmatique, cassage de cl
 
 - begin: "18:45"
   end: "19:25"
+  speakers:
+  - name: Loïc Carbonne
+    position: Head of e-commerce tribe
   title: "Bienvenue dans l'ère des architectures composables !"
   topic: "Selon les derniers rapports sur les technologies émergentes, les architectures composables sont pré-senties comme étant “le futur des architectures logicielles”.
 
@@ -26,6 +29,7 @@ les fondations et principes du composable
 les véritables avantages mais également les compromis qui en résultent
 comment en tirer profit dès aujourd'hui sans reconstruire intégralement votre existant ?
 "
+
 - begin: "19:25"
   end: "20:15"
   title: "Table ronde"

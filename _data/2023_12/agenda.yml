@@ -3,16 +3,29 @@
   title: Accueil chezCtrlUp
 - begin: "18:05"
   end: "18:45"
-  title: ""
-  topic: ""
+  title: "Comment on a arrêté notre clean archi ?"
+  topic: "L'histoire d'une petite équipe plongée dans une Clean Architecture agée de 3 ans, qui s'est rendu compte que `Clean` n'était qu'un nom, et que la `Clean Archi` était loin d'être une silver bullet. Comment cette équipe est passée d'intuitions à statistiques, pour ensuite créer une nouvelle architecture et une nouvelle stratégie de tests, plus adaptées aux besoins métiers. Le tout sur une application en prod, avec 3 équipes en parallèle sur la même base de code.
+
+Au programme : découpage, organisation, architecture pragmatique, cassage de clean archi, métriques du code et stratégie de tests."
   speakers:
-  - name: ""
-    position: ""
+  - name: "Antoine Mazure"
+    position: "Software Engineer, Tribe Leader & Trainer"
 
 - begin: "18:45"
   end: "19:25"
-  title: ""
-  topic: ""
+  title: "Bienvenue dans l'ère des architectures composables !"
+  topic: "Selon les derniers rapports sur les technologies émergentes, les architectures composables sont pré-senties comme étant “le futur des architectures logicielles”.
+
+Opposé à l’architecture monolithique et repoussant les limites de l’architecture micro-service, le composable prônant une forte modularité permet de gagner en agilité, en rapidité d’implémentation tout en améliorant l’expérience utilisateur.
+
+Le composable consiste à construire une architecture hybride avec un ensemble de briques réutilisables, que ce soit des briques personnalisées développées avec du code ou du no-code, ou encore des briques SaaS sur-étagère, sélectionnées parmi les meilleures du marché. Aujourd'hui, cette composition est facilitée grâce à de nouveaux acteurs: les plateformes de composition.
+
+Au cours de ce talk, découvrez :
+
+les fondations et principes du composable
+les véritables avantages mais également les compromis qui en résultent
+comment en tirer profit dès aujourd'hui sans reconstruire intégralement votre existant ?
+"
 - begin: "19:25"
   end: "20:15"
   title: "Table ronde"

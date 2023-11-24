@@ -1,0 +1,11 @@
+- name: Antoine Mazure
+  position: Software Engineer, Tribe Leader & Trainer
+  company_logo: octo.png
+  img: mazure.jpeg
+  title: "Comment on a arrêté notre clean archi ?"
+
+- name: Loïc Carbonne
+  position: Head of e-commerce tribe
+  company_logo: theodo.png
+  img: carbonne.jpeg
+  title: "Bienvenue dans l'ère des architectures composables !"

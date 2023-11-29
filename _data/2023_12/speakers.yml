@@ -1,3 +1,18 @@
+- name: Laurent Brisse
+  position: Enterprise Architect Leader
+  company_logo: merlin.png
+  img: brisse.jpeg
+  title: "Table ronde"
+- name: Cyril Beslay
+  position: Solution Architect
+  company_logo: manomano.png
+  img: beslay.jpeg
+  title: "Table ronde"
+- name: Thomas Marty
+  position: Architecte entreprise
+  company_logo: peaksy.jpeg
+  img: marty.png
+  title: "Table ronde"
 - name: Antoine Mazure
   position: Software Engineer, Tribe Leader & Trainer
   company_logo: octo.png

@@ -33,4 +33,11 @@ comment en tirer profit dès aujourd'hui sans reconstruire intégralement votre 
 - begin: "19:25"
   end: "20:15"
   title: "Table ronde"
-  topic: ""
+  topic: "Architecture d'Entreprise et environnement Business sous contrainte sont dans un bateau, l'AE se transforme-t-elle ?"
+  speakers:
+  - name: Laurent Brisse
+    position: Enterprise Architect Leader
+  - name: Cyril Beslay
+    position: Solution Architect
+  - name: Thomas Marty
+    position: Architecte entreprise

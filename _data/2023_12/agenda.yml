@@ -3,6 +3,7 @@
   title: Accueil chezCtrlUp
 - begin: "18:05"
   end: "18:45"
+  video_url: https://www.youtube.com/embed/h6_vx26csPU?si=lxX5imspwzCFPyew
   title: "Comment on a arrêté notre clean archi ?"
   topic: "L'histoire d'une petite équipe plongée dans une Clean Architecture agée de 3 ans, qui s'est rendu compte que `Clean` n'était qu'un nom, et que la `Clean Archi` était loin d'être une silver bullet. Comment cette équipe est passée d'intuitions à statistiques, pour ensuite créer une nouvelle architecture et une nouvelle stratégie de tests, plus adaptées aux besoins métiers. Le tout sur une application en prod, avec 3 équipes en parallèle sur la même base de code.
 
@@ -13,6 +14,7 @@ Au programme : découpage, organisation, architecture pragmatique, cassage de cl
 
 - begin: "18:45"
   end: "19:25"
+  video_url: https://www.youtube.com/embed/_jLo0Zn8vhw?si=MMau1Sr6YO410UuS
   speakers:
   - name: Loïc Carbonne
     position: Head of e-commerce tribe
@@ -33,6 +35,7 @@ comment en tirer profit dès aujourd'hui sans reconstruire intégralement votre 
 - begin: "19:25"
   end: "20:15"
   title: "Table ronde"
+  video_url: https://www.youtube.com/embed/YDWqFA8Bru4?si=-tnk-K_4CdEcDb_W
   topic: "Architecture d'Entreprise et environnement Business sous contrainte sont dans un bateau, l'AE se transforme-t-elle ?"
   speakers:
   - name: Laurent Brisse

@@ -1,11 +1,11 @@
 next:
   date: "Jeudi 14 mars 2024"
   place: "Remote - 18h"
-  #link: https://www.meetup.com/archilocus/events/297556058/
+  # link: https://www.meetup.com/archilocus/events/297556058/
   call: https://conference-hall.io/public/event/4xEJ3oTxD5Lx7HEtT9Cz
   dir: "2024_03"
-#video:
-#  url: "https://www.youtube.com/embed/gnF73JxfnS8?si=xorHd5mIpGoEEjWM"
+video:
+  url: "https://www.youtube.com/embed/_R9s7WwR3bw?si=rvIiSFEGpPJ0XjM-"
 about:
   - fa: info
     name: Thème, Vision
@@ -16,4 +16,3 @@ about:
     name: L'équipe
     info: Qui sommes-nous ?
     link: /team
-

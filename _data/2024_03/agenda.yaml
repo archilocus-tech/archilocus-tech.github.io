@@ -1,3 +1,11 @@
 - begin: "18:00"
   end: "18:05"
   title: Accueil sur twitch
+
+- begin: "18:05"
+  end: "18:50"
+  title: "Banalisation du DDD ou pas ?"
+  topic: "Beaucoup de développeurs pensent le Domain-Driven Design (DDD) comme la boîte à outils DDD (Aggregate, Entity Value Object …). Mais qu’en est-il de modélisation orientée sur le domaine métier ? Comment modéliser un problème complexe sans se perdre dans une complexité du code. Après avoir passé en revue les approches permettant de comprendre l'espace du problème, nous plongerons dans l'art de la modélisation DDD au niveau du code. Le Domain-Driven Design n’est pas une friandise, mais une approche permettant de modéliser le cœur d’un produit aligner avec les attentes des experts du métier. Je rappellerai les techniques permettant de comprendre l’espace du problème, avant de vous emmener dans l’approche d’une modélisation profonde au niveau du code : Le Model-Driven Design"
+  speakers:
+    - name: "Bruno Boucard"
+      position: Trainer, coach agile et speaker

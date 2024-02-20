@@ -3,3 +3,14 @@
   company_logo: 42skillz.png
   img: boucard.jpg
   title: "Banalisation du DDD ou pas ?"
+- name: "Alexandre Touret"
+  position: "Senior Software Architect/TechRel"
+  title: "Une plateforme à concevoir, deux architectes: trois possibilités ?"
+  img: touret.jpeg
+  company_logo: worldline.png
+
+- name: "Raphaël Semeteys"
+  position: "Tech Advocate, Architect"
+  img: semeteys.jpeg
+  title: "Une plateforme à concevoir, deux architectes: trois possibilités ?"
+  company_logo: worldline.png

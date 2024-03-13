@@ -24,3 +24,15 @@ A la fin de cette présentation, vous aurez des clés pour penser et démarrer l
 
     - name: "Raphaël Semeteys"
       position: "Tech Advocate, Architect, FOSS expert, Yoga Teacher"
+
+- begin: "19h40"
+  end: "20h30"
+  title: Table ronde
+  topic: "Les anti-patterns d'une approche DDD"
+  speakers:
+    - name: "Alexandre Touret"
+      position: "Senior Software Architect/TechRel"
+    - name: "Bruno Boucard"
+      position: Trainer, coach agile et speaker
+    - name: Jean-Rémy Révy
+      position: Manager Senior & Lead Architect

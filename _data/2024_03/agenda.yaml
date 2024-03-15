@@ -5,6 +5,7 @@
 - begin: "18:05"
   end: "18:50"
   title: "Banalisation du DDD ou pas ?"
+  video_url: https://www.youtube.com/embed/ZlWg4n4I1tE?si=vSr9lZOyZ_JNAW7V
   topic: "Beaucoup de développeurs pensent le Domain-Driven Design (DDD) comme la boîte à outils DDD (Aggregate, Entity Value Object …). Mais qu’en est-il de modélisation orientée sur le domaine métier ? Comment modéliser un problème complexe sans se perdre dans une complexité du code. Après avoir passé en revue les approches permettant de comprendre l'espace du problème, nous plongerons dans l'art de la modélisation DDD au niveau du code. Le Domain-Driven Design n’est pas une friandise, mais une approche permettant de modéliser le cœur d’un produit aligner avec les attentes des experts du métier. Je rappellerai les techniques permettant de comprendre l’espace du problème, avant de vous emmener dans l’approche d’une modélisation profonde au niveau du code : Le Model-Driven Design"
   speakers:
     - name: "Bruno Boucard"
@@ -13,6 +14,7 @@
 - begin: "18:50"
   end: "19:35"
   title: "Une plateforme à concevoir, deux architectes: trois possibilités ?"
+  video_url: https://www.youtube.com/embed/kWRMGdEcr_Q?si=Jy0LTnIIUrS0omto
   topic: "La conception d'une plateforme est toujours délicate à initier.
 Comment démarrer? Quelle est la démarche à adopter pour concevoir une architecture? Quel est le modèle à appliquer: event streaming, orchestration ou chorégraphie? Au travers d'un besoin utilisateur, nous prendrons notre \"casquette\" d'architecte et déroulerons devant vous une étude pour une toute nouvelle plateforme \"Donuts @ Home\".
 Après avoir analysé le besoin, confrontés nos idées et convictions devant vous, nous choisirons, parmi toutes les solutions possibles, quelle est la \"moins pire\".
@@ -29,6 +31,7 @@ A la fin de cette présentation, vous aurez des clés pour penser et démarrer l
   end: "20h30"
   title: Table ronde
   topic: "Les anti-patterns d'une approche DDD"
+  video_url: https://www.youtube.com/embed/F_GO5C1lwD0?si=GmWAcJ-PjP9dC7Kh
   speakers:
     - name: "Alexandre Touret"
       position: "Senior Software Architect/TechRel"

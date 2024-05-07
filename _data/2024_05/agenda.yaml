@@ -1,0 +1,29 @@
+- begin: "18:00"
+  end: "18:05"
+  title: Accueil chez Zenika (17 Quai Louis XVIII)
+- begin: "18:05"
+  end: "18:45"
+  title: "OpenTelemetry: vous ne pourrez plus vous passer de monitoring en prod"
+  topic: "Pour toutes les personnes qui travaillent dans un système distribué, il est aujourd’hui vital de monitorer son architecture. L’optimisation d’une architecture passe avant tout par une connaissance accrue de son fonctionnement. C’est à partir de cette problématique qu’est né OpenTelemetry.
+A travers un retour d’expérience et des exemples concrets d’utilisation, on vous présentera les enjeux et les bonnes pratiques pour monitorer votre production."
+  speakers:
+  - name: Vivien Maleze
+    position: Architecte Technique
+
+- begin: "18:45"
+  end: "19:25"
+  speakers:
+  - name: Guillaume Lannebere
+    position: Head Of Cloud Center Of Excellence
+  title: "Pourquoi nous avons choisi de privilégier les services managés sur le cloud ?"
+  topic: "Retour d'expérience de Betclic sur le choix des produits managés Cloud"
+
+- begin: "19:25"
+  end: "20:15"
+  title: "Table ronde"
+  topic: "Comment je monitore ma prod ?"
+  speakers:
+  - name: Denis Germain
+    position: Staff SRE
+  - name: Sébastien Descamps
+    position: Développeur-Consultant-Formateur

@@ -1,11 +1,11 @@
 next:
-  date: "Jeudi 14 mars 2024"
-  place: "Remote - 18h"
-  link: https://www.meetup.com/archilocus/events/299358241/
+  date: "Jeudi 30 Mai 2024"
+  place: "Présentiel - 18h - Zenika (17 Quai Louis XVIII)"
+  link: https://www.meetup.com/archilocus/events/300879794/
   #call: https://conference-hall.io/public/event/4xEJ3oTxD5Lx7HEtT9Cz
-  dir: "2024_03"
-video:
-  url: "https://www.youtube.com/embed/_R9s7WwR3bw?si=rvIiSFEGpPJ0XjM-"
+  dir: "2024_05"
+#video:
+#  url: "https://www.youtube.com/embed/_R9s7WwR3bw?si=rvIiSFEGpPJ0XjM-"
 about:
   - fa: info
     name: Thème, Vision

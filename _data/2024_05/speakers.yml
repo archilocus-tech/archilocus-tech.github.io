@@ -1,0 +1,23 @@
+- name: Vivien Maleze
+  position: Architecte Technique
+  company_logo: ippon.png
+  img: vivien.png
+  title: "OpenTelemetry: vous ne pourrez plus vous passer de monitoring en prod"
+
+- name: "Guillaume Lannebere"
+  position: "Head Of Cloud Center Of Excellence"
+  title: "Pourquoi nous avons choisi de privilégier les services managés sur le cloud ?"
+  img: lannebere.jpeg
+  company_logo: betclic.png
+
+- name: "Denis Germain"
+  position: "Staff SRE"
+  img: germain.jpeg
+  title: "Table ronde - Comment je monitore ma prod ?"
+  company_logo: deezer.png
+
+- name: "Sebastien Descamps"
+  position: "Staff SRE"
+  img: descamps.jpeg
+  title: "Table ronde - Comment je monitore ma prod ?"
+  company_logo: zenika.png

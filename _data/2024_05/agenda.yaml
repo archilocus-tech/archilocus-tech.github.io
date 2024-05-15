@@ -15,7 +15,7 @@ A travers un retour d’expérience et des exemples concrets d’utilisation, on
   speakers:
   - name: Guillaume Lannebere
     position: Head Of Cloud Center Of Excellence
-  title: "Pourquoi nous avons choisi de privilégier les services managés sur le cloud ?"
+  title: "Pourquoi privilégions-nous les services managés dans le Cloud ?"
   topic: "Chez Betclic, nous avons privilégié l'utilisation de services managés pour notre migration vers le cloud.
 Nous vous expliquerons pourquoi nous avons fait ce choix avec des exemples concrets."
 
@@ -27,4 +27,6 @@ Nous vous expliquerons pourquoi nous avons fait ce choix avec des exemples concr
   - name: Denis Germain
     position: Staff SRE
   - name: Sébastien Descamps
-    position: Développeur-Consultant-Formateur
+    position: Directeur R&D et Innovation
+  - name: Gauthier Astruc-Amato
+    position: CTO

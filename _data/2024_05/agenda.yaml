@@ -3,6 +3,7 @@
   title: Accueil chez Zenika (17 Quai Louis XVIII)
 - begin: "18:05"
   end: "18:45"
+  video_url: "https://www.youtube.com/embed/WIkZAMmEcmk?si=86n0Ka_1LFe9S5O2"
   title: "OpenTelemetry: vous ne pourrez plus vous passer de monitoring en prod"
   topic: "Pour toutes les personnes qui travaillent dans un système distribué, il est aujourd’hui vital de monitorer son architecture. L’optimisation d’une architecture passe avant tout par une connaissance accrue de son fonctionnement. C’est à partir de cette problématique qu’est né OpenTelemetry.
 A travers un retour d’expérience et des exemples concrets d’utilisation, on vous présentera les enjeux et les bonnes pratiques pour monitorer votre production."
@@ -12,6 +13,7 @@ A travers un retour d’expérience et des exemples concrets d’utilisation, on
 
 - begin: "18:45"
   end: "19:25"
+  video_url: "https://www.youtube.com/embed/45-Thjhbq7E?si=Bo223zFKZhtZO-nJ"
   speakers:
   - name: Guillaume Lannebere
     position: Head Of Cloud Center Of Excellence
@@ -23,6 +25,7 @@ Nous vous expliquerons pourquoi nous avons fait ce choix avec des exemples concr
   end: "20:15"
   title: "Table ronde"
   topic: "Comment je monitore ma prod ?"
+  video_url: "https://www.youtube.com/embed/jJN08S0RfaI?si=SckX26At0Og6W_a7"
   speakers:
   - name: Denis Germain
     position: Staff SRE

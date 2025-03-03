@@ -1,0 +1,15 @@
+- name: "Alexandre Touret"
+  position: "Senior Software Architect/TechRel"
+  title: "Une plateforme à concevoir, deux architectes: trois possibilités ?"
+  img: touret.jpeg
+  company_logo: worldline.png
+- name: Julien Roynette
+  position: Head of Developer Experience
+  img: roynette.jpg
+  title: "Table ronde"
+  company_logo: adeo.jpeg
+- name: Cyril BESLAY
+  position: Architect Solution
+  img: beslay.jpeg
+  company_logo: manomano.png
+  title: "Table ronde"

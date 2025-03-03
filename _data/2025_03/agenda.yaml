@@ -1,0 +1,25 @@
+- begin: "18:00"
+  end: "18:05"
+  title: Accueil
+
+- begin: "18:05"
+  end: "18:45"
+  title: "Le versioning des APIs REST : dans la vraie vie, on fait comment ?"
+  topic: "Quand on souhaite publier des APIs avec par exemple, une solution d'API Management, on évoque régulièrement le versioning. Cette pratique répond à des contraintes projet mais apporte malheureusement son lot de complexité.
+Imaginez, vous travaillez sur un produit qui expose des API à plusieurs clients. Vous devez leur proposer des évolutions et nouvelles fonctionnalités tout en maîtrisant l'existant. Quelle stratégie adopter ? Quelles solutions techniques peut-on mettre en place simplement ?
+Dans cette présentation, vous (re)découvrirez des conseils que j'ai pu mettre en pratique et qui m'ont aidé lors de mes derniers projets.
+Nous aborderons, au travers d'un cas concret la stratégie à mettre en œuvre, les différentes possibilités d'implémentation ainsi que leurs contraintes.
+À l’issue de cette présentation, nous aurons une vue complète et objective des manières d'appréhender le versioning d'API."
+  speakers:
+  - name: "Alexandre Touret"
+    position: "Senior Software Architect/TechRel"
+
+- begin: "19:25"
+  end: "20:15"
+  title: "Table ronde"
+  topic: "\"Adopte ta Tech\", ou quelles sont les bonnes et mauvaises pratiques de Tech Governance ?"
+  speakers:
+  - name: Julien Roynette
+    position: Staff SRE
+  - name: Cyril BESLAY
+    position: Architect Solution

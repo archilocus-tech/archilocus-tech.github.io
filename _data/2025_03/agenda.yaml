@@ -14,6 +14,15 @@ Nous aborderons, au travers d'un cas concret la stratégie à mettre en œuvre, 
   - name: "Alexandre Touret"
     position: "Senior Software Architect/TechRel"
 
+- begin: "18:45"
+  end: "19:25"
+  title: "Venez découvrir une nouvelle solution d'intégration pour interconnecter rapidement n'importe quel système..."
+  topic: "Dans un monde où la connectivité entre applications est essentielle pour garantir l’efficacité opérationnelle, 
+  Apizr Ecosystem offre une solution d’intégration puissante, flexible et facile à déployer. Elle permet également une visualisation à tout moment pour assurer la bonne exécution."
+  speakers:
+  - name: "Matthieu Lagast"
+    position: "CTO"
+
 - begin: "19:25"
   end: "20:15"
   title: "Table ronde"

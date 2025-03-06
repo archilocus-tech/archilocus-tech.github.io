@@ -13,8 +13,13 @@
   img: roynette.jpg
   title: "Table ronde"
   company_logo: adeo.jpeg
-- name: Cyril BESLAY
-  position: Architect Solution
-  img: beslay.jpeg
-  company_logo: manomano.png
+- name: Philippe Kernevez
+  position: Co-Founder & Chief Architect
+  img: kernevez.jpeg
+  company_logo: kleis.jpeg
+  title: "Table ronde"
+- name: Philippe Bousquet
+  position: Architecte - Directeur Technique Java
+  company_logo: sqli.png
+  img: bousquet.jpeg
   title: "Table ronde"

@@ -4,7 +4,7 @@
 
 - begin: "18:05"
   end: "18:45"
-  video_url: "https://youtu.be/qgqovALSIrk?si=3AGOwNScJhXJ6oHI"
+  video_url: "https://www.youtube.com/embed/qgqovALSIrk?si=064IC-8juOorrzgH"
   title: "Le versioning des APIs REST : dans la vraie vie, on fait comment ?"
   topic: "Quand on souhaite publier des APIs avec par exemple, une solution d'API Management, on évoque régulièrement le versioning. Cette pratique répond à des contraintes projet mais apporte malheureusement son lot de complexité.
 Imaginez, vous travaillez sur un produit qui expose des API à plusieurs clients. Vous devez leur proposer des évolutions et nouvelles fonctionnalités tout en maîtrisant l'existant. Quelle stratégie adopter ? Quelles solutions techniques peut-on mettre en place simplement ?
@@ -17,7 +17,7 @@ Nous aborderons, au travers d'un cas concret la stratégie à mettre en œuvre, 
 
 - begin: "18:45"
   end: "19:25"
-  video_url: "https://youtu.be/A7jQn5GEohM?si=WDLQbrNU1UyP2e2d"
+  video_url: "https://www.youtube.com/embed/9UAQZB2h7zM?si=x8yzXF2c3PNBClQK"
   title: "Venez découvrir une nouvelle solution d'intégration pour interconnecter rapidement n'importe quel système..."
   topic: "Dans un monde où la connectivité entre applications est essentielle pour garantir l’efficacité opérationnelle, 
   Apizr Ecosystem offre une solution d’intégration puissante, flexible et facile à déployer. Elle permet également une visualisation à tout moment pour assurer la bonne exécution."
@@ -27,6 +27,7 @@ Nous aborderons, au travers d'un cas concret la stratégie à mettre en œuvre, 
 
 - begin: "19:25"
   end: "20:15"
+  video_url: "https://www.youtube.com/embed/9UAQZB2h7zM?si=BsWdwBQ0YU6MlWw_"
   title: "Table ronde"
   topic: "\"Adopte ta Tech\", ou quelles sont les bonnes et mauvaises pratiques de Tech Governance ?"
   speakers:

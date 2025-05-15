@@ -1,0 +1,43 @@
+- begin: "18:00"
+  end: "18:05"
+  title: Accueil
+
+- begin: "18:05"
+  end: "18:45"
+  #video_url: "https://www.youtube.com/embed/qgqovALSIrk?si=064IC-8juOorrzgH"
+  title: "Architecture is about the important stuff. Whatever that is"
+  topic: "Mais comment bien représenter et structurer l'Architecture ?
+Quels moyens mettre en place pour consigner efficacement les décisions d'Architecture ?
+Comment partager une représentation commune de l'Architecture ?
+Et comment s'assurer qu'elle ne dérive pas avec le temps ?
+Dans ce talk nous parlerons Architecture Decision Records, Architecture Principles, Fitness Functions et Architecture as Code"
+  speakers:
+  - name: "Erwan Osouf"
+    position: "Head of R&D (~ Lead Software Architect)"
+
+- begin: "18:45"
+  end: "19:25"
+  #video_url: "https://www.youtube.com/embed/A7jQn5GEohM?si=3AEhNsweY8ip42pt"
+  title: "Comment France Travail réinvente ses pratiques d’archi pour relever des défis toujours plus complexes ?"
+  topic: "France Travail s’attaque à des défis sociaux, d’envergure nationale. Nous avons transformé notre SI en plateforme en 1 an pour répondre aux enjeux de la loi plein emploi.
+  Pour y arriver, nous avons dû réinventer nos pratiques d’architecture.
+  Ce talk vous emmène dans les coulisses de cette transformation à travers nos outils (ADR, DDD, Team Topologies, ...) et leurs mises en pratiques.
+Découvrez comment des approches simples permettent d’aborder la complexité à l’échelle tout en restant connectés aux équipes."
+  speakers:
+  - name: "Célia Carceller"
+    position: "Architecte d'entreprise"
+  - name: "Deuxième intervenant"
+    position: "Architecte"
+
+- begin: "19:25"
+  end: "20:15"
+  #video_url: "https://www.youtube.com/embed/9UAQZB2h7zM?si=BsWdwBQ0YU6MlWw_"
+  title: "Table ronde"
+  topic: "En cours de définition"
+  speakers:
+  - name: Erwan Osouf
+    position: Head of R&D (~ Lead Software Architect)
+  - name: Célia Carceller
+    position: Architecte d'entreprise
+  - name: Troisième intervenant
+    position: Architecte

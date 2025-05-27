@@ -4,6 +4,22 @@
 
 - begin: "18:05"
   end: "18:45"
+  #video_url: "https://www.youtube.com/embed/A7jQn5GEohM?si=3AEhNsweY8ip42pt"
+  title: "Comment France Travail réinvente ses pratiques d’archi pour relever des défis toujours plus complexes ?"
+  topic: "France Travail s’attaque à des défis sociaux, d’envergure nationale. Nous avons transformé notre SI en plateforme en 1 an pour répondre aux enjeux de la loi plein emploi.
+  Pour y arriver, nous avons dû réinventer nos pratiques d’architecture.
+  Ce talk vous emmène dans les coulisses de cette transformation à travers nos outils (ADR, DDD, Team Topologies, ...) et leurs mises en pratiques.
+Découvrez comment des approches simples permettent d’aborder la complexité à l’échelle tout en restant connectés aux équipes."
+  speakers:
+  - name: "Célia Carceller"
+    position: "Architecte d'entreprise"
+  - name: "David Berthier"
+    position: "Architecte d'entreprise"
+  - name: "François Bivaud"
+    position: "Architecte d'entreprise"
+
+- begin: "18:45"
+  end: "19:25"
   #video_url: "https://www.youtube.com/embed/qgqovALSIrk?si=064IC-8juOorrzgH"
   title: "Architecture is about the important stuff. Whatever that is"
   topic: "Mais comment bien représenter et structurer l'Architecture ?
@@ -14,20 +30,6 @@ Dans ce talk nous parlerons Architecture Decision Records, Architecture Principl
   speakers:
   - name: "Erwan Osouf"
     position: "Head of R&D (~ Lead Software Architect)"
-
-- begin: "18:45"
-  end: "19:25"
-  #video_url: "https://www.youtube.com/embed/A7jQn5GEohM?si=3AEhNsweY8ip42pt"
-  title: "Comment France Travail réinvente ses pratiques d’archi pour relever des défis toujours plus complexes ?"
-  topic: "France Travail s’attaque à des défis sociaux, d’envergure nationale. Nous avons transformé notre SI en plateforme en 1 an pour répondre aux enjeux de la loi plein emploi.
-  Pour y arriver, nous avons dû réinventer nos pratiques d’architecture.
-  Ce talk vous emmène dans les coulisses de cette transformation à travers nos outils (ADR, DDD, Team Topologies, ...) et leurs mises en pratiques.
-Découvrez comment des approches simples permettent d’aborder la complexité à l’échelle tout en restant connectés aux équipes."
-  speakers:
-  - name: "Célia Carceller"
-    position: "Architecte d'entreprise"
-  - name: "Deuxième intervenant"
-    position: "Architecte"
 
 - begin: "19:25"
   end: "20:15"

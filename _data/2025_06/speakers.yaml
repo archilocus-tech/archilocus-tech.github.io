@@ -1,10 +1,21 @@
-- name: Erwan Osouf
-  position: "Head of R&D (~ Lead Software Architect)"
-  title: Architecture is about the important stuff. Whatever that is
-  img: osouf.jpg
-  company_logo: praxedo.jpeg
 - name: "Célia Carceller"
   img: carceller.jpg
   position: Architecte d'entreprise
   title: "Comment France Travail réinvente ses pratiques d’archi pour relever des défis toujours plus complexes ?"
   company_logo: france_travail.png
+- name: "David Berthier"
+  img: berthier.jpg
+  position: Architecte d'entreprise
+  title: "Comment France Travail réinvente ses pratiques d’archi pour relever des défis toujours plus complexes ?"
+  company_logo: france_travail.png
+- name: "François Bivaud"
+  img: bivaud.jpg
+  position: Architecte d'entreprise
+  title: "Comment France Travail réinvente ses pratiques d’archi pour relever des défis toujours plus complexes ?"
+  company_logo: france_travail.png
+- name: Erwan Osouf
+  position: "Head of R&D (~ Lead Software Architect)"
+  title: Architecture is about the important stuff. Whatever that is
+  img: osouf.jpg
+  company_logo: praxedo.jpeg
+  

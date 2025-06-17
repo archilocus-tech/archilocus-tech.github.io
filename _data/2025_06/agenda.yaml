@@ -15,8 +15,6 @@ Découvrez comment des approches simples permettent d’aborder la complexité �
     position: "Architecte d'entreprise"
   - name: "David Berthier"
     position: "Architecte d'entreprise"
-  - name: "François Bivaud"
-    position: "Architecte d'entreprise"
 
 - begin: "18:45"
   end: "19:25"
@@ -35,11 +33,11 @@ Dans ce talk nous parlerons Architecture Decision Records, Architecture Principl
   end: "20:15"
   #video_url: "https://www.youtube.com/embed/9UAQZB2h7zM?si=BsWdwBQ0YU6MlWw_"
   title: "Table ronde"
-  topic: "En cours de définition"
+  topic: "Allons-nous être Gen AI dans nos pratiques d'architecture ?"
   speakers:
   - name: Erwan Osouf
     position: Head of R&D (~ Lead Software Architect)
-  - name: Célia Carceller
-    position: Architecte d'entreprise
-  - name: Troisième intervenant
-    position: Architecte
+  - name: "Célia Carceller"
+    position: "Architecte d'entreprise"
+  - name: "David Berthier"
+    position: "Architecte d'entreprise"

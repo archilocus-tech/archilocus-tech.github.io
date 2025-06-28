@@ -4,7 +4,7 @@
 
 - begin: "18:05"
   end: "18:45"
-  #video_url: "https://www.youtube.com/embed/A7jQn5GEohM?si=3AEhNsweY8ip42pt"
+  video_url: "https://www.youtube.com/embed/PdL-BqhotTo?si=FaPVB-Qfc2KE7W10"
   title: "Comment France Travail réinvente ses pratiques d’archi pour relever des défis toujours plus complexes ?"
   topic: "France Travail s’attaque à des défis sociaux, d’envergure nationale. Nous avons transformé notre SI en plateforme en 1 an pour répondre aux enjeux de la loi plein emploi.
   Pour y arriver, nous avons dû réinventer nos pratiques d’architecture.
@@ -18,7 +18,7 @@ Découvrez comment des approches simples permettent d’aborder la complexité �
 
 - begin: "18:45"
   end: "19:25"
-  #video_url: "https://www.youtube.com/embed/qgqovALSIrk?si=064IC-8juOorrzgH"
+  video_url: "https://www.youtube.com/embed/qwOGf6TMNFk?si=qFyQjkOIVEuTE53s"
   title: "Architecture is about the important stuff. Whatever that is"
   topic: "Mais comment bien représenter et structurer l'Architecture ?
 Quels moyens mettre en place pour consigner efficacement les décisions d'Architecture ?
@@ -31,7 +31,7 @@ Dans ce talk nous parlerons Architecture Decision Records, Architecture Principl
 
 - begin: "19:25"
   end: "20:15"
-  #video_url: "https://www.youtube.com/embed/9UAQZB2h7zM?si=BsWdwBQ0YU6MlWw_"
+  video_url: "https://www.youtube.com/embed/wec11B6Xk7I?si=B9z4DDBLYOJwjnTu"
   title: "Table ronde"
   topic: "Allons-nous être Gen AI dans nos pratiques d'architecture ?"
   speakers:
@@ -40,4 +40,8 @@ Dans ce talk nous parlerons Architecture Decision Records, Architecture Principl
   - name: "Célia Carceller"
     position: "Architecte d'entreprise"
   - name: "David Berthier"
+    position: "Architecte d'entreprise"
+  - name: "Aurélien Lajoie"
+    position: "CTO"
+  - name: "Laurent Brisse"
     position: "Architecte d'entreprise"

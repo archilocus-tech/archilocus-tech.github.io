@@ -9,29 +9,13 @@
     </div>
     <div class="row">
       {% for speaker in site.data.[include.directory]speakers %}
-      <div class="col-md-4 col-sm-6 speakers-item">
-        <div href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
-          <div class="speakers-hover hidden-sm hidden-xs">
-            <div class="speakers-hover-content">
-              <div class="row" style="height:40%">
-                <h4>{{ speaker.position }}</h4>
-              </div>
-              <div class="row" style="height:50%; padding-bottom:5px">
-                <img class="company img-responsive center-block" src="/css/{{ include.directory }}/img/logos/{{ speaker.company_logo }}" alt="{{ member.company_logo }}"/>
-              </div>
-            </div>
-          </div>
-          <img src="/css/{{ include.directory }}/img/speaker/{{ speaker.img }}" class="member-photo img-responsive img-centered" alt="{{ speaker.name }}">
-        </div>
-        <div class="speakers-caption">
-          <h4>{{ speaker.name }}</h4>
-          <div class="visible-sm visible-xs">
-            <h4>{{ speaker.position }}</h4>
-          </div>
-          <div class="row visible-sm visible-xs">
-            <img class="company img-responsive center-block" src="/css/{{ include.directory }}/img/logos/{{ speaker.company_logo }}" alt="{{ member.company_logo }}"/>
-          </div>
-          <p class="text-muted">{{ speaker.title }}</p>
+      <div class="col-md-4 col-sm-6">
+        <div class="speaker-card">
+          <img class="speaker-photo" src="/css/{{ include.directory }}/img/speaker/{{ speaker.img }}" alt="{{ speaker.name }}">
+          <h4 class="speaker-name">{{ speaker.name }}</h4>
+          <div class="speaker-position">{{ speaker.position }}</div>
+          <img class="speaker-company-logo" src="/css/{{ include.directory }}/img/logos/{{ speaker.company_logo }}" alt="{{ speaker.company_logo }}">
+          <div class="speaker-title">{{ speaker.title }}</div>
         </div>
       </div>
       {% endfor %}

@@ -6,50 +6,36 @@
         <h3>{{ include.date }}</h3>
       </div>
     </div>
-    <div class="col-md-8 col-md-offset-2">
-
+    <div class="agenda-simple">
       {% for agenda in site.data.[include.directory].agenda %}
-      <div class="row slot">
-        <div class="col-xs-4 col-sm-2 hidden-xs">{{ agenda.begin }}</div>
-        <div class="col-sm-10 col-xs-12" >
-          <div class="row">
-            <div class="row">
-              <p class="time">{{ agenda.begin }} - {{ agenda.end }}</p>
-              <p class="title">{{ agenda.title }}</p>
+      <div class="agenda-item">
+        <span class="agenda-time">{{ agenda.begin }}{% if agenda.end %} - {{ agenda.end }}{% endif %}</span>
+        <span class="agenda-title">{{ agenda.title }}</span>
+        <div class="agenda-speakers">
+          {% for speaker in agenda.speakers %}
+            <div class="agenda-speaker">
+              <span class="agenda-speaker-name">{{ speaker.name }}</span>
+              {% if speaker.position %}<span class="agenda-speaker-position">{{ speaker.position }}</span>{% endif %}
             </div>
-            <div class="row">
-              {% for speaker in agenda.speakers %}
-                <div class="col-xs-6">
-                  <p class="name">{{ speaker.name }}</p>
-                  {% if speaker.position %}
-                  <i>{{ speaker.position }}</i>
-                  {% endif %}
-                </div>
-              {% endfor %}
-              <div class="col-xs-6">
-                <img class="company img-responsive col-sm-2" src="/css/{{ include.directory }}/img/logos/{{ agenda.company_logo }}" alt="{{ agenda.company_logo }}"/>
-              </div>
-            </div>
-            <div class="row">
-              {% if agenda.video_url %}
-              <div class="col-xs-6">
-              {% endif %}
-                <span class="topic">{{ agenda.topic | newline_to_br}}</span>
-              {% if agenda.video_url %}
-              </div>
-              <div class="col-xs-6">
-                <div class="embed-responsive  embed-responsive-4by3">
-                  <iframe class="embed-responsive-item"  allowFullScreen="true"
-                                                         src="{{ agenda.video_url }}">
-                  </iframe>
-
-                </div>
-              </div>
-              {% endif %}
-            </div>
+          {% endfor %}
+          {% if agenda.company_logo %}
+          <div class="agenda-company-logo">
+            <img src="/css/{{ include.directory }}/img/logos/{{ agenda.company_logo }}" alt="{{ agenda.company_logo }}" />
           </div>
+          {% endif %}
         </div>
+        {% if agenda.topic and agenda.topic != '' %}
+        <div class="agenda-topic">
+          {{ agenda.topic | newline_to_br }}
+        </div>
+        {% endif %}
+        {% if agenda.video_url %}
+        <div class="agenda-video">
+          <iframe allowfullscreen src="{{ agenda.video_url }}"></iframe>
+        </div>
+        {% endif %}
       </div>
       {% endfor %}
-    </div></div>
+    </div>
+  </div>
 </section>

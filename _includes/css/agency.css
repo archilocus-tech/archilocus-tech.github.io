@@ -677,3 +677,179 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+/* --- SPEAKERS CARD DESIGN (amélioré) --- */
+.speaker-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(103,51,217,0.07);
+  padding: 40px 24px 32px 24px;
+  margin-bottom: 36px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 420px;
+  transition: background 0.2s;
+}
+.speaker-card:hover {
+  background: linear-gradient(120deg, #f7f7ff 80%, #ede7fa 100%);
+}
+.speaker-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  border: 4px solid #{{ site.data.template.color.primary }};
+  box-shadow: 0 2px 8px rgba(103,51,217,0.10);
+  background: #ede7fa;
+  transition: border 0.2s;
+}
+.speaker-card:hover .speaker-photo {
+  border-color: #{{ site.data.template.color.secondary }};
+}
+.speaker-name {
+  font-size: 1.35em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #{{ site.data.template.color.primary }};
+  letter-spacing: 0.5px;
+}
+.speaker-position {
+  color: #{{ site.data.template.color.secondary }};
+  font-size: 1.08em;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.speaker-company-logo {
+  height: 36px;
+  max-width: 100px;
+  margin-bottom: 12px;
+  margin-top: 2px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(41,185,173,0.07);
+}
+.speaker-title {
+  font-style: italic;
+  color: #222;
+  font-size: 1.05em;
+  margin-top: 10px;
+  border-left: 4px solid #{{ site.data.template.color.secondary }};
+  padding-left: 10px;
+  background: #f7f7ff;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .speaker-card {
+    padding: 18px 4px 12px 4px;
+    min-height: 0;
+  }
+  .speaker-photo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* --- AGENDA SIMPLE --- */
+.agenda-simple {
+  margin: 60px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.agenda-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(103,51,217,0.08);
+  padding: 24px 32px;
+  border-left: 4px solid #{{ site.data.template.color.primary }};
+}
+.agenda-time {
+  background: #{{ site.data.template.color.primary }};
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 4px 16px;
+  font-size: 1.08em;
+  letter-spacing: 0.5px;
+  margin-right: 12px;
+  display: inline-block;
+}
+.agenda-title {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #222;
+  margin-right: 10px;
+}
+.agenda-speakers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px;
+  margin: 10px 0 0 0;
+}
+.agenda-speaker {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.agenda-speaker-name {
+  font-weight: 600;
+  color: #{{ site.data.template.color.primary }};
+  font-size: 1.08em;
+}
+.agenda-speaker-position {
+  font-size: 0.98em;
+  color: #888;
+  font-style: italic;
+}
+.agenda-company-logo {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.agenda-company-logo img {
+  height: 36px;
+  max-width: 100px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(41,185,173,0.07);
+}
+.agenda-topic {
+  margin-top: 18px;
+  color: #222;
+  font-size: 1.05em;
+  padding-left: 14px;
+  border-left: 4px solid #{{ site.data.template.color.secondary }};
+}
+.agenda-video {
+  margin-top: 18px;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.agenda-video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+@media (max-width: 900px) {
+  .agenda-item { padding: 18px 20px; }
+}
+@media (max-width: 600px) {
+  .agenda-simple { gap: 20px; }
+  .agenda-item { padding: 16px 16px; }
+  .agenda-title { font-size: 1.1em; }
+  .agenda-speaker-name { font-size: 1em; }
+  .agenda-company-logo img { height: 28px; }
+  .agenda-topic { font-size: 0.98em; padding-left: 10px; }
+}

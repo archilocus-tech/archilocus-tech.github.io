@@ -828,6 +828,24 @@ body {
   padding-left: 14px;
   border-left: 4px solid #{{ site.data.template.color.secondary }};
 }
+.agenda-content-with-video {
+  display: flex;
+  gap: 20px;
+  margin-top: 18px;
+  align-items: flex-start;
+}
+.agenda-content-with-video .agenda-topic {
+  flex: 1;
+  margin-top: 0;
+}
+.agenda-content-with-video .agenda-video {
+  flex: 0 0 400px;
+  margin-top: 0;
+  aspect-ratio: 16/9;
+  background: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+}
 .agenda-video {
   margin-top: 18px;
   width: 100%;
@@ -844,6 +862,14 @@ body {
 }
 @media (max-width: 900px) {
   .agenda-item { padding: 18px 20px; }
+  .agenda-content-with-video {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .agenda-content-with-video .agenda-video {
+    flex: none;
+    width: 100%;
+  }
 }
 @media (max-width: 600px) {
   .agenda-simple { gap: 20px; }

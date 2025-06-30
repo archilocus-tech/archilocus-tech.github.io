@@ -25,11 +25,17 @@
           {% endif %}
         </div>
         {% if agenda.topic and agenda.topic != '' %}
-        <div class="agenda-topic">
-          {{ agenda.topic | newline_to_br }}
+        <div class="agenda-content-with-video">
+          <div class="agenda-topic">
+            {{ agenda.topic | newline_to_br }}
+          </div>
+          {% if agenda.video_url %}
+          <div class="agenda-video">
+            <iframe allowfullscreen src="{{ agenda.video_url }}"></iframe>
+          </div>
+          {% endif %}
         </div>
-        {% endif %}
-        {% if agenda.video_url %}
+        {% elsif agenda.video_url %}
         <div class="agenda-video">
           <iframe allowfullscreen src="{{ agenda.video_url }}"></iframe>
         </div>

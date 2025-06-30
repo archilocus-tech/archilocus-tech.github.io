@@ -11,8 +11,6 @@ facebook:
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
-include: ['_202*_pages']
-
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

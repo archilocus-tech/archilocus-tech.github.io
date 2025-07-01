@@ -7,8 +7,11 @@
   title: "Design First : Boostez le Développement, la Qualité et la Sécurité de vos APIs"
   topic: "Aujourd'hui les APIs sont partout, et lors de ce talk je vais tenter de démontrer l'intérêt de de Designer son API REST au travers d'OpenAPI et ce que cela apporte en terme de développement, documentation, et sécurité"
   speakers:
-  - name: "Philippe Bousquet"
+  - &philippe_bousquet
+    name: "Philippe Bousquet"
     position: "Architecte - Directeur Technique Java"
+    company_logo: sqli.png
+    img: bousquet.jpeg
 
 - begin: "18:45"
   end: "19:25"
@@ -17,19 +20,30 @@
   topic: "Lors de ce retour d'expérience, vous verrez comment notre petite équipe de développement a réussi à maximiser la valeur produite en ne codant pas.
 Vous découvrirez au travers d'exemples concrets pourquoi cela nous a permis de gagner un temps très précieux en période de lancement, ainsi que les nombreux effets positifs auxquels nous ne nous attendions vraiment pas en faisant ce choix !"
   speakers:
-  - name: Marc Gavanier
+  - &marc_gavanier
+    name: Marc Gavanier
     position: Software Craftsman
+    company_logo: marc.jpeg
+    img: gavanier.jpeg
 - begin: "19:25"
   end: "20:15"
   title: "Table ronde"
   video_url: "https://www.youtube.com/embed/ebQUURd2y84?si=_mRvUVJHzFUdCUtz"
   topic: "Qu'est-ce qu'il RESTe à apprendre sur les API ?"
   speakers:
-  - name: "Philippe Bousquet"
-    position: "Architecte - Directeur Technique Java"
-  - name: Gregory Tall
+  - *philippe_bousquet
+  - &gregory_tall
+    name: Gregory Tall
     position: Product Manager API & SDK
-  - name: Laurent Brisse
+    company_logo: dedge.jpeg
+    img: tall.jpeg
+  - &laurent_brisse
+    name: Laurent Brisse
     position: Enterprise Architect Leader
-  - name: Philippe Kernevez
+    company_logo: merlin.png
+    img: brisse.jpeg
+  - &philippe_kernevez
+    name: Philippe Kernevez
     position: Co-Founder & Senior Architect
+    img: kernevez.jpeg
+    company_logo: kleis.jpeg

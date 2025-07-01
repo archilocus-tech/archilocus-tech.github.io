@@ -14,16 +14,22 @@
 Pourquoi et comment en maîtriser son évolution
 Les premiers indicateurs de pilotage mis en œuvre"
   speakers:
-  - name: "Nicola Sannelli"
+  - &nicola_sannelli
+    name: "Nicola Sannelli"
     position: "Architecte d'entreprise"
+    company_logo: auchan.png
+    img: sannelli.jpeg
 
 - begin: "18:45"
   end: "19:25"
   title: "Déploiement à l'échelle de l'éco-conception"
   video_url: "https://www.youtube.com/embed/kfDSkYw47nY"
   speakers:
-  - name: "Vincent Rabah"
+  - &vincent_rabah
+    name: "Vincent Rabah"
     position: "Architecte d'Entreprise"
+    company_logo: emploi.jpeg
+    img: rabah.jpeg
 
 
 - begin: "19:25"
@@ -33,14 +39,26 @@ Les premiers indicateurs de pilotage mis en œuvre"
   topic: "Une entreprise plateforme tire sa valeur dans la mise en relation entre fournisseurs et consommateurs en orchestrant les interactions entre ces deux parties. Si les modèles récents comme Uber & Air B&B ne possèdent initialement aucun bien, les entreprises plus historique peuvent elles aussi devenir des plateformes, à l'instar des Marketplace dans le Retail, ou des banques dont c'est une modalité assez fréquente.
 Sous quelles conditions ?  Avec quels impacts ? C'est ce que nous aborderons lors dans notre table ronde"
   speakers:
-  - name: Dorine Periolat
+  - &dorine_periolat
+    name: Dorine Periolat
     position: Architecte SI
-  - name: Long Nguyen
-    position: Responsable de l'architecture d'entreprise
-  - name: Sylvain Mongy
+    company_logo: bdx_metro.png
+    img: periolat.jpeg
+  - &long_nguyen
+    name: Long NGUYEN
+    position: Responsable de l'Architecture d'Entreprise
+    company_logo: merlin.png
+    img: long.jpeg
+  - &sylvain_mongy
+    name: Sylvain Mongy
+    position: Architecte d'Entreprise
+    company_logo: merlin.png
+    img: mongy.jpeg
+  - &francois_sizaire
+    name: François SIZAIRE
     position: Architecte d'entreprise
-  - name: François Sizaire
-    position: Architecte d'entreprise
+    company_logo: projexion.png
+    img: sizaire.jpeg
 
 
 - begin: "20:00"

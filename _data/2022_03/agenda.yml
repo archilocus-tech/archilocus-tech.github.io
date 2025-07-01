@@ -9,8 +9,11 @@
   title: "Introduction au tracing distribué avec Grafana Tempo"
   topic: "Grafana Tempo est une plateforme de tracing distribué avec comme seul dépendance l'accès à un stockage objets compatible S3. Contrairement à d'autres solutions de traçage open source, Tempo ne nécessite pas de cluster Elasticsearch ou Cassandra et peut gérer des volumétries massives sans échantillonnage. Dans cette présentation, on parlera des principes d'architecture de Tempo et comment on exploite les traces sans indexation. On expliquera également le lien entre Tempo et les autres solutions de l'écosystème (Open Telemetry, Jaeger ou Zipkin, Prometheus et Loki)"
   speaker:
+    &abdelkrim_hadjidj
     name: "Abdelkrim HADJIDJ"
     position: "Solutions Engineering Manager"
+    company_logo: grafana.png
+    img: hadjidj.jpeg
 
 - begin: "17:30"
   end: "18:15"
@@ -24,8 +27,11 @@ Et si je vous disais qu'on avait enfin une solution pour diminuer la charge cogn
 
 C'est là qu'entre en jeu Dapr. Un outil qu'on introduira à travers du live coding durant cette session."
   speaker:
+    &vivien_maleze
     name: "Vivien MALEZE"
     position: "Solution Architect"
+    company_logo: ippon.png
+    img: maleze.jpeg
 
 - begin: "18:15"
   end: "19:00"
@@ -35,8 +41,10 @@ C'est là qu'entre en jeu Dapr. Un outil qu'on introduira à travers du live cod
 Quand nous parlons de cache, nous pensons directement à Varnish, avec le fameux VCL que cela implique. Mais il existe d’autres solutions pour ne pas passer plusieurs jours à apprendre ce langage, qui sont plus facilement configurables et tout aussi performants.
 Voyons ensemble comment mettre en place ces solutions avec leurs avantages et leurs inconvénients lors de cette conférence"
   speaker:
+    &sylvain_combraque
     name: Sylvain COMBRAQUE
     position: Freelance
+    img: combraque.jpg
 
 - begin: "19:00"
   end: "19:10"

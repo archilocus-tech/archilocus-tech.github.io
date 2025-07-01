@@ -3,16 +3,19 @@
   title: Accueil
   company_logo: manomano.png
   speaker:
-      name: Aurélien & Laurent
-      position: ManoMano
+  - *aurelien_lajoie
+  - *laurent_brisse
   topic: Introduction et lancement du MVP !
 
 - begin: "14:10"
   end: "14:50"
-  title: Organiser la migration d’une centaine de bases de données vers le Cloud
+  title: Organiser la migration d'une centaine de bases de données vers le Cloud
   speaker:
-      name: Maxime Fouilleul
-      position: Engineering Manager
+  - &maxime_fouilleul
+    name: Maxime Fouilleul
+    position: Engineering Manager
+    company_logo: BlaBlaCar_logo.svg
+    img: fouilleul.jpeg
   company_logo: BlaBlaCar_logo.svg
   topic: "Construire son équipe, trouver le bon focus, choisir ses compromis, internaliser le développement ou acheter des solutions, adapter sa communication, proposer une stratégie de migration pour chaque stakeholder.<br />Je partage les ingrédients qui nous ont permis de faire de ce projet un succès."
   video_url: "https://www.youtube.com/embed/onwQ-HOdlTw"
@@ -22,8 +25,11 @@
   title: "Go2Product : L'architecture en mode produit"
   company_logo: cdiscount.png
   speaker:
-      name: Cosme Charlier
-      position: Directeur Architecture
+  - &cosme_charlier
+    name: Cosme Charlier
+    position: Directeur Architecture
+    company_logo: cdiscount.png
+    img: charlier.jpeg
   topic: "Une introduction au mode produit tel qu'on l'implémente chez CDiscount, et aux impacts sur la manière de faire de l'architecture"
   video_url: "https://www.youtube.com/embed/mjAYU53lIzo"
 
@@ -32,8 +38,16 @@
   title: From Naive Microservices to Full API Gateway Adoption in a Hybrid Mesh Ecosystem in the Cloud
   company_logo: manomano.png
   speaker:
-      name: Bastien Lacombe, Aurélien Lajoie
-      position: Core Lead, Head of Core Engineering and Infrastructure
+  - &bastien_lacombe
+    name: Bastien Lacombe
+    position: Core Lead
+    company_logo: manomano.png
+    img: lacombe.jpg
+  - &aurelien_lajoie
+    name: Aurélien LAJOIE
+    position: Head of Core Engineering and Infrastructure
+    company_logo: manomano.png
+    img: lajoie.jpeg
   topic: Découvrez comment avec une approche DDD, Manomano a conduit sa transformation API en partant d'une infogérance,
     en allant dans le cloud, avec un modèle hybride EC2, Kubernetes.
   video_url: "https://www.youtube.com/embed/HLhTg5yHc5E"
@@ -41,8 +55,6 @@
 - begin: "16:10"
   end: "16:30"
   title: Mini-salles des pas perdus
-  speaker:
-      name: Tous
   topic: Histoire de <i>networker</i>...
 
 - begin: "16:30"
@@ -50,9 +62,22 @@
   title: Architecture et migration des sites marchands France et International laredoute.xx 100% Cloud
   company_logo: laredoute.png
   speaker:
-      name: Maxime Drouet, Quentin Tsaimanga, Bruno Gachie
-      position: Cloud Center Manager, Web Architect, Infrastructures Project Manager
-  topic: Les  grands points adressés durant ce témoignage et partage d’expérience du contexte, enjeux,
+  - &maxime_drouet
+    name: Maxime Drouet
+    position: Cloud Center Manager
+    img: drouet.jpeg
+    company_logo: laredoute.png
+  - &quentin_tsaimanga
+    name: Quentin Tshaimanga
+    img: tshaimanga.jpg
+    position: Web Architect
+    company_logo: laredoute.png
+  - &bruno_gachie
+    name: Bruno Gachie
+    position: Infrastructures Project Manager
+    company_logo: laredoute.png
+    img: gachie.jpeg
+  topic: Les  grands points adressés durant ce témoignage et partage d'expérience du contexte, enjeux,
     fondations, migration et la démarche de modernisation.
   video_url: "https://www.youtube.com/embed/FRmYvWYVBjE"
 
@@ -60,8 +85,18 @@
   end: "17:50"
   title: Table ronde
   speaker:
-      name: Antoine, Aurélien, Cosme, Laurent, Nicolas
-      position: Architectes
+  - &antoine_crask
+    name: Antoine Craske
+    position: Head of Architecture & Technology
+    company_logo: laredoute.png
+    img: craske.png
+  - *aurelien_lajoie
+  - *cosme_charlier
+  - &laurent_brisse
+    name: Laurent Brisse
+    position: Solution Architect Lead
+    company_logo: manomano.png
+    img: brisse.jpeg
   topic: Echanges avec tous les intervenants
   video_url: "https://www.youtube.com/embed/a1GzVWZyGhw"
 
@@ -70,7 +105,7 @@
   title: Conclusion
   company_logo: manomano.png
   speaker:
-      name: Aurélien & Laurent
-      position: ManoMano
+  - *aurelien_lajoie
+  - *laurent_brisse
   topic: Conclusion et validation du MVP !
 

@@ -1,3 +1,4 @@
+
 - begin: "18:00"
   end: "18:05"
   title: Accueil
@@ -5,16 +6,22 @@
 - begin: "18:05"
   end: "18:45"
   video_url: "https://www.youtube.com/embed/PdL-BqhotTo?si=FaPVB-Qfc2KE7W10"
-  title: "Comment France Travail réinvente ses pratiques d’archi pour relever des défis toujours plus complexes ?"
-  topic: "France Travail s’attaque à des défis sociaux, d’envergure nationale. Nous avons transformé notre SI en plateforme en 1 an pour répondre aux enjeux de la loi plein emploi.
-  Pour y arriver, nous avons dû réinventer nos pratiques d’architecture.
+  title: "Comment France Travail réinvente ses pratiques d'archi pour relever des défis toujours plus complexes ?"
+  topic: "France Travail s'attaque à des défis sociaux, d'envergure nationale. Nous avons transformé notre SI en plateforme en 1 an pour répondre aux enjeux de la loi plein emploi.
+  Pour y arriver, nous avons dû réinventer nos pratiques d'architecture.
   Ce talk vous emmène dans les coulisses de cette transformation à travers nos outils (ADR, DDD, Team Topologies, ...) et leurs mises en pratiques.
-Découvrez comment des approches simples permettent d’aborder la complexité à l’échelle tout en restant connectés aux équipes."
+Découvrez comment des approches simples permettent d'aborder la complexité à l'échelle tout en restant connectés aux équipes."
   speakers:
-  - name: "Célia Carceller"
-    position: "Architecte d'entreprise"
-  - name: "David Berthier"
-    position: "Architecte d'entreprise"
+  - &celia_carceller
+    name: "Célia Carceller"
+    img: carceller.jpg
+    position: Architecte d'entreprise
+    company_logo: france_travail.png
+  - &david_berthier
+    name: "David Berthier"
+    img: berthier.jpg
+    position: Architecte d'entreprise
+    company_logo: france_travail.png
 
 - begin: "18:45"
   end: "19:25"
@@ -26,8 +33,11 @@ Comment partager une représentation commune de l'Architecture ?
 Et comment s'assurer qu'elle ne dérive pas avec le temps ?
 Dans ce talk nous parlerons Architecture Decision Records, Architecture Principles, Fitness Functions et Architecture as Code"
   speakers:
-  - name: "Erwan Osouf"
+  - &erwan_osouf
+    name: Erwan Osouf
     position: "Head of R&D (~ Lead Software Architect)"
+    img: osouf.jpg
+    company_logo: praxedo.jpeg
 
 - begin: "19:25"
   end: "20:15"
@@ -35,13 +45,16 @@ Dans ce talk nous parlerons Architecture Decision Records, Architecture Principl
   title: "Table ronde"
   topic: "Allons-nous être Gen AI dans nos pratiques d'architecture ?"
   speakers:
-  - name: Erwan Osouf
-    position: Head of R&D (~ Lead Software Architect)
-  - name: "Célia Carceller"
-    position: "Architecte d'entreprise"
-  - name: "David Berthier"
-    position: "Architecte d'entreprise"
-  - name: "Aurélien Lajoie"
+  - *erwan_osouf
+  - *celia_carceller
+  - *david_berthier
+  - &aurelien_lajoie
+    name: "Aurélien Lajoie"
     position: "CTO"
-  - name: "Laurent Brisse"
+    company_logo: neat.png
+    img: lajoie.jpeg
+  - &laurent_brisse
+    name: "Laurent Brisse"
     position: "Architecte d'entreprise"
+    company_logo: Leroy_merlin_logo.png
+    img: brisse.jpeg

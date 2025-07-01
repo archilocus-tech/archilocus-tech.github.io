@@ -2,7 +2,6 @@
   end: "17:10"
   title: Accueil et Introduction
   video_url: https://www.youtube.com/embed/ucaeE3RyXP8
-  speaker:
 
 - begin: "17:10"
   end: "17:50"
@@ -13,8 +12,11 @@ Cette présentation introduit ces deux types d’architecture de manière compar
   title: "La Clean Archigonale"
   video_url: https://www.youtube.com/embed/QV-CHSmlOh8
   speakers:
-  - name: "Christophe Breheret-Girardin"
+  - &christophe_breheret
+    name: "Christophe Breheret-Girardin"
     position: "Coach craft & Formateur"
+    company_logo: octo.png
+    img: breheret-girardin.jpeg
 
 - begin: "17:50"
   end: "18:30"
@@ -22,8 +24,11 @@ Cette présentation introduit ces deux types d’architecture de manière compar
   topic: "Les APIs sont devenues très populaires. Elles sont les fondements de notre monde interconnecté. Vous êtes-vous déjà demandé pourquoi personne n'utilise votre API ? Pourquoi construire une API si personne ne sait comment l'utiliser ? Dans cette présentation, nous partageons nos conseils sur la conception d'API - inspirés par les méthodes du Design Thinking. Pour rendre votre API plus exploitable et la faire adopter massivement."
   video_url: https://www.youtube.com/embed/ruLfBQCPj1s
   speakers:
-  - name: "Mustapha Benosmane"
+  - &mustapha_benosmane
+    name: "Mustapha Benosmane"
     position: Architecte
+    company_logo: adeo.jpeg
+    img: benosmane.jpeg
 
 
 - begin: "18:30"
@@ -32,12 +37,21 @@ Cette présentation introduit ces deux types d’architecture de manière compar
   topic: "Décodons le Low/No Code !"
   video_url: https://www.youtube.com/embed/_RKvnHtNiKc
   speakers:
-  - name: Christophe Camicas
+  - &christophe_camicas
+    name: Christophe Camicas
     position: Engineering Director
-  - name: Dorine Periolat
+    company_logo: payfit.png
+    img: camicas.jpeg
+  - &dorine_periolat
+    name: Dorine Periolat
     position: Architecte SI
-  - name: Simon Bachelet
+    company_logo: bdx_metro.png
+    img: periolat.jpeg
+  - &simon_bachelet
+    name: Simon Bachelet
     position: Leader Success of Stores Digitalization
+    company_logo: merlin.png
+    img: bachelet.jpeg
 
 
 - begin: "19:10"

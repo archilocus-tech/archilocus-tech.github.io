@@ -1,3 +1,4 @@
+
 - begin: "18:00"
   end: "18:05"
   title: Accueil chez Zenika (17 Quai Louis XVIII)
@@ -5,18 +6,24 @@
   end: "18:45"
   video_url: "https://www.youtube.com/embed/WIkZAMmEcmk?si=86n0Ka_1LFe9S5O2"
   title: "OpenTelemetry: vous ne pourrez plus vous passer de monitoring en prod"
-  topic: "Pour toutes les personnes qui travaillent dans un système distribué, il est aujourd’hui vital de monitorer son architecture. L’optimisation d’une architecture passe avant tout par une connaissance accrue de son fonctionnement. C’est à partir de cette problématique qu’est né OpenTelemetry.
-A travers un retour d’expérience et des exemples concrets d’utilisation, on vous présentera les enjeux et les bonnes pratiques pour monitorer votre production."
+  topic: "Pour toutes les personnes qui travaillent dans un système distribué, il est aujourd'hui vital de monitorer son architecture. L'optimisation d'une architecture passe avant tout par une connaissance accrue de son fonctionnement. C'est à partir de cette problématique qu'est né OpenTelemetry.
+A travers un retour d'expérience et des exemples concrets d'utilisation, on vous présentera les enjeux et les bonnes pratiques pour monitorer votre production."
   speakers:
-  - name: Vivien Maleze
+  - &vivien_maleze
+    name: Vivien Maleze
     position: Architecte Technique
+    company_logo: ippon.png
+    img: vivien.png
 
 - begin: "18:45"
   end: "19:25"
   video_url: "https://www.youtube.com/embed/45-Thjhbq7E?si=Bo223zFKZhtZO-nJ"
   speakers:
-  - name: Guillaume Lannebere
-    position: Head Of Cloud Center Of Excellence
+  - &guillaume_lannebere
+    name: "Guillaume Lannebere"
+    position: "Head Of Cloud Center Of Excellence"
+    img: lannebere.jpeg
+    company_logo: betclic.png
   title: "Pourquoi privilégions-nous les services managés dans le Cloud ?"
   topic: "Chez Betclic, nous avons privilégié l'utilisation de services managés pour notre migration vers le cloud.
 Nous vous expliquerons pourquoi nous avons fait ce choix avec des exemples concrets."
@@ -27,9 +34,18 @@ Nous vous expliquerons pourquoi nous avons fait ce choix avec des exemples concr
   topic: "Comment je monitore ma prod ?"
   video_url: "https://www.youtube.com/embed/jJN08S0RfaI?si=SckX26At0Og6W_a7"
   speakers:
-  - name: Denis Germain
-    position: Staff SRE
-  - name: Sébastien Descamps
-    position: Directeur R&D et Innovation
-  - name: Gauthier Astruc-Amato
-    position: CTO
+  - &denis_germain
+    name: "Denis Germain"
+    position: "Staff SRE"
+    img: germain.jpeg
+    company_logo: deezer.png
+  - &sebastien_descamps
+    name: "Sébastien Descamps"
+    position: "Directeur R&D et Innovation"
+    img: descamps.jpeg
+    company_logo: zenika.png
+  - &gauthier_astruc_amato
+    name: "Gauthier Astruc-Amato"
+    position: "CTO"
+    img: astruc-amato.jpeg
+    company_logo: cybervadis.png

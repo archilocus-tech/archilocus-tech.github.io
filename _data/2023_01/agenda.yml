@@ -9,26 +9,42 @@
   title: "Apache Pulsar"
   video_url: "https://www.youtube.com/embed/IKAJxMxkyvY"
   speakers:
-  - name: "Christophe Bornet"
+  - &christophe_bornet
+    name: "Christophe Bornet"
     position: "Senior Software Engineer"
-  - name: Julien Jakubowski
+    company_logo: datastax.png
+    img: bornet.jpeg
+  - &julien_jakubowski
+    name: Julien Jakubowski
     position: Developer Relations Manager
+    img: jakubowski.jpeg
+    company_logo: StreamNative.png
 
 - begin: "18:45"
   end: "19:30"
   title: "Accelerate or not : that's the \"table ronde\""
   video_url: "https://www.youtube.com/embed/SCxVX-gRcLI"
   speakers:
-  - name: Jean-Rémy Révy
+  - &jean_remy_revy
+    name: Jean-Rémy Révy
     position: Manager Senior & Lead Architect
-
-  - name: Laurent Brisse
+    company_logo: ippon.png
+    img: revy.jpeg
+  - &laurent_brisse
+    name: Laurent Brisse
     position: Enterprise Architect Leader
-
-  - name: Geoffrey Graveaud
+    company_logo: merlin.png
+    img: brisse.jpeg
+  - &geoffrey_graveaud
+    name: Geoffrey Graveaud
     position: Directeur Technique
-  - name: Romain Deborde
+    company_logo: zenika.png
+    img: graveaud.jpeg
+  - &romain_deborde
+    name: Romain Deborde
     position: Coach devops
+    company_logo: lbp.png
+    img: deborde.jpg
 
 - begin: "19:30"
   end: "19:35"

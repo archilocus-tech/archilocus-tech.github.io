@@ -10,8 +10,11 @@
   topic: "En tant que développeurs, nous passons la majeure partie de notre temps à construire des logiciels permettant de stocker, transformer, afficher des données selon des règles du jeu préétablies. Avec l'avènement du Cloud et des architectures logicielles distribuées, la gestion du cycle de vie des données est devenu un sujet qui peut s'avérer complexe. Ce talk a pour but de mettre en avant les différents challenges afférents à ces architectures et de proposer des solutions (patterns, pratiques, technologies) permettant d'y faire face."
   video_url: https://www.youtube.com/embed/gOw005MhmiQ
   speakers:
-  - name: "Meidi Airouche"
-    position: "Staff Software Engineer, Architecte & formateur."
+  - &meidi_airouche
+    name: "Meidi Airouche"
+    position: "Leader, Software & Solution Architect"
+    company_logo: payfit.png
+    img: airouche.jpeg
 
 - begin: "18:30"
   end: "19:15"
@@ -20,8 +23,11 @@
 Les besoins non fonctionnels sont morts, vivent les besoins non fonctionnels !"
   video_url: https://www.youtube.com/embed/e3JbiYv-Hh8
   speakers:
-  - name: "Arthur BERTHIAUX"
-    position: "Architecte solutions"
+  - &arthur_berthiaux
+    name: "Arthur BERTHIAUX"
+    position: "Architecte Solution"
+    img: berthiaux.jpeg
+    company_logo: ippon.png
 
 - begin: "19:15"
   end: "19:20"

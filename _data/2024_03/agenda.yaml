@@ -6,10 +6,13 @@
   end: "18:50"
   title: "Banalisation du DDD ou pas ?"
   video_url: https://www.youtube.com/embed/ZlWg4n4I1tE?si=vSr9lZOyZ_JNAW7V
-  topic: "Beaucoup de développeurs pensent le Domain-Driven Design (DDD) comme la boîte à outils DDD (Aggregate, Entity Value Object …). Mais qu’en est-il de modélisation orientée sur le domaine métier ? Comment modéliser un problème complexe sans se perdre dans une complexité du code. Après avoir passé en revue les approches permettant de comprendre l'espace du problème, nous plongerons dans l'art de la modélisation DDD au niveau du code. Le Domain-Driven Design n’est pas une friandise, mais une approche permettant de modéliser le cœur d’un produit aligner avec les attentes des experts du métier. Je rappellerai les techniques permettant de comprendre l’espace du problème, avant de vous emmener dans l’approche d’une modélisation profonde au niveau du code : Le Model-Driven Design"
+  topic: "Beaucoup de développeurs pensent le Domain-Driven Design (DDD) comme la boîte à outils DDD (Aggregate, Entity Value Object …). Mais qu'en est-il de modélisation orientée sur le domaine métier ? Comment modéliser un problème complexe sans se perdre dans une complexité du code. Après avoir passé en revue les approches permettant de comprendre l'espace du problème, nous plongerons dans l'art de la modélisation DDD au niveau du code. Le Domain-Driven Design n'est pas une friandise, mais une approche permettant de modéliser le cœur d'un produit aligner avec les attentes des experts du métier. Je rappellerai les techniques permettant de comprendre l'espace du problème, avant de vous emmener dans l'approche d'une modélisation profonde au niveau du code : Le Model-Driven Design"
   speakers:
-    - name: "Bruno Boucard"
+    - &bruno_boucard
+      name: Bruno Boucard
       position: Trainer, coach agile et speaker
+      company_logo: 42skillz.png
+      img: boucard.jpg
 
 - begin: "18:50"
   end: "19:35"
@@ -21,11 +24,16 @@ Après avoir analysé le besoin, confrontés nos idées et convictions devant vo
 Nous vous solliciterons pour valider notre conception et les exemples d'implémentation possibles.
 A la fin de cette présentation, vous aurez des clés pour penser et démarrer les études de vos architectures en toute sérénité (ou presque)."
   speakers:
-    - name: "Alexandre Touret"
+    - &alexandre_touret
+      name: "Alexandre Touret"
       position: "Senior Software Architect/TechRel"
-
-    - name: "Raphaël Semeteys"
-      position: "Tech Advocate, Architect, FOSS expert, Yoga Teacher"
+      img: touret.jpeg
+      company_logo: worldline.png
+    - &raphael_semeteys
+      name: "Raphaël Semeteys"
+      position: "Tech Advocate, Architect"
+      img: semeteys.jpeg
+      company_logo: worldline.png
 
 - begin: "19h40"
   end: "20h30"
@@ -33,9 +41,10 @@ A la fin de cette présentation, vous aurez des clés pour penser et démarrer l
   topic: "Les anti-patterns d'une approche DDD"
   video_url: https://www.youtube.com/embed/F_GO5C1lwD0?si=GmWAcJ-PjP9dC7Kh
   speakers:
-    - name: "Alexandre Touret"
-      position: "Senior Software Architect/TechRel"
-    - name: "Bruno Boucard"
-      position: Trainer, coach agile et speaker
-    - name: Jean-Rémy Révy
+    - *alexandre_touret
+    - *bruno_boucard
+    - &jean_remy_revy
+      name: Jean-Rémy Révy
       position: Manager Senior & Lead Architect
+      img: revy.jpeg
+      company_logo: ippon.png

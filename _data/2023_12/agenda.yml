@@ -9,19 +9,25 @@
 
 Au programme : découpage, organisation, architecture pragmatique, cassage de clean archi, métriques du code et stratégie de tests."
   speakers:
-  - name: "Antoine Mazure"
-    position: "Software Engineer, Tribe Leader & Trainer"
+  - &antoine_mazure
+    name: Antoine Mazure
+    position: Software Engineer, Tribe Leader & Trainer
+    company_logo: octo.png
+    img: mazure.jpeg
 
 - begin: "18:45"
   end: "19:25"
   video_url: https://www.youtube.com/embed/_jLo0Zn8vhw?si=MMau1Sr6YO410UuS
   speakers:
-  - name: Loïc Carbonne
+  - &loic_carbonne
+    name: Loïc Carbonne
     position: Head of e-commerce tribe
+    company_logo: theodo.png
+    img: carbonne.jpeg
   title: "Bienvenue dans l'ère des architectures composables !"
-  topic: "Selon les derniers rapports sur les technologies émergentes, les architectures composables sont pré-senties comme étant “le futur des architectures logicielles”.
+  topic: "Selon les derniers rapports sur les technologies émergentes, les architectures composables sont pré-senties comme étant \"le futur des architectures logicielles\".
 
-Opposé à l’architecture monolithique et repoussant les limites de l’architecture micro-service, le composable prônant une forte modularité permet de gagner en agilité, en rapidité d’implémentation tout en améliorant l’expérience utilisateur.
+Opposé à l'architecture monolithique et repoussant les limites de l'architecture micro-service, le composable prônant une forte modularité permet de gagner en agilité, en rapidité d'implémentation tout en améliorant l'expérience utilisateur.
 
 Le composable consiste à construire une architecture hybride avec un ensemble de briques réutilisables, que ce soit des briques personnalisées développées avec du code ou du no-code, ou encore des briques SaaS sur-étagère, sélectionnées parmi les meilleures du marché. Aujourd'hui, cette composition est facilitée grâce à de nouveaux acteurs: les plateformes de composition.
 
@@ -38,9 +44,18 @@ comment en tirer profit dès aujourd'hui sans reconstruire intégralement votre 
   video_url: https://www.youtube.com/embed/YDWqFA8Bru4?si=-tnk-K_4CdEcDb_W
   topic: "Architecture d'Entreprise et environnement Business sous contrainte sont dans un bateau, l'AE se transforme-t-elle ?"
   speakers:
-  - name: Laurent Brisse
+  - &laurent_brisse
+    name: Laurent Brisse
     position: Enterprise Architect Leader
-  - name: Cyril Beslay
+    company_logo: merlin.png
+    img: brisse.jpeg
+  - &cyril_beslay
+    name: Cyril Beslay
     position: Solution Architect
-  - name: Thomas Marty
+    company_logo: manomano.png
+    img: beslay.jpeg
+  - &thomas_marty
+    name: Thomas Marty
     position: Architecte entreprise
+    company_logo: peaksy.jpeg
+    img: marty.png

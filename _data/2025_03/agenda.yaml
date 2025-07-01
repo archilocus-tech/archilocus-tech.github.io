@@ -1,3 +1,4 @@
+
 - begin: "18:00"
   end: "18:05"
   title: Accueil
@@ -10,20 +11,26 @@
 Imaginez, vous travaillez sur un produit qui expose des API à plusieurs clients. Vous devez leur proposer des évolutions et nouvelles fonctionnalités tout en maîtrisant l'existant. Quelle stratégie adopter ? Quelles solutions techniques peut-on mettre en place simplement ?
 Dans cette présentation, vous (re)découvrirez des conseils que j'ai pu mettre en pratique et qui m'ont aidé lors de mes derniers projets.
 Nous aborderons, au travers d'un cas concret la stratégie à mettre en œuvre, les différentes possibilités d'implémentation ainsi que leurs contraintes.
-À l’issue de cette présentation, nous aurons une vue complète et objective des manières d'appréhender le versioning d'API."
+À l'issue de cette présentation, nous aurons une vue complète et objective des manières d'appréhender le versioning d'API."
   speakers:
-  - name: "Alexandre Touret"
+  - &alexandre_touret
+    name: "Alexandre Touret"
     position: "Senior Software Architect/TechRel"
+    img: touret.jpeg
+    company_logo: worldline.png
 
 - begin: "18:45"
   end: "19:25"
   video_url: "https://www.youtube.com/embed/A7jQn5GEohM?si=3AEhNsweY8ip42pt"
   title: "Venez découvrir une nouvelle solution d'intégration pour interconnecter rapidement n'importe quel système..."
-  topic: "Dans un monde où la connectivité entre applications est essentielle pour garantir l’efficacité opérationnelle, 
-  Apizr Ecosystem offre une solution d’intégration puissante, flexible et facile à déployer. Elle permet également une visualisation à tout moment pour assurer la bonne exécution."
+  topic: "Dans un monde où la connectivité entre applications est essentielle pour garantir l'efficacité opérationnelle, 
+  Apizr Ecosystem offre une solution d'intégration puissante, flexible et facile à déployer. Elle permet également une visualisation à tout moment pour assurer la bonne exécution."
   speakers:
-  - name: "Matthieu Lagast"
-    position: "CTO"
+  - &matthieu_lagast
+    name: Matthieu Lagast
+    img: lagast.webp
+    position: CTO
+    company_logo: apizr.png
 
 - begin: "19:25"
   end: "20:15"
@@ -31,9 +38,18 @@ Nous aborderons, au travers d'un cas concret la stratégie à mettre en œuvre, 
   title: "Table ronde"
   topic: "\"Adopte ta Tech\", ou quelles sont les bonnes et mauvaises pratiques de Tech Governance ?"
   speakers:
-  - name: Julien Roynette
+  - &julien_roynette
+    name: Julien Roynette
     position: Head of Developer Experience
-  - name: Philippe Kernevez
+    img: roynette.jpg
+    company_logo: adeo.jpeg
+  - &philippe_kernevez
+    name: Philippe Kernevez
     position: Co-Founder & Chief Architect
-  - name: Philippe Bousquet
+    img: kernevez.jpeg
+    company_logo: kleis.jpeg
+  - &philippe_bousquet
+    name: Philippe Bousquet
     position: Architecte - Directeur Technique Java
+    company_logo: sqli.png
+    img: bousquet.jpeg

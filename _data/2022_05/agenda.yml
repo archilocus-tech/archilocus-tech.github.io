@@ -9,8 +9,11 @@
   topic: "Notorious platforms like <a href='https://zerforschung.org/posts/flink/' >Flink</a> and <a href='https://zerforschung.org/posts/gorillas-en/'>Gorillas</a> recently leaked customer data. All of that happened because of unprotected GraphQL interfaces. Behind the promise of an open API hide some security flaws. Kili’s technical team successfully addressed some of these challenges. Pierre Marcenac, lead developer at Kili, will share some of the key learnings that make Kili secure."
   video_url: "https://www.youtube.com/embed/mr2ULVRPGhw"
   speakers:
-  - name: "Pierre MARCENAC"
+  - &pierre_marcenac
+    name: "Pierre MARCENAC"
     position: "Principal Engineer"
+    img: marcenac.jpeg
+    company_logo: kili.jpeg
 
 - begin: "18:00"
   end: "18:45"
@@ -21,10 +24,16 @@ Contract First consiste à concevoir le contrat de l’API grâce à son descrip
 Dans cette présentation, nous passerons en revue les avantages et les inconvénients d'une approche Contract First et montrerons comment cette dernière permet de gagner en vélocité et en robustesse en intégrant la génération de code de OpenApi Generator au niveau du cycle de vie d'une API. Nous verrons également comment générer les tests de conformité avec Schemathesis."
   video_url: "https://www.youtube.com/embed/UHZkkm_ltFk"
   speakers:
-  - name: "Gilles DI GUGLIELMO"
+  - &gilles_diguglielmo
+    name: "Gilles DI GUGLIELMO"
     position: "Staff Software Engineer"
-  - position: "Information Systems Engineer"
+    company_logo: decat.webp
+    img: diguglielmo.jpeg
+  - &christian_nader
     name: "Christian NADER"
+    position: "Information Systems Engineer"
+    company_logo: decat.webp
+    img: nader.jpeg
 
 - begin: "18:45"
   end: "19:15"
@@ -32,14 +41,22 @@ Dans cette présentation, nous passerons en revue les avantages et les inconvén
   topic: "'AAAAA' (Autour de l'Architecture & de l'Agilité Avant l'Apéro)"
   video_url: "https://www.youtube.com/embed/I09JEe3JK0w"
   speakers:
-  - name: "Clément RICATEAU"
+  - &clement_ricateau
+    name: "Clément RICATEAU"
     position: Architecte
-  - name: "Gilles DI GUGLIELMO"
-    position: "Staff Software Engineer"
-  - name: "Quentin TSHAIMANGA"
+    img: ricateau.jpeg
+    company_logo: payfit.png
+  - *gilles_diguglielmo
+  - &quentin_tshaimanga
+    name: "Quentin TSHAIMANGA"
     position: "Web Architect"
-  - name: "Olivier FOUQUET"
+    img: tshaimanga.jpg
+    company_logo: laredoute.png
+  - &olivier_fouquet
+    name: "Olivier FOUQUET"
     position: "Responsable du Service Urbanisation, Architecture et Sécurité du SI"
+    img: fouquet.jpeg
+    company_logo: Bordeaux_Metropole.png
 
 - begin: "19:15"
   end: "19:20"

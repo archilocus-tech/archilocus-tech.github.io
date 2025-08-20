@@ -1,0 +1,59 @@
+{% comment %}
+Reusable speaker card component
+Parameters:
+- speaker: speaker object with name, position, img, company_logo, etc.
+- data_directory: directory for images (optional, for session pages)
+- show_talks: boolean to show talks section (default: false)
+{% endcomment %}
+
+{% assign show_talks = include.show_talks | default: false %}
+{% assign data_dir = include.data_directory %}
+
+<div class="col-md-4 col-sm-6 {% if show_talks %}speaker-item{% endif %}">
+  <div class="speaker-card">
+    {% comment %}Handle image path - different logic for session vs all speakers page{% endcomment %}
+    {% if speaker.img_path %}
+      {% comment %}All speakers page - img_path already resolved{% endcomment %}
+      <img class="speaker-photo" src="{{ speaker.img_path }}" alt="{{ speaker.name }}" onerror="this.src='/css/img/TBD.jpg'">
+    {% elsif speaker.img and data_dir %}
+      {% comment %}Session page - build path from data_directory{% endcomment %}
+      <img class="speaker-photo" src="/css/{{ data_dir }}/img/speaker/{{ speaker.img }}" alt="{{ speaker.name }}">
+    {% else %}
+      {% comment %}Fallback image{% endcomment %}
+      <img class="speaker-photo" src="/css/img/TBD.jpg" alt="{{ speaker.name }}">
+    {% endif %}
+
+    <div class="speaker-info">
+      <h4 class="speaker-name">{{ speaker.name }}</h4>
+
+      {% if speaker.position %}
+      <div class="speaker-position">{{ speaker.position }}</div>
+      {% endif %}
+
+      {% comment %}Handle company logo - different logic for session vs all speakers page{% endcomment %}
+      {% if speaker.logo_path and speaker.logo_path != '' %}
+        {% comment %}All speakers page - logo_path already resolved{% endcomment %}
+        <img class="speaker-company-logo" src="{{ speaker.logo_path }}" alt="Company logo" onerror="this.style.display='none'">
+      {% elsif speaker.company_logo and data_dir %}
+        {% comment %}Session page - build path from data_directory{% endcomment %}
+        <img class="speaker-company-logo" src="/css/{{ data_dir }}/img/logos/{{ speaker.company_logo }}" alt="{{ speaker.company_logo }}">
+      {% endif %}
+    </div>
+
+    {% if show_talks and speaker.talks %}
+    <div class="speaker-talks">
+      {% for talk in speaker.talks %}
+        {% if talk.video_url %}
+        <div class="talk-item">
+          <div class="talk-title">{{ talk.title }}</div>
+          <div class="talk-actions">
+            <a href="{{ talk.session_url }}" class="btn btn-outline btn-xs">📅 {{ talk.session_date }}</a>
+            <a href="#" onclick="openVideoModal('{{ talk.video_url }}', '{{ talk.title | replace: "'", "\\'" }}'); return false;" class="btn btn-primary btn-xs">🎥 Vidéo</a>
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>

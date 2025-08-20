@@ -1,0 +1,36 @@
+{% comment %}
+Reusable speakers grid component
+Parameters:
+- speakers: array of speakers
+- title: section title (required)
+- subtitle: section subtitle (optional)
+- data_directory: for session pages (optional)
+- show_talks: boolean to show talks in cards (default: false)
+{% endcomment %}
+
+{% assign show_talks = include.show_talks | default: false %}
+{% assign speakers_count = include.speakers.size %}
+
+{% if speakers_count > 0 %}
+<section id="speakers" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ include.title }}</h2>
+        {% if include.subtitle %}
+        <h3 class="section-subheading text-muted">{{ include.subtitle }}</h3>
+        {% elsif show_talks %}
+        <h3 class="section-subheading text-muted">{{ speakers_count }} intervenants depuis 2021</h3>
+        {% else %}
+        <h3 class="section-subheading text-muted">{{ speakers_count }} speaker{% if speakers_count > 1 %}s{% endif %} pour cette session</h3>
+        {% endif %}
+      </div>
+    </div>
+    <div class="row d-flex">
+      {% for speaker in include.speakers %}
+        {% include speaker_card.html speaker=speaker data_directory=include.data_directory show_talks=show_talks %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

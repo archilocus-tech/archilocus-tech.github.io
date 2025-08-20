@@ -8,7 +8,7 @@ This include handles two cases:
   {% comment %}Home page case: extract speakers from specified directory{% endcomment %}
   {% assign speakers_found = '' | split: '' %}
   {% assign unique_speakers = '' | split: '' %}
-  
+
   {% for agenda_item in site.data.[include.directory].agenda %}
     {% if agenda_item.speakers %}
       {% for speaker in agenda_item.speakers %}
@@ -20,69 +20,9 @@ This include handles two cases:
     {% endif %}
   {% endfor %}
 
-  {% if unique_speakers.size > 0 %}
-  <section id="speakers" class="bg-light-gray">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Les Intervenants</h2>
-          <h3 class="section-subheading text-muted"></h3>
-        </div>
-      </div>
-      <div class="row">
-        {% for speaker in unique_speakers %}
-        <div class="col-md-4 col-sm-6">
-          <div class="speaker-card">
-            {% if speaker.img %}
-            <img class="speaker-photo" src="/css/{{ include.directory }}/img/speaker/{{ speaker.img }}" alt="{{ speaker.name }}">
-            {% else %}
-            <img class="speaker-photo" src="/css/img/TBD.jpg" alt="{{ speaker.name }}">
-            {% endif %}
-            <h4 class="speaker-name">{{ speaker.name }}</h4>
-            {% if speaker.position %}
-            <div class="speaker-position">{{ speaker.position }}</div>
-            {% endif %}
-            {% if speaker.company_logo %}
-            <img class="speaker-company-logo" src="/css/{{ include.directory }}/img/logos/{{ speaker.company_logo }}" alt="{{ speaker.company_logo }}">
-            {% endif %}
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
+  {% include speakers_grid.html speakers=unique_speakers title="Les Intervenants" data_directory=include.directory %}
 
 {% elsif page.speakers and page.speakers.size > 0 %}
   {% comment %}Session page case: use pre-processed speakers from session generator{% endcomment %}
-  <section id="speakers" class="bg-light-gray">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Les Intervenants</h2>
-          <h3 class="section-subheading text-muted">{{ page.speakers_count }} speaker{% if page.speakers_count > 1 %}s{% endif %} pour cette session</h3>
-        </div>
-      </div>
-      <div class="row">
-        {% for speaker in page.speakers %}
-        <div class="col-md-4 col-sm-6">
-          <div class="speaker-card">
-            {% if speaker.img %}
-            <img class="speaker-photo" src="/css/{{ page.data_directory }}/img/speaker/{{ speaker.img }}" alt="{{ speaker.name }}">
-            {% else %}
-            <img class="speaker-photo" src="/css/img/TBD.jpg" alt="{{ speaker.name }}">
-            {% endif %}
-            <h4 class="speaker-name">{{ speaker.name }}</h4>
-            {% if speaker.position %}
-            <div class="speaker-position">{{ speaker.position }}</div>
-            {% endif %}
-            {% if speaker.company_logo %}
-            <img class="speaker-company-logo" src="/css/{{ page.data_directory }}/img/logos/{{ speaker.company_logo }}" alt="{{ speaker.company_logo }}">
-            {% endif %}
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-{% endif %} 
+  {% include speakers_grid.html speakers=page.speakers title="Les Intervenants" data_directory=page.data_directory %}
+{% endif %}

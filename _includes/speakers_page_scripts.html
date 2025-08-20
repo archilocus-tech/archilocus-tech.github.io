@@ -1,0 +1,16 @@
+{% comment %}
+JavaScript for speakers page video modal functionality
+{% endcomment %}
+
+<script>
+  function openVideoModal(videoUrl, title) {
+    document.getElementById('videoTitle').textContent = title;
+    document.getElementById('videoContainer').innerHTML = '<iframe src="' + videoUrl + '" frameborder="0" allowfullscreen></iframe>';
+    document.getElementById('videoModal').style.display = 'block';
+  }
+
+  function closeVideoModal() {
+    document.getElementById('videoModal').style.display = 'none';
+    document.getElementById('videoContainer').innerHTML = '';
+  }
+</script>

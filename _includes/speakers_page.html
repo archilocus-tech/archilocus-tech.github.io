@@ -1,0 +1,15 @@
+{% comment %}
+Speakers page layout - handles the full speakers page display
+Expects: page.all_speakers array with speaker data
+{% endcomment %}
+
+{% include speakers_grid.html speakers=page.all_speakers title="Tous nos speakers" show_talks=true %}
+
+<!-- Modal vidéo -->
+<div id="videoModal" class="video-modal" onclick="closeVideoModal()">
+  <div class="video-modal-content" onclick="event.stopPropagation()">
+    <span class="video-modal-close" onclick="closeVideoModal()">&times;</span>
+    <h3 id="videoTitle"></h3>
+    <div id="videoContainer"></div>
+  </div>
+</div>

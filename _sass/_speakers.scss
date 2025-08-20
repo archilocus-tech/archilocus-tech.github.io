@@ -190,3 +190,103 @@
     height: 100px;
   }
 }
+
+// All Speakers Page Specific Styles
+#all-speakers {
+  .speaker-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .speaker-info {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  .speaker-talks {
+    margin-top: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .talk-item {
+    background: #f8f9fa;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .talk-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+  }
+
+  .talk-actions {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .btn-xs {
+    padding: 2px 8px;
+    font-size: 0.8em;
+  }
+
+  @media (max-width: 767px) {
+    .speaker-item {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// Video Modal Styles
+.video-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.video-modal-content {
+  background-color: white;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  position: relative;
+}
+
+.video-modal-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#videoContainer iframe {
+  width: 100%;
+  height: 400px;
+}
+
+// Bootstrap Grid Flexbox Utilities
+.row.d-flex {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+.row.d-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}

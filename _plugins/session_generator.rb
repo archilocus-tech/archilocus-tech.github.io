@@ -1,3 +1,5 @@
+require_relative 'speaker_utils'
+
 module Jekyll
   class SessionPageGenerator < Generator
     safe true
@@ -15,6 +17,7 @@ module Jekyll
   end
 
   class SessionPage < Page
+    include SpeakerUtils
     def initialize(site, base, data_key, year, month, data)
       @site = site
       @base = base
@@ -35,7 +38,8 @@ module Jekyll
         self.data['data_directory'] = data_key
 
         # Collect speakers from agenda
-        self.data['speakers'] = collect_speakers_from_agenda(data['agenda'])
+        speakers_map = extract_speakers_from_agenda(data['agenda'])
+        self.data['speakers'] = speakers_map.values.sort_by { |s| s['name'] }
         self.data['speakers_count'] = self.data['speakers'].length
       end
 
@@ -54,63 +58,6 @@ module Jekyll
       "Session #{months[month]} #{year}"
     end
 
-    def collect_speakers_from_agenda(agenda)
-      speakers_map = {}
 
-      agenda.each do |agenda_item|
-        next unless agenda_item.is_a?(Hash)
-
-        # Handle 'speakers' array (current format)
-        if agenda_item['speakers'] && agenda_item['speakers'].is_a?(Array)
-          agenda_item['speakers'].each do |speaker|
-            next unless speaker.is_a?(Hash) && speaker['name'] && !speaker['name'].empty?
-
-            speaker_key = normalize_name(speaker['name'])
-            speakers_map[speaker_key] = {
-              'name' => speaker['name'],
-              'position' => speaker['position'],
-              'company_logo' => speaker['company_logo'],
-              'img' => speaker['img']
-            }
-          end
-        end
-
-        # Handle 'speaker' (legacy format - single speaker or array)
-        if agenda_item['speaker']
-          if agenda_item['speaker'].is_a?(Hash)
-            speaker = agenda_item['speaker']
-            if speaker['name'] && !speaker['name'].empty?
-              speaker_key = normalize_name(speaker['name'])
-              speakers_map[speaker_key] = {
-                'name' => speaker['name'],
-                'position' => speaker['position'],
-                'company_logo' => speaker['company_logo'],
-                'img' => speaker['img']
-              }
-            end
-          elsif agenda_item['speaker'].is_a?(Array)
-            agenda_item['speaker'].each do |speaker|
-              next unless speaker.is_a?(Hash) && speaker['name'] && !speaker['name'].empty?
-
-              speaker_key = normalize_name(speaker['name'])
-              speakers_map[speaker_key] = {
-                'name' => speaker['name'],
-                'position' => speaker['position'],
-                'company_logo' => speaker['company_logo'],
-                'img' => speaker['img']
-              }
-            end
-          end
-        end
-      end
-
-      # Return sorted array of unique speakers
-      speakers_map.values.sort_by { |s| s['name'] }
-    end
-
-    def normalize_name(name)
-      return "" if name.nil?
-      name.to_s.downcase.strip.gsub(/[^a-z0-9]/, '')
-    end
   end
 end

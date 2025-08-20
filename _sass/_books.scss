@@ -1,0 +1,275 @@
+// Books Library Page Styles
+.books-library {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8f9ff 0%, #f0f2ff 100%);
+
+  .section-heading {
+    color: $primary-color;
+    margin-bottom: 10px;
+  }
+
+  .section-subheading {
+    margin-bottom: 50px;
+    font-size: 1.1em;
+  }
+}
+
+.library-intro {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(103, 51, 217, 0.08);
+  margin-bottom: 40px;
+  border-left: 4px solid $secondary-color;
+
+  p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+
+    i {
+      color: $secondary-color;
+      margin-right: 10px;
+      width: 20px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    color: $primary-color;
+    font-weight: 600;
+
+    &:hover {
+      color: $secondary-color;
+      text-decoration: none;
+    }
+  }
+}
+
+// Filter Tabs
+.book-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 40px;
+  justify-content: center;
+
+  .filter-btn {
+    background: white;
+    border: 2px solid rgba(103, 51, 217, 0.2);
+    color: $primary-color;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9em;
+
+    i {
+      margin-right: 6px;
+    }
+
+    &:hover {
+      background: rgba(103, 51, 217, 0.1);
+      border-color: $primary-color;
+      transform: translateY(-2px);
+    }
+
+    &.active {
+      background: $primary-color;
+      color: white;
+      border-color: $primary-color;
+      box-shadow: 0 4px 15px rgba(103, 51, 217, 0.3);
+    }
+  }
+}
+
+// Books Grid
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.book-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(103, 51, 217, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(103, 51, 217, 0.1);
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 40px rgba(103, 51, 217, 0.15);
+    border-color: $secondary-color;
+  }
+}
+
+// Book cover styles removed
+
+.book-info {
+  padding: 25px;
+
+  .book-title {
+    margin-bottom: 15px;
+    line-height: 1.3;
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-weight: 600;
+
+      &:hover {
+        color: $secondary-color;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .book-author {
+    color: #666;
+    margin-bottom: 15px;
+    font-size: 0.95em;
+
+    i {
+      margin-right: 6px;
+      color: $secondary-color;
+    }
+  }
+
+  .book-meta {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+
+    .book-year-badge {
+      background: rgba(103, 51, 217, 0.1);
+      color: $primary-color;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 0.8em;
+      font-weight: 600;
+    }
+
+    .book-category {
+      background: rgba(41, 185, 173, 0.1);
+      color: $secondary-color;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 0.8em;
+      font-weight: 600;
+    }
+  }
+
+  .book-actions {
+    .btn {
+      border-radius: 20px;
+      font-size: 0.9em;
+      padding: 8px 16px;
+
+      i {
+        margin-right: 6px;
+      }
+    }
+  }
+}
+
+// Stats Section
+.library-stats {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 2px solid rgba(103, 51, 217, 0.1);
+}
+
+.stat-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(103, 51, 217, 0.08);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .stat-number {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: $primary-color;
+    margin-bottom: 10px;
+  }
+
+  .stat-label {
+    color: #666;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+// Animations
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  .books-library {
+    padding: 60px 0;
+  }
+
+  .books-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .book-filters {
+    justify-content: flex-start;
+
+    .filter-btn {
+      font-size: 0.8em;
+      padding: 10px 16px;
+    }
+  }
+
+  .library-intro {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .stat-card {
+    margin-bottom: 15px;
+
+    .stat-number {
+      font-size: 2em;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .book-filters {
+    .filter-btn {
+      font-size: 0.75em;
+      padding: 8px 12px;
+    }
+  }
+
+  .book-info {
+    padding: 20px;
+  }
+}

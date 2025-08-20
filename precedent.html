@@ -53,7 +53,8 @@ title: Sessions Précédentes
           </div>
 
           <div class="session-stats">
-            {% assign session_data = site.data[session.url | replace: "/", "_"] %}
+            {% assign session_key = session.url | replace: "/", "_" %}
+            {% assign session_data = site.data[session_key] %}
             {% if session_data and session_data.agenda %}
             <div class="stat">
               <i class="fa fa-microphone"></i>

@@ -1,3 +1,20 @@
+// Brand Colors
 $primary-color: #29B9AD;
 $secondary-color: #6733D9;
 $secondary-dark-color: #0A1F44;
+
+// Typography
+$font-primary: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-secondary: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-script: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+$font-body: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Layout
+$section-padding: 100px 0;
+$border-radius: 8px;
+$box-shadow: 0 4px 20px rgba(103, 51, 217, 0.08);
+
+// Responsive Breakpoints
+$mobile: 768px;
+$tablet: 992px;
+$desktop: 1200px;

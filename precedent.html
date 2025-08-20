@@ -1,50 +1,85 @@
 ---
 layout: default
 permalink: /precedent
-title: Précédent
+title: Sessions Précédentes
 ---
 
-<section class="previous">
+<section class="previous-sessions">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ page.title}}</h2>
+        <h2 class="section-heading">Sessions Précédentes</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.session.size }} sessions depuis 2021</h3>
       </div>
     </div>
-    <ul class="list-group">
+
+    <div class="sessions-timeline">
+      {% assign current_year = "" %}
       {% for session in site.data.session %}
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 col-lg-3">
-            <a href="{{ session.url }}" class="btn btn-sm">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-calendar"  alt="{{ session.date }}"></i>
-              </span>
-              {{ session.date }}</a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-lg-6">
-            <div class="col-xs-12 col-sm-4 col-lg-3">
-              <a href="{{ session.url }}">
-                <h2>{{ session.title }}</h2>
-              </a>
+      {% assign session_year = session.date | date: "%Y" %}
+
+      {% if session_year != current_year %}
+      {% unless forloop.first %}</div>{% endunless %}
+    <div class="year-group">
+      <h3 class="year-header">{{ session_year }}</h3>
+      <div class="sessions-grid">
+        {% assign current_year = session_year %}
+        {% endif %}
+
+        <div class="session-card">
+          <div class="session-header">
+            <div class="session-date">
+              <i class="fa fa-calendar"></i>
+              <span>{{ session.date | date: "%d %B %Y" }}</span>
             </div>
-            <div class="col-xs-12 col-sm-8 col-lg-9">
-              <a href="{{ session.url }}">
-                <div>{{ session.description }}</div>
+            <div class="session-number">{{ session.title }}</div>
+          </div>
+
+          <div class="session-content">
+            <h4 class="session-title">
+              <a href="/{{ session.url }}">{{ session.description }}</a>
+            </h4>
+
+            <div class="session-actions">
+              <a href="/{{ session.url }}" class="btn btn-primary btn-sm">
+                <i class="fa fa-info-circle"></i> Détails
               </a>
+              {% if session.playlist %}
+              <a href="{{ session.playlist }}" class="btn btn-secondary btn-sm" target="_blank">
+                <i class="fa fa-youtube-play"></i> Replays
+              </a>
+              {% endif %}
             </div>
           </div>
-          {% if session.playlist %}
-          <div class="col-xs-12 col-sm-3 col-lg-3">
-            <a href="{{ session.playlist }}" class="btn btn-sm">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-youtube-play"  alt="Replay"></i>
-              </span>Replay vidéos</a>
+
+          <div class="session-stats">
+            {% assign session_data = site.data[session.url | replace: "/", "_"] %}
+            {% if session_data and session_data.agenda %}
+            <div class="stat">
+              <i class="fa fa-microphone"></i>
+              <span>{{ session_data.agenda.size }} talks</span>
+            </div>
+            {% assign speakers_count = 0 %}
+            {% for agenda_item in session_data.agenda %}
+            {% if agenda_item.speakers %}
+            {% assign speakers_count = speakers_count | plus: agenda_item.speakers.size %}
+            {% elsif agenda_item.speaker %}
+            {% assign speakers_count = speakers_count | plus: 1 %}
+            {% endif %}
+            {% endfor %}
+            <div class="stat">
+              <i class="fa fa-users"></i>
+              <span>{{ speakers_count }} speakers</span>
+            </div>
+            {% endif %}
           </div>
-          {% endif %}
         </div>
-      </li>
-      {% endfor %}
-    </ul>
+
+        {% if forloop.last %}
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
   </div>
 </section>

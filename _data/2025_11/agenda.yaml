@@ -1,41 +1,26 @@
 
-- begin: "18:30"
-  end: "18:35"
+- begin: "19:00"
+  end: "19:05"
   title: Accueil
 
-- begin: "18:35"
-  end: "19:15"
+- begin: "19:05"
+  end: "19:45"
   #video_url: "https://www.youtube.com/embed/PdL-BqhotTo?si=FaPVB-Qfc2KE7W10"
-  title: "Comment Renault met en place des systèmes IA en regard des contraintes de sécurité, de données et d'intégration"
+  title: "Premier talk"
   topic: ""
   speakers:
-  - &gregory_badaire
-    name: "Gregory Badaire"
-    position: "Head of AI Tech"
-    img: badaire.jpeg
-    company_logo: renault_tech.jpeg
 
-- begin: "19:15"
-  end: "19:55"
+- begin: "19:45"
+  end: "20:25"
   #video_url: "https://www.youtube.com/embed/qwOGf6TMNFk?si=qFyQjkOIVEuTE53s"
   #video_url: "https://www.youtube.com/embed/PdL-BqhotTo?si=FaPVB-Qfc2KE7W10"
-  title: "On a refait OpenAi en Open Source"
+  title: "Deuxième talk"
   topic: ""
   speakers:
-  - &jean_philippe_foures
-    name: "Jean-Philippe Foures"
-    position: "VP Product"
-    img: foures.jpeg
-    company_logo: iguane_solutions.jpeg
 
-- begin: "19:55"
-  end: "20:35"
+- begin: "20:25"
+  end: "21:15"
   #video_url: "https://www.youtube.com/embed/wec11B6Xk7I?si=B9z4DDBLYOJwjnTu"
-  title: "Agents IA, la nouvelle frontière des LLMs"
+  title: "Table ronde"
   topic: ""
   speakers:
-  - &guillaume_laforge
-    name: "Guillaume Laforge"
-    position: "Developer Advocate"
-    img: laforge.jpeg
-    company_logo: google.jpeg

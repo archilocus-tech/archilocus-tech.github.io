@@ -17,11 +17,13 @@
                 <div class="intro-lead-in">{{ site.data.home.next.date }}</div>
                 <div class="intro-lead-in">{{ site.data.home.next.place }}</div>
                 {% if site.data.home.next.call %}
-                <a href="{{ site.data.home.next.call }}" class="btn btn-xl" target="_blank" >
+                <a href="{{ site.data.home.next.call }}" class="btn btn-xl" target="_blank">
                   Call for paper
                 </a>
+                {% elsif site.data.home.next.link %}
+                  <a href="{{ site.data.home.next.link }}" class="btn btn-xl" target="_blank">Inscription</a>
                 {% else %}
-                <a href="#intro" class="page-scroll btn btn-xl">Entrez dans la place...</a>
+                  <a href="#intro" class="page-scroll btn btn-xl">Entrez dans la place...</a>
                 {% endif %}
             </div>
         </div>

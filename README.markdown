@@ -5,6 +5,16 @@ You can find the website [archilocus.tech](https://www.archilocus.tech)
 
 ## Dev
 
+### New WIP:
+
+Jekyll images are not maintained anymore, now we have our own Docker file.
+Use Docker compose to have a quick dev set up
+
+docker compose build (once)
+docker compose up
+
+
+### Old
 To launch locally the website your can use jekyll image
 
 ```bash

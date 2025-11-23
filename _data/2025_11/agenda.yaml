@@ -5,7 +5,7 @@
 
 - begin: "18:35"
   end: "19:15"
-  #video_url: "https://www.youtube.com/embed/PdL-BqhotTo?si=FaPVB-Qfc2KE7W10"
+  video_url: "https://www.youtube.com/embed/7iSLROSvHI4?si=1tR5C-z4oV-imqQk"
   title: "Comment Renault met en place des systèmes IA en regard des contraintes de sécurité, de données et d'intégration"
   topic: ""
   speakers:
@@ -17,8 +17,7 @@
 
 - begin: "19:15"
   end: "19:55"
-  #video_url: "https://www.youtube.com/embed/qwOGf6TMNFk?si=qFyQjkOIVEuTE53s"
-  #video_url: "https://www.youtube.com/embed/PdL-BqhotTo?si=FaPVB-Qfc2KE7W10"
+  video_url: "https://www.youtube.com/embed/6hSQW4mOtLc?si=td8hv1HRhhn0f2U2"
   title: "On a refait OpenAi en Open Source"
   topic: ""
   speakers:
@@ -30,7 +29,7 @@
 
 - begin: "19:55"
   end: "20:35"
-  #video_url: "https://www.youtube.com/embed/wec11B6Xk7I?si=B9z4DDBLYOJwjnTu"
+  video_url: "https://www.youtube.com/embed/qf86wNVHE94?si=w17rTyaBgeVUnrBL"
   title: "Agents IA, la nouvelle frontière des LLMs"
   topic: ""
   speakers:
